@@ -1,5 +1,11 @@
 # Changelog
 
+## Documentation follow-up — 2026-10-23
+
+- Recorded the owner's report that everything developed so far is working without issues on the Waveshare setup.
+- Kept the distinction between a general owner report and individually documented physical tests/calibrated measurements; the exact tested binary was not recorded.
+- No firmware, release tag or checksum changes.
+
 ## v1.16.1-ws28b-pro — 2026-10-23
 
 Experimental community distribution for Waveshare ESP32-S3-Touch-LCD-2.8B.

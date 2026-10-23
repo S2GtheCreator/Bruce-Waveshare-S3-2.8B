@@ -2,7 +2,7 @@
 
 Independent Bruce derivative for **Waveshare ESP32-S3-Touch-LCD-2.8B N16R8**. Not an official Bruce/Waveshare release.
 
-**Pro has not been tested on the physical board.** Actual PlatformIO build, 8 host test groups, esptool validation, binary range checks and SHA-256 checks passed; these do not certify runtime/hardware behavior.
+**Owner update, 2026-10-23:** the owner reports that everything developed so far is working without issues on their Waveshare setup. The exact flashed binary and individual test cases were not recorded; see the scope below. Actual PlatformIO build, 8 host test groups, esptool validation, binary range checks and SHA-256 checks passed at release preparation; these do not certify exhaustive hardware behavior.
 
 Features: Turkish Q HID/touch input, Touch UI improvements, Battery Manager, passive 2.4 GHz Wi-Fi Analyzer, and BadUSB Script Manager/preview/device confirmation/cancel.
 
@@ -27,3 +27,9 @@ Merged SHA-256: `aae350f4ccaa51ca04d956bb60a4039e4ac09b3ec5416d6d564932de8d2cb36
 ## Credits and license
 
 Based on [BruceDevices/firmware](https://github.com/BruceDevices/firmware), formerly pr3y/Bruce, with credits to all original authors. Bruce/derivative changes: AGPL-3.0-or-later. Individual libraries retain their licenses; full notices, dependency sources and the review are provided. No endorsement is implied. Use only on systems you own or are authorized to test.
+
+## Owner device report — 2026-10-23
+
+The owner reports that everything developed so far is working without issues on their Waveshare setup. This is a qualitative owner-reported operational result, not an independently witnessed or instrumented test. A flashed-binary SHA-256 and separate feature-by-feature results were not recorded, so the report does not certify every feature or identify the exact tested binary. Display/touch, Windows HID, battery/ADC/power and wireless measurements remain to be documented individually.
+
+This is a documentation-only follow-up. Original release binaries, source tag, checksums and attached build-time reports remain unchanged; those attachments describe the state at release preparation.

@@ -2,7 +2,7 @@
 
 Independent **Bruce 1.16.1-ws28b-pro** derivative for the Waveshare ESP32-S3-Touch-LCD-2.8B.
 
-**Experimental pre-release. The Pro firmware has not been tested on the physical board.** A successful build and host tests do not establish display stability, Windows HID behavior, battery accuracy, radio performance, or electrical safety.
+**Experimental pre-release. The owner reports successful operation on their Waveshare setup as of 2026-10-23.** See the owner device report below for its scope. A successful build, host tests and a general operational report do not establish calibrated battery accuracy, electrical safety, or exhaustive per-feature validation.
 
 ## Project Overview
 
@@ -62,12 +62,16 @@ No verified screenshots of this Pro build running on the Waveshare board are ava
 
 ## Known Issues
 
-- Pro hardware validation is pending, including display flicker, touch behavior, USB HID, Wi-Fi/BLE, and runtime stability.
+- A general successful-operation report is available from the owner. Separate results for display flicker, touch behavior, USB HID, Wi-Fi/BLE and long-running stability have not been documented.
 - Battery voltage/percentage require calibration and physical confirmation. Automatic USB/charging-source discrimination and software power cutoff are not supported.
 - No full Unicode display font, new kinetic/swipe driver, or desktop-class editor is claimed.
 - Application-only updates require a compatible partition table. Merged flashing can overwrite settings.
 - Embedded KeeLoq manufacturer-key fallback has been removed from this distribution.
 - Inherited dependency warnings and hardware-specific license conditions remain documented in [THIRD_PARTY.md](THIRD_PARTY.md) and [LICENSE-AUDIT.md](LICENSE-AUDIT.md).
+
+## Owner device report — 2026-10-23
+
+The owner reports that everything developed so far is working without issues on their Waveshare setup. This is a qualitative owner-reported operational result, not an independently witnessed or instrumented test. A flashed-binary SHA-256 and separate feature-by-feature results were not recorded, so the report does not certify every feature or identify the exact tested binary. Display/touch, Windows HID, battery/ADC/power and wireless measurements remain to be documented individually.
 
 ## Tested / Untested Features
 
@@ -75,8 +79,9 @@ No verified screenshots of this Pro build running on the Waveshare board are ava
 | --- | --- |
 | Sanitized release build | See [BUILD-REPORT.md](BUILD-REPORT.md) for actual build results and binary validation. |
 | Turkish keyboard reports, preview, storage, bounded reads, text handling, battery model | Host tests; see build report. They do not send real HID input or test electronics. |
+| Owner device report, 2026-10-23 | Everything developed so far reported as working without issues; exact flashed binary and individual test cases not recorded. |
 | Previous `ws28b-trq` firmware | Reported by the user as working; it is a different build. |
-| Pro LCD/touch stability, Windows HID, ADC/battery/power path, Wi-Fi/BLE, RF/NFC/IR hardware | **Not physically tested.** |
+| Pro LCD/touch stability, Windows HID, ADC/battery/power path, Wi-Fi/BLE, RF/NFC/IR hardware | General owner report above; **separate per-feature physical results and measurements not documented.** |
 
 Historical reports under `docs/historical/` describe the earlier build and are explicitly not certificates for this sanitized release.
 

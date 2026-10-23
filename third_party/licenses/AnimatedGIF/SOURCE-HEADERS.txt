@@ -1,0 +1,121 @@
+SOURCE: src/AnimatedGIF.cpp
+//
+// GIF Animator
+// written by Larry Bank
+// bitbank@pobox.com
+// Arduino port started 7/5/2020
+// Original GIF code written 20+ years ago :)
+// The goal of this code is to decode images up to 480x320
+// using no more than 22K of RAM (if sent directly to an LCD display)
+//
+// Copyright 2020 BitBank Software, Inc. All Rights Reserved.
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//    http://www.apache.org/licenses/LICENSE-2.0
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+//===========================================================================
+
+
+SOURCE: src/AnimatedGIF.h
+// Copyright 2020 BitBank Software, Inc. All Rights Reserved.
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//    http://www.apache.org/licenses/LICENSE-2.0
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+//===========================================================================
+
+
+SOURCE: src/GIFPlayer.h
+//
+// GIF Player
+// A helper class to play GIF Animations on ESP32 MCUs
+// Written by Larry Bank (bitbank@pobox.com)
+//
+// Although it is possible to display GIF animations using less memory,
+// the results can be slow and/or have incorrect colors. This code
+// allocates 3 x W x H bytes (an 8-bit and RGB565 canvas) to
+// play all GIF animations successfully. The memory MUST come from PSRAM
+// 
+// Copyright 2025 BitBank Software, Inc. All Rights Reserved.
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//    http://www.apache.org/licenses/LICENSE-2.0
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+//===========================================================================
+
+
+SOURCE: examples/gif_from_spi_flash/ff.c
+/*----------------------------------------------------------------------------/
+/  FatFs - Generic FAT Filesystem Module  R0.13c                              /
+/-----------------------------------------------------------------------------/
+/
+/ Copyright (C) 2018, ChaN, all right reserved.
+/
+/ FatFs module is an open source software. Redistribution and use of FatFs in
+/ source and binary forms, with or without modification, are permitted provided
+/ that the following condition is met:
+/
+/ 1. Redistributions of source code must retain the above copyright notice,
+/    this condition and the following disclaimer.
+/
+/ This software is provided by the copyright holder and contributors "AS IS"
+/ and any warranties related to this software are DISCLAIMED.
+/ The copyright owner or contributors be NOT LIABLE for any damages caused
+/ by use of this software.
+/
+/----------------------------------------------------------------------------*/
+
+SOURCE: examples/gif_from_spi_flash/ff.h
+/*----------------------------------------------------------------------------/
+/  FatFs - Generic FAT Filesystem module  R0.13c                              /
+/-----------------------------------------------------------------------------/
+/
+/ Copyright (C) 2018, ChaN, all right reserved.
+/
+/ FatFs module is an open source software. Redistribution and use of FatFs in
+/ source and binary forms, with or without modification, are permitted provided
+/ that the following condition is met:
+
+/ 1. Redistributions of source code must retain the above copyright notice,
+/    this condition and the following disclaimer.
+/
+/ This software is provided by the copyright holder and contributors "AS IS"
+/ and any warranties related to this software are DISCLAIMED.
+/ The copyright owner or contributors be NOT LIABLE for any damages caused
+/ by use of this software.
+/
+/----------------------------------------------------------------------------*/
+
+SOURCE: linux/examples/gif_on_lcd/fb_demo.c
+//
+//  main.cpp
+//  frame buffer GIF demo
+//
+//  Created by Laurence Bank on 12/2/21.
+//  Copyright © 2021 Laurence Bank. All rights reserved.
+//
+
+
+SOURCE: linux/examples/gif_on_lcd/main.c
+//
+//  main.cpp
+//  GIF decode timing demo
+//
+//  Created by Laurence Bank on 8/2/20.
+//  Copyright © 2020 Laurence Bank. All rights reserved.
+//

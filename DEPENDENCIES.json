@@ -1,0 +1,375 @@
+[
+  {
+    "directory": "Adafruit BusIO",
+    "version": "1.17.2-bruce.1",
+    "upstream": "https://github.com/emericklaw/Adafruit-BusIO_Bruce",
+    "commit": "27230c1ddbb3983e1bd5abc025fcc84f6a8c2c5e",
+    "declared_license": null,
+    "license_files": [
+      "third_party/licenses/Adafruit BusIO/LICENSE"
+    ]
+  },
+  {
+    "directory": "Adafruit PN532",
+    "version": "1.3.3-bruce.1",
+    "upstream": "https://github.com/emericklaw/Adafruit-PN532_Bruce",
+    "commit": "e91d69575fa6a6052bff779885a1c616825fc0af",
+    "declared_license": null,
+    "license_files": [
+      "third_party/licenses/Adafruit PN532/license.txt"
+    ]
+  },
+  {
+    "directory": "Adafruit Si4713 Library",
+    "version": "1.2.3",
+    "upstream": "https://github.com/adafruit/Adafruit-Si4713-Library",
+    "commit": null,
+    "declared_license": null,
+    "license_files": [
+      "third_party/licenses/Adafruit Si4713 Library/license.txt"
+    ],
+    "source_headers": "third_party/licenses/Adafruit Si4713 Library/SOURCE-HEADERS.txt"
+  },
+  {
+    "directory": "AnimatedGIF",
+    "version": "2.2.3",
+    "upstream": "https://github.com/bitbank2/AnimatedGIF",
+    "commit": null,
+    "declared_license": null,
+    "license_files": [
+      "third_party/licenses/AnimatedGIF/LICENSE",
+      "third_party/licenses/AnimatedGIF/examples/ESP32-LGFX-SDCard-GifPlayer/SD_Content/LICENSE.txt"
+    ],
+    "source_headers": "third_party/licenses/AnimatedGIF/SOURCE-HEADERS.txt"
+  },
+  {
+    "directory": "ArduinoJson",
+    "version": "7.4.3",
+    "upstream": "https://github.com/bblanchon/ArduinoJson.git",
+    "commit": null,
+    "declared_license": null,
+    "license_files": [
+      "third_party/licenses/ArduinoJson/LICENSE.txt"
+    ],
+    "source_headers": "third_party/licenses/ArduinoJson/SOURCE-HEADERS.txt"
+  },
+  {
+    "directory": "AsyncTCP",
+    "version": "3.5.0",
+    "upstream": "https://github.com/ESP32Async/AsyncTCP.git",
+    "commit": null,
+    "declared_license": "LGPL-3.0",
+    "license_files": [
+      "third_party/licenses/AsyncTCP/LICENSE"
+    ],
+    "source_headers": "third_party/licenses/AsyncTCP/SOURCE-HEADERS.txt"
+  },
+  {
+    "directory": "BER-TLV",
+    "version": "0.0.0+20261008190710",
+    "upstream": "https://github.com/huckor/BER-TLV.git",
+    "commit": "bd61b70eaa360779605b10f0641bcf01d00bee76",
+    "declared_license": null,
+    "license_files": [
+      "third_party/licenses/BER-TLV/LICENSE"
+    ]
+  },
+  {
+    "directory": "ESP Amiibolink",
+    "version": "0.0.2",
+    "upstream": "https://github.com/bmorcelli/ESP-Amiibolink",
+    "commit": "fc2641220476feb10368f110002a1368d5c3556d",
+    "declared_license": null,
+    "license_files": [
+      "third_party/licenses/ESP Amiibolink/LICENSE"
+    ]
+  },
+  {
+    "directory": "ESP Chameleon Ultra",
+    "version": "0.0.2",
+    "upstream": "https://github.com/bmorcelli/ESP-ChameleonUltra",
+    "commit": "f66f3547595c9542c6b4fff54f4486fcbe1a6101",
+    "declared_license": null,
+    "license_files": [
+      "third_party/licenses/ESP Chameleon Ultra/LICENSE"
+    ]
+  },
+  {
+    "directory": "ESP PN32BLE",
+    "version": "0.0.2",
+    "upstream": "https://github.com/whywilson/ESP-PN532BLE",
+    "commit": "542f121cdcb6aa7389428a79385bb8a4b75848fa",
+    "declared_license": null,
+    "license_files": [
+      "third_party/licenses/ESP PN32BLE/LICENSE"
+    ]
+  },
+  {
+    "directory": "ESP PN532 UART",
+    "version": "0.0.2",
+    "upstream": "https://github.com/whywilson/ESP-PN532-UART",
+    "commit": "879e5861e4c4b5ad18ad66aeb62f9c5f0b14590f",
+    "declared_license": null,
+    "license_files": [
+      "third_party/licenses/ESP PN532 UART/LICENSE"
+    ]
+  },
+  {
+    "directory": "ESP PN532Killer",
+    "version": "0.0.7",
+    "upstream": "https://github.com/whywilson/ESP-PN532Killer",
+    "commit": "71bf1104ebf76c395436663cd516acb99754c354",
+    "declared_license": null,
+    "license_files": [
+      "third_party/licenses/ESP PN532Killer/LICENSE"
+    ]
+  },
+  {
+    "directory": "ESP32-PSRamFS",
+    "version": "1.0.6",
+    "upstream": "https://github.com/bmorcelli/ESP32-PsRamFS",
+    "commit": "5ace2e66c10d5647f10f48b22a79d9b12a73db7b",
+    "declared_license": null,
+    "license_files": [
+      "third_party/licenses/ESP32-PSRamFS/LICENSE"
+    ],
+    "source_headers": "third_party/licenses/ESP32-PSRamFS/SOURCE-HEADERS.txt"
+  },
+  {
+    "directory": "ESP32Time",
+    "version": "2.0.6",
+    "upstream": "https://github.com/fbiego/ESP32Time",
+    "commit": null,
+    "declared_license": null,
+    "license_files": [
+      "third_party/licenses/ESP32Time/LICENSE"
+    ],
+    "source_headers": "third_party/licenses/ESP32Time/SOURCE-HEADERS.txt"
+  },
+  {
+    "directory": "ESP8266Audio",
+    "version": "2.4.1",
+    "upstream": "https://github.com/earlephilhower/ESP8266Audio",
+    "commit": null,
+    "declared_license": null,
+    "license_files": [
+      "third_party/licenses/ESP8266Audio/LICENSE",
+      "third_party/licenses/ESP8266Audio/src/libflac/COPYING.FDL",
+      "third_party/licenses/ESP8266Audio/src/libflac/COPYING.GPL",
+      "third_party/licenses/ESP8266Audio/src/libflac/COPYING.LGPL",
+      "third_party/licenses/ESP8266Audio/src/libflac/COPYING.Xiph",
+      "third_party/licenses/ESP8266Audio/src/libhelix-mp3/LICENSE.txt",
+      "third_party/licenses/ESP8266Audio/src/libmad/COPYING",
+      "third_party/licenses/ESP8266Audio/src/libmad/LICENSE",
+      "third_party/licenses/ESP8266Audio/src/libopus/COPYING",
+      "third_party/licenses/ESP8266Audio/src/libopus/LICENSE_PLEASE_READ.txt",
+      "third_party/licenses/ESP8266Audio/src/libtinysoundfont/LICENSE"
+    ],
+    "source_headers": "third_party/licenses/ESP8266Audio/SOURCE-HEADERS.txt"
+  },
+  {
+    "directory": "ESP8266SAM",
+    "version": "1.1.0",
+    "upstream": "https://github.com/earlephilhower/ESP8266SAM",
+    "commit": null,
+    "declared_license": null,
+    "license_files": [],
+    "source_headers": "third_party/licenses/ESP8266SAM/SOURCE-HEADERS.txt"
+  },
+  {
+    "directory": "ESPAsyncWebServer",
+    "version": "3.12.1",
+    "upstream": "https://github.com/ESP32Async/ESPAsyncWebServer.git",
+    "commit": null,
+    "declared_license": "LGPL-3.0",
+    "license_files": [
+      "third_party/licenses/ESPAsyncWebServer/LICENSE"
+    ],
+    "source_headers": "third_party/licenses/ESPAsyncWebServer/SOURCE-HEADERS.txt"
+  },
+  {
+    "directory": "FastLED",
+    "version": "3.10.6",
+    "upstream": "https://github.com/FastLED/FastLED.git",
+    "commit": null,
+    "declared_license": "MIT",
+    "license_files": [
+      "third_party/licenses/FastLED/LICENSE",
+      "third_party/licenses/FastLED/src/platforms/wasm/compiler/vendor/three/LICENSE",
+      "third_party/licenses/FastLED/src/third_party/cq_kernel/LICENSE",
+      "third_party/licenses/FastLED/src/third_party/minimp3/LICENSE"
+    ],
+    "source_headers": "third_party/licenses/FastLED/SOURCE-HEADERS.txt"
+  },
+  {
+    "directory": "FFT",
+    "version": "0.0.1",
+    "upstream": "https://github.com/Tinyu-Zhao/FFT.git",
+    "commit": null,
+    "declared_license": null,
+    "license_files": [
+      "third_party/licenses/FFT/LICENSE"
+    ],
+    "source_headers": "third_party/licenses/FFT/SOURCE-HEADERS.txt"
+  },
+  {
+    "directory": "IRremoteESP8266",
+    "version": "2.8.6",
+    "upstream": "https://github.com/bmorcelli/IRremoteESP8266",
+    "commit": "22cd38c653c4bdc61c1e7dad18affe58e5915177",
+    "declared_license": null,
+    "license_files": [
+      "third_party/licenses/IRremoteESP8266/LICENSE.txt"
+    ],
+    "source_headers": "third_party/licenses/IRremoteESP8266/SOURCE-HEADERS.txt"
+  },
+  {
+    "directory": "JPEGDecoder",
+    "version": "2.0.0",
+    "upstream": "https://github.com/Bodmer/JPEGDecoder",
+    "commit": null,
+    "declared_license": null,
+    "license_files": [
+      "third_party/licenses/JPEGDecoder/license.txt"
+    ]
+  },
+  {
+    "directory": "LibSSH-ESP32",
+    "version": "5.10.0",
+    "upstream": "https://www.ewan.cc/node/157",
+    "commit": null,
+    "declared_license": null,
+    "license_files": [
+      "third_party/licenses/LibSSH-ESP32/COPYING"
+    ],
+    "source_headers": "third_party/licenses/LibSSH-ESP32/SOURCE-HEADERS.txt"
+  },
+  {
+    "directory": "mquickjs",
+    "version": "0.0.6",
+    "upstream": "https://github.com/BruceDevices/mquickjs",
+    "commit": "169b5ea7723bf43d7be9631a14f9c2a1ed8c69e1",
+    "declared_license": null,
+    "license_files": [
+      "third_party/licenses/mquickjs/LICENSE"
+    ],
+    "source_headers": "third_party/licenses/mquickjs/SOURCE-HEADERS.txt"
+  },
+  {
+    "directory": "NimBLE-Arduino",
+    "version": "2.5.1",
+    "upstream": "https://github.com/h2zero/NimBLE-Arduino",
+    "commit": null,
+    "declared_license": null,
+    "license_files": [
+      "third_party/licenses/NimBLE-Arduino/LICENSE",
+      "third_party/licenses/NimBLE-Arduino/NOTICE",
+      "third_party/licenses/NimBLE-Arduino/src/nimble/LICENSE",
+      "third_party/licenses/NimBLE-Arduino/src/nimble/NOTICE",
+      "third_party/licenses/NimBLE-Arduino/src/nimble/ext/tinycrypt/LICENSE"
+    ],
+    "source_headers": "third_party/licenses/NimBLE-Arduino/SOURCE-HEADERS.txt"
+  },
+  {
+    "directory": "NTPClient",
+    "version": "3.2.1",
+    "upstream": "https://github.com/arduino-libraries/NTPClient",
+    "commit": null,
+    "declared_license": null,
+    "license_files": [],
+    "source_headers": "third_party/licenses/NTPClient/SOURCE-HEADERS.txt"
+  },
+  {
+    "directory": "OneWire",
+    "version": "2.3.8",
+    "upstream": "https://github.com/bmorcelli/OneWire",
+    "commit": "42e045e0f8c6a4dd8bfb8917f58c5b38585f6b1e",
+    "declared_license": null,
+    "license_files": [],
+    "source_headers": "third_party/licenses/OneWire/SOURCE-HEADERS.txt"
+  },
+  {
+    "directory": "PNGdec",
+    "version": "1.1.6",
+    "upstream": "https://github.com/bitbank2/PNGdec",
+    "commit": null,
+    "declared_license": null,
+    "license_files": [
+      "third_party/licenses/PNGdec/LICENSE"
+    ],
+    "source_headers": "third_party/licenses/PNGdec/SOURCE-HEADERS.txt"
+  },
+  {
+    "directory": "RadioLib",
+    "version": "7.8.1",
+    "upstream": "https://github.com/jgromes/RadioLib.git",
+    "commit": null,
+    "declared_license": "MIT",
+    "license_files": [
+      "third_party/licenses/RadioLib/license.txt"
+    ],
+    "source_headers": "third_party/licenses/RadioLib/SOURCE-HEADERS.txt"
+  },
+  {
+    "directory": "RFID_MFRC522v2",
+    "version": "2.0.6",
+    "upstream": "https://github.com/rennancockles/Arduino_MFRC522v2.git",
+    "commit": "a6977dfa0ccfb85318d72e74f09a096fbdbc7680",
+    "declared_license": null,
+    "license_files": [
+      "third_party/licenses/RFID_MFRC522v2/LICENSE"
+    ],
+    "source_headers": "third_party/licenses/RFID_MFRC522v2/SOURCE-HEADERS.txt"
+  },
+  {
+    "directory": "SimpleCLI",
+    "version": "1.1.4",
+    "upstream": "https://github.com/rennancockles/SimpleCLI",
+    "commit": "b23d377935c80cc5a9214bcf24e1f1cf68debc6a",
+    "declared_license": null,
+    "license_files": [
+      "third_party/licenses/SimpleCLI/LICENSE"
+    ],
+    "source_headers": "third_party/licenses/SimpleCLI/SOURCE-HEADERS.txt"
+  },
+  {
+    "directory": "SmartRC-CC1101-Driver-Lib",
+    "version": "2.5.7",
+    "upstream": "https://github.com/bmorcelli/SmartRC-CC1101-Driver-Lib/",
+    "commit": "7bba5217dc0632f718a3278dc27e401016741a95",
+    "declared_license": null,
+    "license_files": [
+      "third_party/licenses/SmartRC-CC1101-Driver-Lib/LICENSE.txt"
+    ],
+    "source_headers": "third_party/licenses/SmartRC-CC1101-Driver-Lib/SOURCE-HEADERS.txt"
+  },
+  {
+    "directory": "Time",
+    "version": "1.6.1",
+    "upstream": "https://github.com/PaulStoffregen/Time",
+    "commit": null,
+    "declared_license": null,
+    "license_files": [],
+    "source_headers": "third_party/licenses/Time/SOURCE-HEADERS.txt"
+  },
+  {
+    "directory": "TinyGPSPlus",
+    "version": "1.1.0",
+    "upstream": "https://github.com/mikalhart/TinyGPSPlus.git",
+    "commit": null,
+    "declared_license": null,
+    "license_files": [],
+    "source_headers": "third_party/licenses/TinyGPSPlus/SOURCE-HEADERS.txt"
+  },
+  {
+    "directory": "WireGuard-ESP32",
+    "version": "0.1.5",
+    "upstream": "https://github.com/sayacom/WireGuard-ESP32-Arduino",
+    "commit": "90aa6b43965c9718d62e59ddd709f856722f8e0b",
+    "declared_license": null,
+    "license_files": [
+      "third_party/licenses/WireGuard-ESP32/LICENSE"
+    ],
+    "source_headers": "third_party/licenses/WireGuard-ESP32/SOURCE-HEADERS.txt"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "file": "lib/HAL/display/ardgfx.cpp",
+    "start": "tft_display::tft_display(",
+    "end": "void tft_display::drawPixel(",
+    "normalized_sha256": "e9592102242d3381f5b57e4947a873952e751cab7e848a5edfd2a2bdfa41fa13",
+    "preserved": true
+  },
+  {
+    "file": "src/modules/badusb_ble/ducky_typer.cpp",
+    "start": "void ducky_startKb(",
+    "end": "void ducky_setup(",
+    "normalized_sha256": "63ff7ac94b5d4983ade503fbe320bd892ba8835e4f3594916876f8c99fa558b6",
+    "preserved": true
+  }
+]

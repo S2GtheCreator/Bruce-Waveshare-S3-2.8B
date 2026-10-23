@@ -1,0 +1,18 @@
+[
+  "boards/waveshare_28b/waveshare_28b.ini",
+  "lib/Bad_Usb_Lib/Bad_Usb_Lib.h",
+  "lib/Bad_Usb_Lib/BleKeyboard.cpp",
+  "lib/Bad_Usb_Lib/BleKeyboard.h",
+  "lib/Bad_Usb_Lib/HidText.h",
+  "lib/Bad_Usb_Lib/HidTextTrMap.h",
+  "lib/Bad_Usb_Lib/KeyboardLayout_tr_TR.cpp",
+  "lib/Bad_Usb_Lib/USBHIDKeyboard.cpp",
+  "lib/Bad_Usb_Lib/USBHIDKeyboard.h",
+  "src/core/config.cpp",
+  "src/core/config.h",
+  "src/core/menu_items/OthersMenu.cpp",
+  "src/core/serial_commands/badusb_commands.cpp",
+  "src/core/settings.cpp",
+  "src/modules/badusb_ble/ducky_typer.cpp",
+  "src/modules/bjs_interpreter/badusb_js.cpp"
+]

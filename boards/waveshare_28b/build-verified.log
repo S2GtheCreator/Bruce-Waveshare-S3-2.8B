@@ -1,0 +1,181 @@
+Processing waveshare_28b (board: waveshare_28b; platform: https://github.com/pioarduino/platform-espressif32/releases/download/55.03.39/platform-espressif32.zip; framework: arduino)
+--------------------------------------------------------------------------------
+Library Manager: Installing h2zero/NimBLE-Arduino
+Library Manager: Installing h2zero/NimBLE-Arduino
+Library Manager: Installing h2zero/NimBLE-Arduino
+Library Manager: Installing whywilson/ESP-PN532-UART
+Verbose mode can be enabled via `-v, --verbose` option
+[waveshare_28b] Windows alias launcher failed; same unified GCC with explicit ESP32-S3 dynconfig selected.
+[GZIP & EMBED INTO HEADER] - Nothing to process.
+ae56fe5480611f036a40c7264b9e5c94478eab62cadc274a2dcabeed691b9488 ae56fe5480611f036a40c7264b9e5c94478eab62cadc274a2dcabeed691b9488
+Patching library conflicts with ESP32 core...
+Already patched: .pio/libdeps\waveshare_28b\ESP8266SAM\src\render.c
+Already patched: .pio/libdeps\waveshare_28b\ESP8266SAM\src\render.c
+Already patched: .pio/libdeps\waveshare_28b\JPEGDecoder\src\picojpeg.c
+Already patched: .pio/libdeps\waveshare_28b\JPEGDecoder\src\picojpeg.c
+Already patched: .pio/libdeps\waveshare_28b\ESP Amiibolink\src\amiibolink.h
+Already patched: .pio/libdeps\waveshare_28b\ESP Chameleon Ultra\src\chameleonUltra.h
+Already patched: .pio/libdeps\waveshare_28b\ESP PN32BLE\src\pn532_ble.h
+Already patched: .pio/libdeps\waveshare_28b\ST25R3916-fork\src\rfal_rfst25r3916.cpp
+Already patched: .pio/libdeps\waveshare_28b\ST25R3916-fork\src\rfal_rfst25r3916.cpp
+Already patched: .pio/libdeps\waveshare_28b\ST25R3916-fork\src\rfal_rfst25r3916.cpp
+Already patched: .pio/libdeps\waveshare_28b\ST25R3916-fork\src\rfal_rfst25r3916.h
+Already patched: .pio/libdeps\waveshare_28b\ST25R3916-fork\src\rfal_rfst25r3916.cpp
+Already patched: .pio/libdeps\waveshare_28b\ST25R3916-fork\src\st25r3916_interrupt.cpp
+Already patched: .pio/libdeps\waveshare_28b\ST25R3916-fork\src\st25r3916_interrupt.cpp
+Already patched: .pio/libdeps\waveshare_28b\ST25R3916-fork\src\rfal_rfst25r3916.cpp
+Already patched: .pio/libdeps\waveshare_28b\NFC-RFAL-fork\src\rfal_nfca.h
+Already patched: .pio/libdeps\waveshare_28b\NFC-RFAL-fork\src\rfal_nfca.cpp
+Already patched: .pio/libdeps\waveshare_28b\NFC-RFAL-fork\src\rfal_nfca.cpp
+Already patched: .pio/libdeps\waveshare_28b\NFC-RFAL-fork\src\rfal_nfca.cpp
+Already patched: .pio/libdeps/waveshare_28b/FastLED/src/fl/net/ble.h
+Already patched: .pio/libdeps/waveshare_28b/ESP Chameleon Ultra/src/chameleonUltra.cpp
+Already patched: .pio/libdeps/waveshare_28b/ESP PN32BLE/src/pn532_ble.cpp
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/waveshare_28b.html
+PLATFORM: Espressif 32 (55.3.39) > Waveshare ESP32-S3-Touch-LCD-2.8B N16R8
+HARDWARE: ESP32S3 240MHz, 320KB RAM, 4.44MB Flash
+DEBUG: Current (esp-builtin) On-board (esp-builtin) External (cmsis-dap, esp-bridge, esp-prog, esp-prog-2, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - contrib-piohome @ 3.4.4 
+ - framework-arduinoespressif32 @ 3.3.9 
+ - framework-arduinoespressif32-libs @ 5.5.4+sha.735507283d 
+ - tool-esp-rom-elfs @ 2024.10.11 
+ - tool-esptoolpy @ 5.3.0 
+ - tool-xtensa-esp-elf-gdb @ 17.1.0+20260402 
+ - toolchain-xtensa-esp-elf @ 14.2.0+20260121
+[ComponentManager] BT/BLE protection enabled
+[ComponentManager] Ignored library: fatfs (3 entries)
+[ComponentManager] Updated build file (3 total removals)
+[ComponentManager] Processed 1 ignored libraries
+[ComponentManager] Session completed with 4 changes
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 89 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- WireGuard-ESP32 @ 0.1.5+sha.90aa6b4
+|-- IRremoteESP8266 @ 2.8.6+sha.22cd38c
+|-- Time @ 1.6.1
+|-- LibSSH-ESP32 @ 5.10.0
+|-- Adafruit BusIO @ 1.17.2-bruce.1+sha.27230c1
+|-- Adafruit PN532 @ 1.3.3-bruce.1+sha.e91d695
+|-- BER-TLV @ 0.0.0+20261008190710.sha.bd61b70
+|-- RFID_MFRC522v2 @ 2.0.6+sha.a6977df
+|-- ESP Chameleon Ultra @ 0.0.2+sha.f66f354
+|-- ESP Amiibolink @ 0.0.2+sha.fc26412
+|-- SimpleCLI @ 1.1.4+sha.b23d377
+|-- ESP PN32BLE @ 0.0.2+sha.542f121
+|-- ESP PN532 UART @ 0.0.2+sha.879e586
+|-- ESP PN532Killer @ 0.0.7+sha.71bf110
+|-- NTPClient @ 3.2.1
+|-- ESP32Time @ 2.0.6
+|-- FFat @ 3.3.9
+|-- ArduinoJson @ 7.4.3
+|-- ESP8266Audio @ 2.4.1
+|-- ESP8266SAM @ 1.1.0
+|-- TinyGPSPlus @ 1.1.0
+|-- FFT @ 0.0.1
+|-- NimBLE-Arduino @ 2.5.1
+|-- RF24 @ 1.4.11
+|-- Adafruit Si4713 Library @ 1.2.3
+|-- JPEGDecoder @ 2.0.0
+|-- SmartRC-CC1101-Driver-Lib @ 2.5.7+sha.7bba521
+|-- mquickjs @ 0.0.6+sha.169b5ea
+|-- OneWire @ 2.3.8+sha.42e045e
+|-- ESP32-PSRamFS @ 1.0.6+sha.5ace2e6
+|-- AnimatedGIF @ 2.2.3
+|-- PNGdec @ 1.1.6
+|-- ESPAsyncWebServer @ 3.12.1
+|-- FastLED @ 3.10.6
+|-- RadioLib @ 7.8.1
+|-- ST25R3916-fork @ 1.1.0+sha.0c8e00f
+|-- NFC-RFAL-fork @ 1.0.1+sha.7bde458
+|-- Preferences @ 3.3.9
+|-- WiFi @ 3.3.9
+|-- BruceHAL @ 7.3.1
+|-- Wire @ 3.3.9
+|-- HTTPClient @ 3.3.9
+|-- LittleFS @ 3.3.9
+|-- Ethernet @ 3.3.9
+|-- Networking @ 3.3.9
+|-- SPI @ 3.3.9
+|-- FS @ 3.3.9
+|-- Bad_Usb_Lib
+|-- TFT_eSPI QRcode @ 1.0.0
+|-- AsyncTCP @ 3.5.0
+|-- DNSServer @ 3.3.9
+|-- RTC
+|-- utility
+|-- ESPmDNS @ 3.3.9
+|-- PN532_SRIX
+|-- NetworkClientSecure @ 3.3.9
+|-- SPIFFS @ 3.3.9
+Building in release mode
+[waveshare_28b] Windows alias launcher failed; same unified GCC with explicit ESP32-S3 dynconfig selected.
+Compiling .pio\build\waveshare_28b\lib39e\Bad_Usb_Lib\BleKeyboard.cpp.o
+Compiling .pio\build\waveshare_28b\lib39e\Bad_Usb_Lib\USBHIDKeyboard.cpp.o
+lib/Bad_Usb_Lib/BleKeyboard.cpp: In member function 'void BleKeyboard::begin(const uint8_t*, uint16_t)':
+lib/Bad_Usb_Lib/BleKeyboard.cpp:181:23: warning: 'void NimBLEHIDDevice::startServices()' is deprecated: Services are now started by the server when start() is called, this function is no longer needed and will be removed in a future release. [-Wdeprecated-declarations]
+  181 |     hid->startServices();
+      |     ~~~~~~~~~~~~~~~~~~^~
+In file included from lib/Bad_Usb_Lib/BleKeyboard.h:11,
+                 from lib/Bad_Usb_Lib/BleKeyboard.cpp:1:
+.pio/libdeps/waveshare_28b/NimBLE-Arduino/src/NimBLEHIDDevice.h:52:27: note: declared here
+   52 |     void                  startServices() __attribute__((deprecated("Services are now started by the server when start() is called, "
+      |                           ^~~~~~~~~~~~~
+Compiling .pio\build\waveshare_28b\src\core\menu_items\BleMenu.cpp.o
+Compiling .pio\build\waveshare_28b\src\core\menu_items\OthersMenu.cpp.o
+Compiling .pio\build\waveshare_28b\src\core\sd_functions.cpp.o
+Compiling .pio\build\waveshare_28b\src\core\serial_commands\badusb_commands.cpp.o
+Compiling .pio\build\waveshare_28b\src\core\serial_commands\crypto_commands.cpp.o
+Compiling .pio\build\waveshare_28b\src\core\serial_commands\util_commands.cpp.o
+Compiling .pio\build\waveshare_28b\src\modules\badusb_ble\ducky_typer.cpp.o
+Compiling .pio\build\waveshare_28b\src\modules\bjs_interpreter\badusb_js.cpp.o
+Compiling .pio\build\waveshare_28b\src\modules\ble\ble_common.cpp.o
+Linking .pio\build\waveshare_28b\firmware.elf
+lto-wrapper.exe: warning: using serial compilation of 57 LTRANS jobs
+lto-wrapper.exe: note: see the '-flto' option documentation for more information
+Memory region         Used Size  Region Size  %age Used
+     iram0_0_seg:      108288 B     358144 B     30.24%
+     iram0_2_seg:     2804104 B    8388576 B     33.43%
+     dram0_0_seg:      212104 B     341760 B     62.06%
+     drom0_0_seg:     3690964 B   33554400 B     11.00%
+    rtc_iram_seg:           0 B       8152 B      0.00%
+rtc_reserved_seg:          40 B         40 B    100.00%
+    rtc_slow_seg:          36 B       7680 B      0.47%
+  extern_ram_seg:     3669984 B   33554400 B     10.94%
+Firmware metrics can not be shown. Set the terminal codepage to "utf-8" or "cp65001" on Windows.
+Retrieving maximum program size .pio\build\waveshare_28b\firmware.elf
+Checking size .pio\build\waveshare_28b\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [====      ]  36.7% (used 120196 bytes from 327680 bytes)
+Flash: [========  ]  81.4% (used 3788379 bytes from 4653056 bytes)
+Building .pio\build\waveshare_28b\firmware.bin with action:
+  $ERASETOOL --chip esp32s3 elf2image --flash-mode ${__get_board_flash_mode(__env__)} --flash-freq ${__get_board_f_image(__env__)} --flash-size 16MB --elf-sha256-offset 0xb0 -o "$TARGET" "$SOURCES"
+Building .pio\build\waveshare_28b\firmware.bin
+esptool v5.3.0
+Creating ESP32-S3 image...
+Merged 3 ELF sections.
+Successfully created ESP32-S3 image.
+Creating binary "firmware.factory.bin" with:
+    Offset   | File
+ -  0x0000   | bootloader.bin
+ -  0x8000   | partitions.bin
+ -  0xe000   | boot_app0.bin
+ -  0x10000  | firmware.bin
+Successfully created combined binary image.
+_merge_bins_callback([".pio\build\waveshare_28b\firmware.bin"], [".pio\build\waveshare_28b\firmware.elf"])
+[merge_bin] Merging binaries:
+  "C:\Users\Arif\.platformio\penv\Scripts\python.exe" -m platformio pkg exec -p "tool-esptoolpy" -- esptool.py --chip esp32s3 merge-bin --output "C:\Users\Arif\Documents\Codex\ws28b-trq\Bruce-waveshare_28b.bin" 0x0 "C:\Users\Arif\Documents\Codex\ws28b-trq\.pio\build\waveshare_28b\bootloader.bin" 0x8000 "C:\Users\Arif\Documents\Codex\ws28b-trq\.pio\build\waveshare_28b\partitions.bin" 0x10000 "C:\Users\Arif\Documents\Codex\ws28b-trq\.pio\build\waveshare_28b\firmware.bin"
+"C:\Users\Arif\.platformio\penv\Scripts\python.exe" -m platformio pkg exec -p "tool-esptoolpy" -- esptool.py --chip esp32s3 merge-bin --output "C:\Users\Arif\Documents\Codex\ws28b-trq\Bruce-waveshare_28b.bin" 0x0 "C:\Users\Arif\Documents\Codex\ws28b-trq\.pio\build\waveshare_28b\bootloader.bin" 0x8000 "C:\Users\Arif\Documents\Codex\ws28b-trq\.pio\build\waveshare_28b\partitions.bin" 0x10000 "C:\Users\Arif\Documents\Codex\ws28b-trq\.pio\build\waveshare_28b\firmware.bin"
+Using tool-esptoolpy@5.3.0 package
+Warning: DEPRECATED: 'esptool.py' is deprecated. Please use 'esptool' instead. The '.py' suffix will be removed in a future major release.
+esptool v5.3.0
+Wrote 0x3ad010 bytes to file 'C:\Users\Arif\Documents\Codex\ws28b-trq\Bruce-waveshare_28b.bin', ready to flash to offset 0x0.
+[merge_bin] Success -> C:\Users\Arif\Documents\Codex\ws28b-trq\Bruce-waveshare_28b.bin (3854352 bytes)
+======================== [SUCCESS] Took 253.27 seconds ========================
+
+Environment    Status    Duration
+-------------  --------  ------------
+waveshare_28b  SUCCESS   00:04:13.271
+========================= 1 succeeded in 00:04:13.271 =========================

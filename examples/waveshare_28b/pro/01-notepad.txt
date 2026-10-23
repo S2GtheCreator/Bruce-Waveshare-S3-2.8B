@@ -1,0 +1,7 @@
+REM Open visible Notepad and type TEST
+GUI r
+DELAY 1000
+STRING notepad
+ENTER
+DELAY 1500
+STRINGLN TEST

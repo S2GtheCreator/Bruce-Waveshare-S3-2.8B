@@ -1,0 +1,10 @@
+REM UTF-8, Windows Turkish Q, focus Notepad before start
+DELAY 2000
+STRINGLN :/?=&-_
+STRINGLN @#$[]{}()
+STRINGLN 0123456789 ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz
+STRINGLN i I ı İ çğıöşüÇĞİÖŞÜ
+STRINGLN ^`~abcdef
+STRINGLN https://example.com/a-b?q=1&x=two
+STRINGLN Write-Output 'A:/?=&-_@#$[]{}() çğıöşüÇĞİÖŞÜ'
+STRINGLN ASCII=[ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~]

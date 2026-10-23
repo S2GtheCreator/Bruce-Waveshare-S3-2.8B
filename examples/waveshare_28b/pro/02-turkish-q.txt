@@ -1,0 +1,5 @@
+REM Focus an empty Notepad first; Windows Turkish Q
+DELAY 2000
+STRINGLN :/?=&-_ @#$[]{}()
+STRINGLN çğıöşüÇĞİÖŞÜ
+STRINGLN 0123456789 aAzZ

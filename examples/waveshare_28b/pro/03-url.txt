@@ -1,0 +1,5 @@
+REM Open example.com visibly; approve only on your computer
+GUI r
+DELAY 1200
+STRING https://example.com/a-b?q=1&x=two
+ENTER

@@ -1,0 +1,1602 @@
+SOURCE: examples/LuminescentGrand/arduino/MIDI.cpp
+/*!
+ *  @file       MIDI.cpp
+ *  Project     Arduino MIDI Library
+ *  @brief      MIDI Library for the Arduino
+ *  @author     Francois Best
+ *  @date       24/02/11
+ *  @license    MIT - Copyright (c) 2015 Francois Best
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+SOURCE: examples/LuminescentGrand/arduino/MIDI.h
+/*!
+ *  @file       MIDI.h
+ *  Project     Arduino MIDI Library
+ *  @brief      MIDI Library for the Arduino
+ *  @author     Francois Best, lathoub
+ *  @date       24/02/11
+ *  @license    MIT - Copyright (c) 2015 Francois Best
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+SOURCE: examples/LuminescentGrand/arduino/MIDI.hpp
+/*!
+ *  @file       MIDI.hpp
+ *  Project     Arduino MIDI Library
+ *  @brief      MIDI Library for the Arduino - Inline implementations
+ *  @author     Francois Best, lathoub
+ *  @date       24/02/11
+ *  @license    MIT - Copyright (c) 2015 Francois Best
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+SOURCE: examples/LuminescentGrand/arduino/midi_Defs.h
+/*!
+ *  @file       midi_Defs.h
+ *  Project     Arduino MIDI Library
+ *  @brief      MIDI Library for the Arduino - Definitions
+ *  @author     Francois Best, lathoub
+ *  @date       24/02/11
+ *  @license    MIT - Copyright (c) 2015 Francois Best
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+SOURCE: examples/LuminescentGrand/arduino/midi_Message.h
+/*!
+ *  @file       midi_Message.h
+ *  Project     Arduino MIDI Library
+ *  @brief      MIDI Library for the Arduino - Message struct definition
+ *  @author     Francois Best
+ *  @date       11/06/14
+ *  @license    MIT - Copyright (c) 2015 Francois Best
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+SOURCE: examples/LuminescentGrand/arduino/midi_Namespace.h
+/*!
+ *  @file       midi_Namespace.h
+ *  Project     Arduino MIDI Library
+ *  @brief      MIDI Library for the Arduino - Namespace declaration
+ *  @author     Francois Best
+ *  @date       24/02/11
+ *  @license    MIT - Copyright (c) 2015 Francois Best
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+SOURCE: examples/LuminescentGrand/arduino/midi_Platform.h
+/*!
+ *  @file       midi_Platform.h
+ *  Project     Arduino MIDI Library
+ *  @brief      MIDI Library for the Arduino - Platform
+ *  @license    MIT - Copyright (c) 2015 Francois Best
+ *  @author     lathoub
+ *  @date       22/03/20
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+SOURCE: examples/LuminescentGrand/arduino/midi_Settings.h
+/*!
+ *  @file       midi_Settings.h
+ *  Project     Arduino MIDI Library
+ *  @brief      MIDI Library for the Arduino - Settings
+ *  @author     Francois Best
+ *  @date       24/02/11
+ *  @license    MIT - Copyright (c) 2015 Francois Best
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+SOURCE: examples/LuminescentGrand/arduino/serialMIDI.h
+/*!
+ *  @file       serialMIDI.h
+ *  Project     Arduino MIDI Library
+ *  @brief      MIDI Library for the Arduino - Platform
+ *  @license    MIT - Copyright (c) 2015 Francois Best
+ *  @author     lathoub, Francois Best
+ *  @date       22/03/20
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+SOURCE: src/platforms/isr.h
+/*
+  FastLED — Cross-Platform ISR Platform Dispatch Header
+  -----------------------------------------------------
+  Dispatches ISR implementation to platform-specific headers.
+  Each platform header provides inline implementations that call fl::platforms::* functions.
+
+  Uses standardized FL_IS_* macros from is_platform.h for platform detection.
+
+  License: MIT (FastLED)
+*/
+
+SOURCE: src/platforms/isr_null.hpp
+/*
+  FastLED — Null ISR Implementation (Weak Symbols)
+  ------------------------------------------------
+  Default null implementation of the cross-platform ISR API using weak symbols.
+  This provides a fallback when no platform-specific implementation is available.
+
+  Platform-specific implementations (ESP32, Teensy, AVR, etc.) provide strong
+  symbol overrides that replace these weak defaults at link time.
+
+  License: MIT (FastLED)
+*/
+
+SOURCE: src/platforms/avr/isr_avr.hpp
+/*
+  FastLED — AVR Platform ISR Trampoline Header
+  ---------------------------------------------
+  Dispatches to AVR variant-specific ISR implementations (ATmega or ATtiny).
+
+  This trampoline uses the FL_IS_AVR_ATMEGA and FL_IS_AVR_ATTINY macros to select
+  the appropriate implementation at compile time.
+
+  ATmega chips: Full Timer1 support (16-bit timer)
+  ATtiny chips: No Timer1 hardware, falls back to null implementation
+
+  License: MIT (FastLED)
+*/
+
+SOURCE: src/platforms/stub/isr_stub.hpp
+/*
+  FastLED — Stub/WASM ISR Implementation
+  ---------------------------------------
+  Host-based implementation of the cross-platform ISR API using POSIX threads.
+  Used for testing, host simulation, WASM, and platforms without hardware timers.
+
+  License: MIT (FastLED)
+*/
+
+SOURCE: src/platforms/wasm/isr_wasm.hpp
+/*
+  FastLED — WASM ISR Implementation
+  ----------------------------------
+  WASM implementation of the cross-platform ISR API.
+  Reuses the stub platform's POSIX thread-based implementation.
+
+  License: MIT (FastLED)
+*/
+
+SOURCE: src/platforms/arm/nrf52/isr_nrf52.hpp
+/*
+  FastLED — NRF52 ISR Implementation
+  -----------------------------------
+  NRF52-specific implementation of the cross-platform ISR API.
+  Supports NRF52832, NRF52833, NRF52840 (ARM Cortex-M4F).
+
+  Uses Nordic nrfx HAL (Hardware Abstraction Layer) for timer and GPIOTE interrupts.
+
+  Thread Safety & Critical Sections:
+  - This implementation uses direct NVIC access (assumes NO SoftDevice)
+  - When BLE SoftDevice is enabled, replace NVIC_* calls with sd_nvic_* equivalents
+  - Nordic SDK provides CRITICAL_REGION_ENTER/EXIT macros for critical sections
+  - CRITICAL_REGION uses ARM CPSID/CPSIE instructions (disables all interrupts)
+  - For finer control, use BASEPRI register on Cortex-M4 (selective interrupt masking)
+  - Avoid long critical sections to prevent interrupt latency issues
+
+  SoftDevice Compatibility:
+  - SoftDevice reserves NVIC priorities 0, 1, and 4 for BLE stack
+  - Application interrupts at priority 0-3 CANNOT call SoftDevice APIs
+  - Application interrupts at priority 5-7 CAN call SoftDevice APIs
+  - Use software interrupts (SWIRQ) to defer work from high-priority ISRs
+
+  License: MIT (FastLED)
+*/
+
+SOURCE: src/platforms/arm/nrf52/mutex_nrf52.h
+/*
+  FastLED — nRF52 Mutex Implementation
+  -------------------------------------
+  Real mutex support for nRF52 using FreeRTOS primitives.
+
+  Thread Safety:
+  - Uses FreeRTOS semaphores (SemaphoreHandle_t) for real mutexes
+  - Provides both MutexNRF52 (non-recursive) and RecursiveMutexNRF52 (recursive)
+  - SoftDevice compatible (BLE stack safe)
+
+  SoftDevice Compatibility:
+  - FreeRTOS is the standard RTOS on Adafruit nRF52 boards
+  - The SoftDevice (Nordic's BLE stack) runs alongside FreeRTOS
+  - FreeRTOS semaphores are safe to use with SoftDevice active
+  - Mutexes use priority inheritance to avoid priority inversion
+
+  Alternative: Nordic SDK Critical Regions
+  - For applications NOT using FreeRTOS, Nordic provides CRITICAL_REGION macros
+  - CRITICAL_REGION_ENTER/EXIT use ARM CPSID/CPSIE (global interrupt disable)
+  - This implementation assumes FreeRTOS is available (Adafruit BSP standard)
+
+  Usage:
+  - Only enabled when FreeRTOS headers are detected
+  - Non-copyable, non-movable semantics (like std::mutex)
+  - Asserts if mutex creation fails (critical error)
+
+  License: MIT (FastLED)
+*/
+
+SOURCE: src/platforms/arm/rp/isr_rp.hpp
+/*
+  FastLED — RP Platform ISR Trampoline Header
+  --------------------------------------------
+  Dispatches to RP variant-specific ISR implementations (RP2040 or RP2350).
+
+  This trampoline uses the FL_IS_RP2040 and FL_IS_RP2350 macros to select
+  the appropriate implementation at compile time.
+
+  License: MIT (FastLED)
+*/
+
+SOURCE: src/platforms/arm/rp/isr_rp2040.hpp
+/*
+  FastLED — RP2040 ISR Implementation
+  ------------------------------------
+  Platform-specific ISR implementation for RP2040 (Raspberry Pi Pico).
+
+  RP2040 Hardware:
+  - Dual Cortex-M0+ cores (multi-core capable)
+  - Single 64-bit microsecond counter (1 MHz)
+  - 4 hardware alarms (ALARM0-ALARM3) that match lower 32 bits of counter
+  - 4 separate timer interrupts (TIMER_IRQ_0 through TIMER_IRQ_3)
+  - GPIO interrupts on all 30 pins (per-core interrupt control)
+  - NVIC priority system (lower number = higher priority, 0-3 range on M0+)
+
+  Timer Capabilities:
+  - Maximum alarm period: 2^32 microseconds (~71.58 minutes)
+  - Minimum period: ~1 microsecond (limited by ISR overhead)
+  - Frequency range: ~0.00023 Hz to 1 MHz
+  - All alarms share the same 1 MHz counter
+
+  Multi-Core Considerations:
+  - Each core has independent GPIO interrupt control registers
+  - Hardware alarms can fire on either core
+  - Critical sections use spinlocks + interrupt disable for atomicity
+  - save_and_disable_interrupts() only affects the calling core
+
+  License: MIT (FastLED)
+*/
+
+SOURCE: src/platforms/arm/rp/isr_rp2350.hpp
+/*
+  FastLED — RP2350 ISR Implementation
+  ------------------------------------
+  Platform-specific ISR implementation for RP2350 (Raspberry Pi Pico 2).
+
+  RP2350 Hardware:
+  - Dual Cortex-M33 cores (multi-core capable, ARMv8-M with TrustZone)
+  - Two 64-bit microsecond counters (1 MHz, generated by tick block)
+  - 4 hardware alarms per timer (ALARM0-ALARM3)
+  - 4 separate timer interrupts (TIMER_IRQ_0 through TIMER_IRQ_3)
+  - GPIO interrupts on all 30 pins (per-core interrupt control)
+  - NVIC priority system (lower number = higher priority, 0-255 range on M33)
+
+  Differences from RP2040:
+  - Cortex-M33 vs M0+: 8-bit priority (0-255) vs 2-bit priority (0-3)
+  - Dual timers vs single timer (uses PICO_DEFAULT_TIMER by default)
+  - Alarms fire if set in the past (RP2040 does not fire for past times)
+  - Timer reference from tick block (RP2040 uses watchdog-derived reference)
+
+  Timer Capabilities:
+  - Maximum alarm period: 2^32 microseconds (~71.58 minutes)
+  - Minimum period: ~1 microsecond (limited by ISR overhead)
+  - Frequency range: ~0.00023 Hz to 1 MHz
+  - All alarms share the same 1 MHz counter
+
+  Multi-Core Considerations:
+  - Each core has independent GPIO interrupt control registers
+  - Hardware alarms can fire on either core
+  - Critical sections use spinlocks + interrupt disable for atomicity
+  - save_and_disable_interrupts() only affects the calling core
+
+  License: MIT (FastLED)
+*/
+
+SOURCE: src/platforms/arm/sam/isr_sam.hpp
+/*
+  FastLED — SAM ISR Implementation (Null/Stub)
+  ---------------------------------------------
+  Null implementation of the cross-platform ISR API for Atmel SAM platforms.
+  This provides a safe no-op fallback for Arduino Due (SAM3X8E).
+
+  Note: Full ISR support for SAM can be implemented in the future if needed.
+
+  License: MIT (FastLED)
+*/
+
+SOURCE: src/platforms/arm/samd/isr_samd.hpp
+/*
+  FastLED — SAMD ISR Implementation
+  -----------------------------------
+  SAMD-specific implementation of the cross-platform ISR API.
+  Supports SAMD21 (Cortex-M0+), SAMD51 (Cortex-M4F).
+
+  Uses CMSIS NVIC functions and direct peripheral register access.
+
+  License: MIT (FastLED)
+*/
+
+SOURCE: src/platforms/arm/teensy/audio/pjrc_audio_stream.cpp.hpp
+/* Teensyduino Core Library
+ * http://www.pjrc.com/teensy/
+ * Copyright (c) 2017 PJRC.COM, LLC.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining
+ * a copy of this software and associated documentation files (the
+ * "Software"), to deal in the Software without restriction, including
+ * without limitation the rights to use, copy, modify, merge, publish,
+ * distribute, sublicense, and/or sell copies of the Software, and to
+ * permit persons to whom the Software is furnished to do so, subject to
+ * the following conditions:
+ *
+ * 1. The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ *
+ * 2. If the Software is incorporated into a build system that allows
+ * selection among a list of target devices, then similar target
+ * devices manufactured by PJRC.COM must be included in the list of
+ * target devices and selectable in the same manner.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+ * BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ * ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+ * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
+SOURCE: src/platforms/arm/teensy/audio/pjrc_input_i2s.h
+/* Audio Library for Teensy 3.X
+ * Copyright (c) 2014, Paul Stoffregen, paul@pjrc.com
+ *
+ * Development of this audio library was funded by PJRC.COM, LLC by sales of
+ * Teensy and Audio Adaptor boards.  Please support PJRC's efforts to develop
+ * open source software by purchasing Teensy or other PJRC products.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice, development funding notice, and this permission
+ * notice shall be included in all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+SOURCE: src/platforms/arm/teensy/sdfat/SdFat.h
+/**
+ * Copyright (c) 2011-2021 Bill Greiman
+ * This file is part of the SdFat library for SD memory cards.
+ *
+ * MIT License
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the "Software"),
+ * to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ * and/or sell copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included
+ * in all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ */
+
+SOURCE: src/platforms/avr/atmega/isr_avr_atmega.hpp
+/*
+  FastLED — AVR ATmega ISR Implementation
+  ----------------------------------------
+  ATmega-specific implementation of the cross-platform ISR API.
+  Supports classic ATmega chips with Timer1 hardware.
+
+  Hardware Details:
+  - Uses Timer1 (16-bit timer) for precise timing
+  - Frequency range: ~1 Hz to ~250 kHz (16 MHz CPU)
+  - Available prescalers: 1, 8, 64, 256, 1024
+  - CTC (Clear Timer on Compare) mode for accurate frequency generation
+  - No hardware interrupt priority (AVR interrupts are equal priority)
+  - External interrupts not yet implemented
+
+  Platform Support:
+  - Classic ATmega chips: ATmega328P (Uno), ATmega2560 (Mega), ATmega32U4 (Leonardo), etc.
+  - NOT for megaAVR 0-series/1-series (e.g., ATmega4809/Nano Every - different timer architecture)
+  - NOT for ATtiny chips (use null implementation)
+
+  License: MIT (FastLED)
+*/
+
+SOURCE: src/platforms/esp/32/isr_esp32.hpp
+/*
+  FastLED — ESP32 ISR Implementation (Version Trampoline)
+  -------------------------------------------------------
+  ESP32-specific implementation of the cross-platform ISR API.
+  Supports ESP32, ESP32-S2, ESP32-S3 (Xtensa) and ESP32-C3, ESP32-C6 (RISC-V).
+
+  This header routes to the appropriate implementation based on ESP-IDF version:
+  - ESP-IDF 5.0+: Uses gptimer API (isr_esp32_idf5.hpp)
+  - ESP-IDF 4.x:  Uses legacy timer API with timer_isr_callback_* (isr_esp32_idf4.hpp)
+  - ESP-IDF 3.x:  Uses legacy timer API with timer_isr_register (isr_esp32_idf3.hpp)
+
+  License: MIT (FastLED)
+*/
+
+SOURCE: src/platforms/esp/32/isr_esp32_idf3.hpp
+/*
+  FastLED — ESP32 ISR Implementation (ESP-IDF 3.x)
+  ------------------------------------------------
+  ESP32-specific implementation of the cross-platform ISR API using legacy timer API.
+  Supports ESP32 on ESP-IDF 3.3 and later 3.x versions.
+
+  This file is included by isr_esp32.hpp when ESP_IDF_VERSION < 4.0.0
+
+  Note: This implementation uses the legacy timer API (driver/timer.h) with
+  timer_isr_register() instead of the timer_isr_callback_add() introduced in IDF 4.x.
+
+  License: MIT (FastLED)
+*/
+
+SOURCE: src/platforms/esp/32/isr_esp32_idf4.hpp
+/*
+  FastLED — ESP32 ISR Implementation (ESP-IDF 4.x)
+  ------------------------------------------------
+  ESP32-specific implementation of the cross-platform ISR API using legacy timer API.
+  Supports ESP32, ESP32-S2, ESP32-S3 (Xtensa) and ESP32-C3 (RISC-V).
+
+  This file is included by isr_esp32.hpp when ESP_IDF_VERSION < 5.0.0
+
+  Note: This implementation uses the legacy timer API (driver/timer.h) which is
+  deprecated in ESP-IDF 5.0+ but required for ESP-IDF 4.x compatibility.
+
+  License: MIT (FastLED)
+*/
+
+SOURCE: src/platforms/esp/32/isr_esp32_idf5.hpp
+/*
+  FastLED — ESP32 ISR Implementation (ESP-IDF 5.0+)
+  -------------------------------------------------
+  ESP32-specific implementation of the cross-platform ISR API using gptimer.
+  Supports ESP32, ESP32-S2, ESP32-S3 (Xtensa) and ESP32-C3, ESP32-C6 (RISC-V).
+
+  This file is included by isr_esp32.hpp when ESP_IDF_VERSION >= 5.0.0
+
+  License: MIT (FastLED)
+*/
+
+SOURCE: src/platforms/esp/32/drivers/rmt/clockless_rmt_esp32.h
+/*
+
+// ok no namespace fl
+ * Integration into FastLED ClocklessController
+ * Copyright (c) 2024, Zach Vorhies
+ * Copyright (c) 2018,2019,2020 Samuel Z. Guyer
+ * Copyright (c) 2017 Thomas Basler
+ * Copyright (c) 2017 Martin F. Falatic
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+SOURCE: src/platforms/esp/32/drivers/rmt/rmt_4/idf4_clockless_rmt_esp32.h
+/*
+ * Integration into FastLED ClocklessController
+ * Copyright (c) 2024, Zach Vorhies
+ * Copyright (c) 2018,2019,2020 Samuel Z. Guyer
+ * Copyright (c) 2017 Thomas Basler
+ * Copyright (c) 2017 Martin F. Falatic
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+SOURCE: src/third_party/cq_kernel/cq_kernel.cpp.hpp
+// Copyright 2020 Kenny Peng
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+
+SOURCE: src/third_party/cq_kernel/kiss_fft.cpp.hpp
+/*
+ *  Copyright (c) 2003-2010, Mark Borgerding. All rights reserved.
+ *  This file is part of KISS FFT - https://github.com/mborgerding/kissfft
+ *
+ *  SPDX-License-Identifier: BSD-3-Clause
+ *  See COPYING file for more information.
+ */
+
+SOURCE: src/third_party/cq_kernel/kiss_fftr.cpp.hpp
+/*
+ *  Copyright (c) 2003-2004, Mark Borgerding. All rights reserved.
+ *  This file is part of KISS FFT - https://github.com/mborgerding/kissfft
+ *
+ *  SPDX-License-Identifier: BSD-3-Clause
+ *  See COPYING file for more information.
+ */
+
+SOURCE: src/third_party/ezws2812/ezWS2812.h
+/*
+ * ezWS2812.h - Simple WS2812 (NeoPixel) driver for Silicon Labs MGM240/MG24
+ *
+ * Based on Silicon Labs ezWS2812 library by Tamas Jozsi
+ * Copyright (c) 2024 Silicon Laboratories Inc.
+ *
+ * Integrated into FastLED by FastLED Contributors
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
+SOURCE: src/third_party/minimp3/minimp3_fixed_tables.h
+// SPDX-License-Identifier: CC0-1.0
+
+
+SOURCE: src/third_party/stb/stb_vorbis.cpp.hpp
+// stb_vorbis.cpp.hpp - Ogg Vorbis audio decoder implementation
+//
+// This file contains the implementation. For the API declarations,
+// include "third_party/stb/stb_vorbis.h" instead.
+//
+// Original: https://github.com/nothings/stb/blob/master/stb_vorbis.c
+// Author: Sean Barrett - http://nothings.org/stb_vorbis/
+// License: MIT or Public Domain
+//
+// Ogg Vorbis audio decoder - v1.22 - public domain
+// http://nothings.org/stb_vorbis/
+//
+// Original version written by Sean Barrett in 2007.
+//
+// Originally sponsored by RAD Game Tools. Seeking implementation
+// sponsored by Phillip Bennefall, Marc Andersen, Aaron Baker,
+// Elias Software, Aras Pranckevicius, and Sean Barrett.
+//
+// LICENSE
+//
+//   See end of file for license information.
+//
+// Limitations:
+//
+//   - floor 0 not supported (used in old ogg vorbis files pre-2004)
+//   - lossless sample-truncation at beginning ignored
+//   - cannot concatenate multiple vorbis streams
+//   - sample positions are 32-bit, limiting seekable 192Khz
+//       files to around 6 hours (Ogg supports 64-bit)
+//
+// Feature contributors:
+//    Dougall Johnson (sample-exact seeking)
+//
+// Bugfix/warning contributors:
+//    Terje Mathisen     Niklas Frykholm     Andy Hill
+//    Casey Muratori     John Bolton         Gargaj
+//    Laurent Gomila     Marc LeBlanc        Ronny Chevalier
+//    Bernhard Wodo      Evan Balster        github:alxprd
+//    Tom Beaumont       Ingo Leitgeb        Nicolas Guillemot
+//    Phillip Bennefall  Rohit               Thiago Goulart
+//    github:manxorist   Saga Musix          github:infatum
+//    Timur Gagiev       Maxwell Koo         Peter Waller
+//    github:audinowho   Dougall Johnson     David Reid
+//    github:Clownacy    Pedro J. Estebanez  Remi Verschelde
+//    AnthoFoxo          github:morlat       Gabriel Ravier
+//
+// Partial history:
+//    1.22    - 2021-07-11 - various small fixes
+//    1.21    - 2021-07-02 - fix bug for files with no comments
+//    1.20    - 2020-07-11 - several small fixes
+//    1.19    - 2020-02-05 - warnings
+//    1.18    - 2020-02-02 - fix seek bugs; parse header comments; misc warnings etc.
+//    1.17    - 2019-07-08 - fix CVE-2019-13217..CVE-2019-13223 (by ForAllSecure)
+//    1.16    - 2019-03-04 - fix warnings
+//    1.15    - 2019-02-07 - explicit failure if Ogg Skeleton data is found
+//    1.14    - 2018-02-11 - delete bogus dealloca usage
+//    1.13    - 2018-01-29 - fix truncation of last frame (hopefully)
+//    1.12    - 2017-11-21 - limit residue begin/end to blocksize/2 to avoid large temp allocs in bad/corrupt files
+//    1.11    - 2017-07-23 - fix MinGW compilation
+//    1.10    - 2017-03-03 - more robust seeking; fix negative ilog(); clear error in open_memory
+//    1.09    - 2016-04-04 - back out 'truncation of last frame' fix from previous version
+//    1.08    - 2016-04-02 - warnings; setup memory leaks; truncation of last frame
+//    1.07    - 2015-01-16 - fixes for crashes on invalid files; warning fixes; const
+//    1.06    - 2015-08-31 - full, correct support for seeking API (Dougall Johnson)
+//                           some crash fixes when out of memory or with corrupt files
+//                           fix some inappropriately signed shifts
+//    1.05    - 2015-04-19 - don't define __forceinline if it's redundant
+//    1.04    - 2014-08-27 - fix missing const-correct case in API
+//    1.03    - 2014-08-07 - warning fixes
+//    1.02    - 2014-07-09 - declare qsort comparison as explicitly _cdecl in Windows
+//    1.01    - 2014-06-18 - fix stb_vorbis_get_samples_float (interleaved was correct)
+//    1.0     - 2014-05-26 - fix memory leaks; fix warnings; fix bugs in >2-channel;
+//                           (API change) report sample rate for decode-full-file funcs
+//
+// See end of file for full version history.
+
+
+SOURCE: src/third_party/stb/stb_vorbis.h
+// stb_vorbis.h - Header for stb_vorbis audio decoder
+//
+// This file contains the API declarations extracted from stb_vorbis.cpp.hpp.
+// It provides the public interface without including the implementation.
+//
+// For the implementation, include stb_vorbis.cpp.hpp (which is included
+// via the unity build system in _build.hpp).
+//
+// Original: https://github.com/nothings/stb/blob/master/stb_vorbis.c
+// Author: Sean Barrett - http://nothings.org/stb_vorbis/
+// License: MIT or Public Domain
+
+
+SOURCE: src/third_party/libnsgif/include/nsgif.hpp
+/*
+ * Copyright 2004 Richard Wilson <richard.wilson@netsurf-browser.org>
+ * Copyright 2008 Sean Fox <dyntryx@gmail.com>
+ * Copyright 2013-2022 Michael Drake <tlsa@netsurf-browser.org>
+ *
+ * This file is part of NetSurf's libnsgif, http://www.netsurf-browser.org/
+ * Licenced under the MIT License,
+ *                http://www.opensource.org/licenses/mit-license.php
+ */
+
+SOURCE: src/third_party/libnsgif/src/lzw.cpp.hpp
+/*
+ * This file is part of NetSurf's LibNSGIF, http://www.netsurf-browser.org/
+ * Licensed under the MIT License,
+ *                http://www.opensource.org/licenses/mit-license.php
+ *
+ * Copyright 2017 Michael Drake <michael.drake@codethink.co.uk>
+ * Copyright 2021 Michael Drake <tlsa@netsurf-browser.org>
+ */
+
+SOURCE: src/third_party/object_fled/src/ObjectFLED.cpp.hpp
+/*  ObjectFLED - Teensy 4.x DMA to all pins for independent control of large and 
+	multiple LED display objects
+
+	Copyright (c) 2024 Kurt Funderburg
+
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+	of this software and associated documentation files (the "Software"), to deal
+	in the Software without restriction, including without limitation the rights
+	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:
+
+	The above copyright notice and this permission notice shall be included in
+	all copies or substantial portions of the Software.
+
+	OctoWS2811 library code was well-studied and substantial portions of it used
+	to implement high-speed, non-blocking DMA for LED signal output in this library.
+	See below for a summary of changes made to the original OctoWS2811.
+
+	OctoWS2811 - High Performance WS2811 LED Display Library
+	Copyright (c) 2013 Paul Stoffregen, PJRC.COM, LLC
+	http://www.pjrc.com/teensy/td_libs_OctoWS2811.html
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+    THE SOFTWARE.
+*/
+
+SOURCE: src/third_party/object_fled/src/ObjectFLED.h
+/*  ObjectFLED - Teensy 4.x DMA to all pins for independent control of large and
+	multiple LED display objects
+
+	Copyright (c) 2024 Kurt Funderburg
+
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in
+    all copies or substantial portions of the Software.
+
+	OctoWS2811 library code was well-studied and substantial portions of it used 
+	to implement high-speed, non-blocking DMA for LED signal output in this library.
+	See ObjectFLED.cpp for a summary of changes made to the original OctoWS2811.
+
+	OctoWS2811 - High Performance WS2811 LED Display Library
+	Copyright (c) 2013 Paul Stoffregen, PJRC.COM, LLC
+	http://www.pjrc.com/teensy/td_libs_OctoWS2811.html
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+    THE SOFTWARE.
+*/
+
+SOURCE: src/third_party/pl_mpeg/src/pl_mpeg.h
+/*
+PL_MPEG - MPEG1 Video decoder, MP2 Audio decoder, MPEG-PS demuxer
+SPDX-License-Identifier: MIT
+
+Dominic Szablewski - https://phoboslab.org
+
+
+-- Synopsis
+
+// Define `PL_MPEG_IMPLEMENTATION` in *one* C/C++ file before including this
+// library to create the implementation.
+
+#define PL_MPEG_IMPLEMENTATION
+#include "plmpeg.h"
+
+// This function gets called for each decoded video frame
+void my_video_callback(plm_t *plm, plm_frame_t *frame, void *user) {
+	// Do something with frame->y.data, frame->cr.data, frame->cb.data
+}
+
+// This function gets called for each decoded audio frame
+void my_audio_callback(plm_t *plm, plm_samples_t *frame, void *user) {
+	// Do something with samples->interleaved
+}
+
+// Load a .mpg (MPEG Program Stream) file
+plm_t *plm = plm_create_with_filename("some-file.mpg");
+
+// Install the video & audio decode callbacks
+plm_set_video_decode_callback(plm, my_video_callback, my_data);
+plm_set_audio_decode_callback(plm, my_audio_callback, my_data);
+
+
+// Decode
+do {
+	plm_decode(plm, time_since_last_call);
+} while (!plm_has_ended(plm));
+
+// All done
+plm_destroy(plm);
+
+
+
+-- Documentation
+
+This library provides several interfaces to load, demux and decode MPEG video
+and audio data. A high-level API combines the demuxer, video & audio decoders
+in an easy to use wrapper.
+
+Lower-level APIs for accessing the demuxer, video decoder and audio decoder, 
+as well as providing different data sources are also available.
+
+Interfaces are written in an object oriented style, meaning you create object 
+instances via various different constructor functions (plm_*create()),
+do some work on them and later dispose them via plm_*destroy().
+
+plm_* ......... the high-level interface, combining demuxer and decoders
+plm_buffer_* .. the data source used by all interfaces
+plm_demux_* ... the MPEG-PS demuxer
+plm_video_* ... the MPEG1 Video ("mpeg1") decoder
+plm_audio_* ... the MPEG1 Audio Layer II ("mp2") decoder
+
+
+With the high-level interface you have two options to decode video & audio:
+
+ 1. Use plm_decode() and just hand over the delta time since the last call.
+    It will decode everything needed and call your callbacks (specified through
+    plm_set_{video|audio}_decode_callback()) any number of times.
+
+ 2. Use plm_decode_video() and plm_decode_audio() to decode exactly one
+    frame of video or audio data at a time. How you handle the synchronization 
+    of both streams is up to you.
+
+If you only want to decode video *or* audio through these functions, you should
+disable the other stream (plm_set_{video|audio}_enabled(FALSE))
+
+Video data is decoded into a struct with all 3 planes (Y, Cr, Cb) stored in
+separate buffers. You can either convert this to RGB on the CPU (slow) via the
+plm_frame_to_rgb() function or do it on the GPU with the following matrix:
+
+mat4 bt601 = mat4(
+	1.16438,  0.00000,  1.59603, -0.87079,
+	1.16438, -0.39176, -0.81297,  0.52959,
+	1.16438,  2.01723,  0.00000, -1.08139,
+	0, 0, 0, 1
+);
+gl_FragColor = vec4(y, cb, cr, 1.0) * bt601;
+
+Audio data is decoded into a struct with either one single float array with the
+samples for the left and right channel interleaved, or if the 
+PLM_AUDIO_SEPARATE_CHANNELS is defined *before* including this library, into
+two separate float arrays - one for each channel.
+
+
+Data can be supplied to the high level interface, the demuxer and the decoders
+in three different ways:
+
+ 1. Using plm_create_from_filename() or with a file handle with 
+    plm_create_from_file().
+
+ 2. Using plm_create_with_memory() and supplying a pointer to memory that
+    contains the whole file.
+
+ 3. Using plm_create_with_buffer(), supplying your own plm_buffer_t instance and
+    periodically writing to this buffer.
+
+When using your own plm_buffer_t instance, you can fill this buffer using 
+plm_buffer_write(). You can either monitor plm_buffer_get_remaining() and push 
+data when appropriate, or install a callback on the buffer with 
+plm_buffer_set_load_callback() that gets called whenever the buffer needs more 
+data.
+
+A buffer created with plm_buffer_create_with_capacity() is treated as a ring
+buffer, meaning that data that has already been read, will be discarded. In
+contrast, a buffer created with plm_buffer_create_for_appending() will keep all
+data written to it in memory. This enables seeking in the already loaded data.
+
+
+There should be no need to use the lower level plm_demux_*, plm_video_* and 
+plm_audio_* functions, if all you want to do is read/decode an MPEG-PS file.
+However, if you get raw mpeg1video data or raw mp2 audio data from a different
+source, these functions can be used to decode the raw data directly. Similarly, 
+if you only want to analyze an MPEG-PS file or extract raw video or audio
+packets from it, you can use the plm_demux_* functions.
+
+
+This library uses malloc(), realloc() and free() to manage memory. Typically 
+all allocation happens up-front when creating the interface. However, the
+default buffer size may be too small for certain inputs. In these cases plmpeg
+will realloc() the buffer with a larger size whenever needed. You can configure
+the default buffer size by defining PLM_BUFFER_DEFAULT_SIZE *before* 
+including this library.
+
+You can also define PLM_MALLOC, PLM_REALLOC and PLM_FREE to provide your own
+memory management functions.
+
+
+See below for detailed the API documentation.
+
+*/
+
+SOURCE: src/third_party/pl_mpeg/src/pl_mpeg.hpp
+/*
+PL_MPEG - MPEG1 Video decoder, MP2 Audio decoder, MPEG-PS demuxer
+SPDX-License-Identifier: MIT
+
+Dominic Szablewski - https://phoboslab.org
+
+
+-- Synopsis
+
+// Define `PL_MPEG_IMPLEMENTATION` in *one* C/C++ file before including this
+// library to create the implementation.
+
+#define PL_MPEG_IMPLEMENTATION
+#include "fl/stl/cstddef.h"
+#include "plmpeg.h"
+
+// This function gets called for each decoded video frame
+void my_video_callback(plm_t *plm, plm_frame_t *frame, void *user) {
+	// Do something with frame->y.data, frame->cr.data, frame->cb.data
+}
+
+// This function gets called for each decoded audio frame
+void my_audio_callback(plm_t *plm, plm_samples_t *frame, void *user) {
+	// Do something with samples->interleaved
+}
+
+// Load a .mpg (MPEG Program Stream) file
+plm_t *plm = plm_create_with_filename("some-file.mpg");
+
+// Install the video & audio decode callbacks
+plm_set_video_decode_callback(plm, my_video_callback, my_data);
+plm_set_audio_decode_callback(plm, my_audio_callback, my_data);
+
+
+// Decode
+do {
+	plm_decode(plm, time_since_last_call);
+} while (!plm_has_ended(plm));
+
+// All done
+plm_destroy(plm);
+
+
+
+-- Documentation
+
+This library provides several interfaces to load, demux and decode MPEG video
+and audio data. A high-level API combines the demuxer, video & audio decoders
+in an easy to use wrapper.
+
+Lower-level APIs for accessing the demuxer, video decoder and audio decoder, 
+as well as providing different data sources are also available.
+
+Interfaces are written in an object oriented style, meaning you create object 
+instances via various different constructor functions (plm_*create()),
+do some work on them and later dispose them via plm_*destroy().
+
+plm_* ......... the high-level interface, combining demuxer and decoders
+plm_buffer_* .. the data source used by all interfaces
+plm_demux_* ... the MPEG-PS demuxer
+plm_video_* ... the MPEG1 Video ("mpeg1") decoder
+plm_audio_* ... the MPEG1 Audio Layer II ("mp2") decoder
+
+
+With the high-level interface you have two options to decode video & audio:
+
+ 1. Use plm_decode() and just hand over the delta time since the last call.
+    It will decode everything needed and call your callbacks (specified through
+    plm_set_{video|audio}_decode_callback()) any number of times.
+
+ 2. Use plm_decode_video() and plm_decode_audio() to decode exactly one
+    frame of video or audio data at a time. How you handle the synchronization 
+    of both streams is up to you.
+
+If you only want to decode video *or* audio through these functions, you should
+disable the other stream (plm_set_{video|audio}_enabled(FALSE))
+
+Video data is decoded into a struct with all 3 planes (Y, Cr, Cb) stored in
+separate buffers. You can either convert this to RGB on the CPU (slow) via the
+plm_frame_to_rgb() function or do it on the GPU with the following matrix:
+
+mat4 bt601 = mat4(
+	1.16438,  0.00000,  1.59603, -0.87079,
+	1.16438, -0.39176, -0.81297,  0.52959,
+	1.16438,  2.01723,  0.00000, -1.08139,
+	0, 0, 0, 1
+);
+gl_FragColor = vec4(y, cb, cr, 1.0) * bt601;
+
+Audio data is decoded into a struct with either one single float array with the
+samples for the left and right channel interleaved, or if the 
+PLM_AUDIO_SEPARATE_CHANNELS is defined *before* including this library, into
+two separate float arrays - one for each channel.
+
+
+Data can be supplied to the high level interface, the demuxer and the decoders
+in three different ways:
+
+ 1. Using plm_create_from_filename() or with a file handle with 
+    plm_create_from_file().
+
+ 2. Using plm_create_with_memory() and supplying a pointer to memory that
+    contains the whole file.
+
+ 3. Using plm_create_with_buffer(), supplying your own plm_buffer_t instance and
+    periodically writing to this buffer.
+
+When using your own plm_buffer_t instance, you can fill this buffer using 
+plm_buffer_write(). You can either monitor plm_buffer_get_remaining() and push 
+data when appropriate, or install a callback on the buffer with 
+plm_buffer_set_load_callback() that gets called whenever the buffer needs more 
+data.
+
+A buffer created with plm_buffer_create_with_capacity() is treated as a ring
+buffer, meaning that data that has already been read, will be discarded. In
+contrast, a buffer created with plm_buffer_create_for_appending() will keep all
+data written to it in memory. This enables seeking in the already loaded data.
+
+
+There should be no need to use the lower level plm_demux_*, plm_video_* and 
+plm_audio_* functions, if all you want to do is read/decode an MPEG-PS file.
+However, if you get raw mpeg1video data or raw mp2 audio data from a different
+source, these functions can be used to decode the raw data directly. Similarly, 
+if you only want to analyze an MPEG-PS file or extract raw video or audio
+packets from it, you can use the plm_demux_* functions.
+
+
+This library uses malloc(), realloc() and free() to manage memory. Typically 
+all allocation happens up-front when creating the interface. However, the
+default buffer size may be too small for certain inputs. In these cases plmpeg
+will realloc() the buffer with a larger size whenever needed. You can configure
+the default buffer size by defining PLM_BUFFER_DEFAULT_SIZE *before* 
+including this library.
+
+You can also define PLM_MALLOC, PLM_REALLOC and PLM_FREE to provide your own
+memory management functions.
+
+
+See below for detailed the API documentation.
+
+*/
+
+SOURCE: src/third_party/stb/hexwave/stb_hexwave.cpp.hpp
+// stb_hexwave.cpp.hpp - Hexwave audio oscillator implementation
+//
+// This file contains the implementation. For the API declarations,
+// include "third_party/stb/hexwave/stb_hexwave.h" instead.
+//
+// Original: https://github.com/nothings/stb/blob/master/stb_hexwave.h
+// Author: Sean Barrett - http://nothings.org/stb_vorbis/
+// License: MIT or Public Domain
+//
+// stb_hexwave - v0.5 - public domain, initial release 2021-04-01
+//
+// A flexible anti-aliased (bandlimited) digital audio oscillator.
+//
+// This library generates waveforms of a variety of shapes made of
+// line segments. It does not do envelopes, LFO effects, etc.; it
+// merely tries to solve the problem of generating an artifact-free
+// morphable digital waveform with a variety of spectra, and leaves
+// it to the user to rescale the waveform and mix multiple voices, etc.
+//
+// LICENSE
+//
+//   See end of file for license information.
+
+
+SOURCE: src/third_party/stb/hexwave/stb_hexwave.h
+// stb_hexwave.h - Header for stb_hexwave audio oscillator
+//
+// This file contains the API declarations extracted from stb_hexwave.cpp.hpp.
+// It provides the public interface without including the implementation.
+//
+// For the implementation, include stb_hexwave.cpp.hpp (which is included
+// via the unity build system in _build.hpp).
+//
+// Original: https://github.com/nothings/stb/blob/master/stb_hexwave.h
+// Author: Sean Barrett - http://nothings.org/stb_vorbis/
+// License: MIT or Public Domain
+//
+// stb_hexwave - v0.5 - public domain, initial release 2021-04-01
+//
+// A flexible anti-aliased (bandlimited) digital audio oscillator.
+//
+// This library generates waveforms of a variety of shapes made of
+// line segments. It does not do envelopes, LFO effects, etc.; it
+// merely tries to solve the problem of generating an artifact-free
+// morphable digital waveform with a variety of spectra, and leaves
+// it to the user to rescale the waveform and mix multiple voices, etc.
+//
+// Usage:
+//
+//   Initialization:
+//
+//     hexwave_init(32, 16, nullptr); // read "header section" for alternatives
+//
+//   Create oscillator:
+//
+//     HexWave osc;
+//     hexwave_create(&osc, reflect_flag, peak_time, half_height, zero_wait);
+//       see "Waveform shapes" section in implementation for parameter meanings
+//
+//   Generate audio:
+//
+//     hexwave_generate_samples(output, number_of_samples, &osc, oscillator_freq)
+//       where:
+//         output is a buffer where the library will store floating point audio samples
+//         number_of_samples is the number of audio samples to generate
+//         osc is a pointer to a HexWave
+//         oscillator_freq is the frequency of the oscillator divided by the sample rate
+//
+//   Change oscillator waveform:
+//
+//     hexwave_change(&osc, reflect_flag, peak_time, half_height, zero_wait);
+//       can call in between calls to hexwave_generate_samples
+//
+// Classic waveforms:
+//                               peak    half    zero
+//                     reflect   time   height   wait
+//      Sawtooth          1       0       0       0
+//      Square            1       0       1       0
+//      Triangle          1       0.5     0       0
+//
+// LICENSE
+//
+//   See end of file for license information.
+
+
+SOURCE: src/third_party/stb/truetype/stb_truetype.cpp.hpp
+// stb_truetype.h - v1.26 - public domain
+// authored from 2009-2021 by Sean Barrett / RAD Game Tools
+//
+// =======================================================================
+//
+//    NO SECURITY GUARANTEE -- DO NOT USE THIS ON UNTRUSTED FONT FILES
+//
+// This library does no range checking of the offsets found in the file,
+// meaning an attacker can use it to read arbitrary memory.
+//
+// =======================================================================
+//
+//   This library processes TrueType files:
+//        parse files
+//        extract glyph metrics
+//        extract glyph shapes
+//        render glyphs to one-channel bitmaps with antialiasing (box filter)
+//        render glyphs to one-channel SDF bitmaps (signed-distance field/function)
+//
+//   Todo:
+//        non-MS cmaps
+//        crashproof on bad data
+//        hinting? (no longer patented)
+//        cleartype-style AA?
+//        optimize: use simple memory allocator for intermediates
+//        optimize: build edge-list directly from curves
+//        optimize: rasterize directly from curves?
+//
+// ADDITIONAL CONTRIBUTORS
+//
+//   Mikko Mononen: compound shape support, more cmap formats
+//   Tor Andersson: kerning, subpixel rendering
+//   Dougall Johnson: OpenType / Type 2 font handling
+//   Daniel Ribeiro Maciel: basic GPOS-based kerning
+//
+//   Misc other:
+//       Ryan Gordon
+//       Simon Glass
+//       github:IntellectualKitty
+//       Imanol Celaya
+//       Daniel Ribeiro Maciel
+//
+//   Bug/warning reports/fixes:
+//       "Zer" on mollyrocket       Fabian "ryg" Giesen   github:NiLuJe
+//       Cass Everitt               Martins Mozeiko       github:aloucks
+//       stoiko (Haemimont Games)   Cap Petschulat        github:oyvindjam
+//       Brian Hook                 Omar Cornut           github:vassvik
+//       Walter van Niftrik         Ryan Griege
+//       David Gow                  Peter LaValle
+//       David Given                Sergey Popov
+//       Ivan-Assen Ivanov          Giumo X. Clanjor
+//       Anthony Pesch              Higor Euripedes
+//       Johan Duparc               Thomas Fields
+//       Hou Qiming                 Derek Vinyard
+//       Rob Loach                  Cort Stratton
+//       Kenney Phillis Jr.         Brian Costabile
+//       Ken Voskuil (kaesve)       Yakov Galka
+//
+// VERSION HISTORY
+//
+//   1.26 (2021-08-28) fix broken rasterizer
+//   1.25 (2021-07-11) many fixes
+//   1.24 (2020-02-05) fix warning
+//   1.23 (2020-02-02) query SVG data for glyphs; query whole kerning table (but only kern not GPOS)
+//   1.22 (2019-08-11) minimize missing-glyph duplication; fix kerning if both 'GPOS' and 'kern' are defined
+//   1.21 (2019-02-25) fix warning
+//   1.20 (2019-02-07) PackFontRange skips missing codepoints; GetScaleFontVMetrics()
+//   1.19 (2018-02-11) GPOS kerning, STBTT_fmod
+//   1.18 (2018-01-29) add missing function
+//   1.17 (2017-07-23) make more arguments const; doc fix
+//   1.16 (2017-07-12) SDF support
+//   1.15 (2017-03-03) make more arguments const
+//   1.14 (2017-01-16) num-fonts-in-TTC function
+//   1.13 (2017-01-02) support OpenType fonts, certain Apple fonts
+//   1.12 (2016-10-25) suppress warnings about casting away const with -Wcast-qual
+//   1.11 (2016-04-02) fix unused-variable warning
+//   1.10 (2016-04-02) user-defined fabs(); rare memory leak; remove duplicate typedef
+//   1.09 (2016-01-16) warning fix; avoid crash on outofmem; use allocation userdata properly
+//   1.08 (2015-09-13) document stbtt_Rasterize(); fixes for vertical & horizontal edges
+//   1.07 (2015-08-01) allow PackFontRanges to accept arrays of sparse codepoints;
+//                     variant PackFontRanges to pack and render in separate phases;
+//                     fix stbtt_GetFontOFfsetForIndex (never worked for non-0 input?);
+//                     fixed an assert() bug in the new rasterizer
+//                     replace assert() with STBTT_assert() in new rasterizer
+//
+//   Full history can be found at the end of this file.
+//
+// LICENSE
+//
+//   See end of file for license information.
+//
+// USAGE
+//
+//   Include this file in whatever places need to refer to it. In ONE C/C++
+//   file, write:
+//      #define STB_TRUETYPE_IMPLEMENTATION
+//   before the #include of this file. This expands out the actual
+//   implementation into that C/C++ file.
+//
+//   To make the implementation private to the file that generates the implementation,
+//      #define STBTT_STATIC
+//
+//   Simple 3D API (don't ship this, but it's fine for tools and quick start)
+//           stbtt_BakeFontBitmap()               -- bake a font to a bitmap for use as texture
+//           stbtt_GetBakedQuad()                 -- compute quad to draw for a given char
+//
+//   Improved 3D API (more shippable):
+//           #include "stb_rect_pack.h"           -- optional, but you really want it
+//           stbtt_PackBegin()
+//           stbtt_PackSetOversampling()          -- for improved quality on small fonts
+//           stbtt_PackFontRanges()               -- pack and renders
+//           stbtt_PackEnd()
+//           stbtt_GetPackedQuad()
+//
+//   "Load" a font file from a memory buffer (you have to keep the buffer loaded)
+//           stbtt_InitFont()
+//           stbtt_GetFontOffsetForIndex()        -- indexing for TTC font collections
+//           stbtt_GetNumberOfFonts()             -- number of fonts for TTC font collections
+//
+//   Render a unicode codepoint to a bitmap
+//           stbtt_GetCodepointBitmap()           -- allocates and returns a bitmap
+//           stbtt_MakeCodepointBitmap()          -- renders into bitmap you provide
+//           stbtt_GetCodepointBitmapBox()        -- how big the bitmap must be
+//
+//   Character advance/positioning
+//           stbtt_GetCodepointHMetrics()
+//           stbtt_GetFontVMetrics()
+//           stbtt_GetFontVMetricsOS2()
+//           stbtt_GetCodepointKernAdvance()
+//
+//   Starting with version 1.06, the rasterizer was replaced with a new,
+//   faster and generally-more-precise rasterizer. The new rasterizer more
+//   accurately measures pixel coverage for anti-aliasing, except in the case
+//   where multiple shapes overlap, in which case it overestimates the AA pixel
+//   coverage. Thus, anti-aliasing of intersecting shapes may look wrong. If
+//   this turns out to be a problem, you can re-enable the old rasterizer with
+//        #define STBTT_RASTERIZER_VERSION 1
+//   which will incur about a 15% speed hit.
+//
+// ADDITIONAL DOCUMENTATION
+//
+//   Immediately after this block comment are a series of sample programs.
+//
+//   After the sample programs is the "header file" section. This section
+//   includes documentation for each API function.
+//
+//   Some important concepts to understand to use this library:
+//
+//      Codepoint
+//         Characters are defined by unicode codepoints, e.g. 65 is
+//         uppercase A, 231 is lowercase c with a cedilla, 0x7e30 is
+//         the hiragana for "ma".
+//
+//      Glyph
+//         A visual character shape (every codepoint is rendered as
+//         some glyph)
+//
+//      Glyph index
+//         A font-specific integer ID representing a glyph
+//
+//      Baseline
+//         Glyph shapes are defined relative to a baseline, which is the
+//         bottom of uppercase characters. Characters extend both above
+//         and below the baseline.
+//
+//      Current Point
+//         As you draw text to the screen, you keep track of a "current point"
+//         which is the origin of each character. The current point's vertical
+//         position is the baseline. Even "baked fonts" use this model.
+//
+//      Vertical Font Metrics
+//         The vertical qualities of the font, used to vertically position
+//         and space the characters. See docs for stbtt_GetFontVMetrics.
+//
+//      Font Size in Pixels or Points
+//         The preferred interface for specifying font sizes in stb_truetype
+//         is to specify how tall the font's vertical extent should be in pixels.
+//         If that sounds good enough, skip the next paragraph.
+//
+//         Most font APIs instead use "points", which are a common typographic
+//         measurement for describing font size, defined as 72 points per inch.
+//         stb_truetype provides a point API for compatibility. However, true
+//         "per inch" conventions don't make much sense on computer displays
+//         since different monitors have different number of pixels per
+//         inch. For example, Windows traditionally uses a convention that
+//         there are 96 pixels per inch, thus making 'inch' measurements have
+//         nothing to do with inches, and thus effectively defining a point to
+//         be 1.333 pixels. Additionally, the TrueType font data provides
+//         an explicit scale factor to scale a given font's glyphs to points,
+//         but the author has observed that this scale factor is often wrong
+//         for non-commercial fonts, thus making fonts scaled in points
+//         according to the TrueType spec incoherently sized in practice.
+//
+// DETAILED USAGE:
+//
+//  Scale:
+//    Select how high you want the font to be, in points or pixels.
+//    Call ScaleForPixelHeight or ScaleForMappingEmToPixels to compute
+//    a scale factor SF that will be used by all other functions.
+//
+//  Baseline:
+//    You need to select a y-coordinate that is the baseline of where
+//    your text will appear. Call GetFontBoundingBox to get the baseline-relative
+//    bounding box for all characters. SF*-y0 will be the distance in pixels
+//    that the worst-case character could extend above the baseline, so if
+//    you want the top edge of characters to appear at the top of the
+//    screen where y=0, then you would set the baseline to SF*-y0.
+//
+//  Current point:
+//    Set the current point where the first character will appear. The
+//    first character could extend left of the current point; this is font
+//    dependent. You can either choose a current point that is the leftmost
+//    point and hope, or add some padding, or check the bounding box or
+//    left-side-bearing of the first character to be displayed and set
+//    the current point based on that.
+//
+//  Displaying a character:
+//    Compute the bounding box of the character. It will contain signed values
+//    relative to <current_point, baseline>. I.e. if it returns x0,y0,x1,y1,
+//    then the character should be displayed in the rectangle from
+//    <current_point+SF*x0, baseline+SF*y0> to <current_point+SF*x1,baseline+SF*y1).
+//
+//  Advancing for the next character:
+//    Call GlyphHMetrics, and compute 'current_point += SF * advance'.
+//
+//
+// ADVANCED USAGE
+//
+//   Quality:
+//
+//    - Use the functions with Subpixel at the end to allow your characters
+//      to have subpixel positioning. Since the font is anti-aliased, not
+//      hinted, this is very import for quality. (This is not possible with
+//      baked fonts.)
+//
+//    - Kerning is now supported, and if you're supporting subpixel rendering
+//      then kerning is worth using to give your text a polished look.
+//
+//   Performance:
+//
+//    - Convert Unicode codepoints to glyph indexes and operate on the glyphs;
+//      if you don't do this, stb_truetype is forced to do the conversion on
+//      every call.
+//
+//    - There are a lot of memory allocations. We should modify it to take
+//      a temp buffer and allocate from the temp buffer (without freeing),
+//      should help performance a lot.
+//
+// NOTES
+//
+//   The system uses the raw data found in the .ttf file without changing it
+//   and without building auxiliary data structures. This is a bit inefficient
+//   on little-endian systems (the data is big-endian), but assuming you're
+//   caching the bitmaps or glyph shapes this shouldn't be a big deal.
+//
+//   It appears to be very hard to programmatically determine what font a
+//   given file is in a general way. I provide an API for this, but I don't
+//   recommend it.
+//
+//
+// PERFORMANCE MEASUREMENTS FOR 1.06:
+//
+
+
+SOURCE: src/third_party/TJpg_Decoder/src/tjpgd.cpp.hpp
+/*----------------------------------------------------------------------------/
+/ TJpgDec - Tiny JPEG Decompressor R0.03                      (C)ChaN, 2021
+/-----------------------------------------------------------------------------/
+/ The TJpgDec is a generic JPEG decompressor module for tiny embedded systems.
+/ This is a free software that opened for education, research and commercial
+/  developments under license policy of following terms.
+/
+/  Copyright (C) 2021, ChaN, all right reserved.
+/
+/ * The TJpgDec module is a free software and there is NO WARRANTY.
+/ * No restriction on use. You can use, modify and redistribute it for
+/   personal, non-profit or commercial products UNDER YOUR RESPONSIBILITY.
+/ * Redistributions of source code must retain the above copyright notice.
+/
+/-----------------------------------------------------------------------------/
+/ Oct 04, 2011 R0.01  First release.
+/ Feb 19, 2012 R0.01a Fixed decompression fails when scan starts with an escape seq.
+/ Sep 03, 2012 R0.01b Added JD_TBLCLIP option.
+/ Mar 16, 2019 R0.01c Supprted stdint.h.
+/ Jul 01, 2020 R0.01d Fixed wrong integer type usage.
+/ May 08, 2021 R0.02  Supprted grayscale image. Separated configuration options.
+/ Jun 11, 2021 R0.02a Some performance improvement.
+/ Jul 01, 2021 R0.03  Added JD_FASTDECODE option.
+/                     Some performance improvement.
+/----------------------------------------------------------------------------*/
+
+SOURCE: tests/fl/stl/isr.cpp
+/*
+  Test: Cross-Platform ISR API
+  -----------------------------
+  Tests the fl::isr API for timer-based interrupt handling.
+
+  License: MIT (FastLED)
+*/

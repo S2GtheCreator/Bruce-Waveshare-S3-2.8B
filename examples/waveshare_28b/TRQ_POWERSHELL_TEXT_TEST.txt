@@ -1,0 +1,3 @@
+REM Open PowerShell manually; text only, no Enter
+DELAY 2000
+STRING Write-Output 'A:/?=&-_@#$[]{}() çğıöşüÇĞİÖŞÜ'

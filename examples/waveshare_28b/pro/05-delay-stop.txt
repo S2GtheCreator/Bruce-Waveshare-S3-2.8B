@@ -1,0 +1,3 @@
+REM Test STOP during 30-second delay; no text should follow a stop
+DELAY 30000
+STRINGLN Delay finished

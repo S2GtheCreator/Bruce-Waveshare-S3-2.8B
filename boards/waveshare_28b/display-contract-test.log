@@ -1,0 +1,3 @@
+PASS: dirty accumulation, identical redraw, partial mirroring, EOF/VSYNC fence, wraparound, failure ownership
+PASS: menu rows, paging, glyph bounds and footer, portrait/landscape; lengths 1..500
+PASS: protected Wi-Fi/BLE tools, GT911, ST7701 init, partition and board configuration

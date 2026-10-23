@@ -1,0 +1,31 @@
+{
+  "version": "v1.16.1-ws28b-pro",
+  "environment": "waveshare_28b",
+  "build": "SUCCESS",
+  "physical_tests": false,
+  "app_bytes": 3760528,
+  "merged_bytes": 3826064,
+  "app_sha256": "5e36976e2e09697c8b3afe5fe38a97bcd9485df698bef3af2e10e1c75fdab76e",
+  "merged_sha256": "aae350f4ccaa51ca04d956bb60a4039e4ac09b3ec5416d6d564932de8d2cb364",
+  "host_test_groups": 8,
+  "host_tests_passed": true,
+  "removed_keeloq_material_absent": [
+    "KEY",
+    "IV",
+    "ENC"
+  ],
+  "restricted_libraries_absent_from_link_map": true,
+  "credential_signature_findings": [],
+  "reviewed_false_positives": [
+    {
+      "path": "dependencies/waveshare_28b/LibSSH-ESP32/src/libssh/pki_priv.h",
+      "reason": "Only literal key-format header macros; no private key body."
+    }
+  ],
+  "dependency_source_files": 4633,
+  "dependency_source_sha256": "e2efa604eb43ad614e87c09c484515d3cc6d662401e1b61c89d98af92cad5f46",
+  "platform": "pioarduino 55.3.39",
+  "arduino": "3.3.9",
+  "esp_idf": "5.5.4",
+  "gcc": "14.2.0+20260121"
+}

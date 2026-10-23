@@ -1,0 +1,5 @@
+PASS: actual battery telemetry formats voltage/percentage correctly
+PASS: actual battery estimate model, monotonic bounds, low-warning debounce, invalid samples and hysteresis
+PASS: baseline RGB framebuffer/cache drivers, panel init/partition and protected tools byte-identical
+PASS: single-FB/bounce rollback, no swap/presentation task, official timing, font rows and footer
+PASS: bounded diagnostics dispatch/cleanup contracts (radio/touch operations still require hardware tests)

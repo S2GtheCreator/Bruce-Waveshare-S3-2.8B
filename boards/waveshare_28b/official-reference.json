@@ -1,0 +1,20 @@
+{
+  "schematic_url": "https://files.waveshare.com/wiki/ESP32-S3-Touch-LCD-2.8B/ESP32-S3-Touch-LCD-2.8B_schematic_diagram.pdf",
+  "schematic_sha256": "9c7d84529d421a86b907ff29063155ddb54a01bc1805d1f81769097b9af95947",
+  "demo_url": "https://files.waveshare.com/wiki/ESP32-S3-Touch-LCD-2.8B/ESP32-S3-Touch-LCD-2.8B-Demo.zip",
+  "demo_sha256": "5e706cca3d3eb651025547956e9101dd30b195c480793d7f5817413e13a9659c",
+  "verified_connections": {
+    "battery_adc_gpio": 4,
+    "divider_top_R2_ohm": 200000,
+    "divider_bottom_R18_ohm": 100000,
+    "nominal_battery_to_adc_ratio": 3,
+    "SW1": "manual Q2 battery BAT -> BAT_OUT gating; no MCU control line",
+    "charge_STAT": "ETA6098 STAT drives LED1, no MCU status line",
+    "USB_detect_gpio": null,
+    "software_power_cut_gpio": null
+  },
+  "adc_core": "Arduino 3.3.9 esp32-hal-adc.c analogReadMilliVolts -> IDF curve fitting calibration; zero on failure",
+  "demo_measurement_offset": 0.992857,
+  "demo_offset_applied": false,
+  "reason": "Demo-specific empirical offset is not calibration for this user device; default gain=1.0, optional measured per-device gain saved to NVS"
+}

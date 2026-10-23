@@ -1,0 +1,179 @@
+SOURCE: src/adler32.c
+/* adler32.c -- compute the Adler-32 checksum of a data stream
+ * Copyright (C) 1995-2011, 2016 Mark Adler
+ * For conditions of distribution and use, see copyright notice in zlib.h
+ */
+
+SOURCE: src/crc32.c
+/* crc32.c -- compute the CRC-32 of a data stream
+ * Copyright (C) 1995-2006, 2010, 2011, 2012, 2016 Mark Adler
+ * For conditions of distribution and use, see copyright notice in zlib.h
+ *
+ * Thanks to Rodney Brown <rbrown64@csc.com.au> for his contribution of faster
+ * CRC methods: exclusive-oring 32 bits of data at a time, and pre-computing
+ * tables for updating the shift register in one step with three exclusive-ors
+ * instead of four steps with four exclusive-ors.  This results in about a
+ * factor of two increase in speed on a Power PC G4 (PPC7455) using gcc -O3.
+ */
+
+SOURCE: src/infback.c
+/* infback.c -- inflate using a call-back interface
+ * Copyright (C) 1995-2016 Mark Adler
+ * For conditions of distribution and use, see copyright notice in zlib.h
+ */
+
+SOURCE: src/inffast.c
+/* inffast.c -- fast decoding
+ * Copyright (C) 1995-2017 Mark Adler
+ * For conditions of distribution and use, see copyright notice in zlib.h
+ */
+
+SOURCE: src/inffast.h
+/* inffast.h -- header to use inffast.c
+ * Copyright (C) 1995-2003, 2010 Mark Adler
+ * For conditions of distribution and use, see copyright notice in zlib.h
+ */
+
+SOURCE: src/inflate.c
+/* inflate.c -- zlib decompression
+ * Copyright (C) 1995-2016 Mark Adler
+ * For conditions of distribution and use, see copyright notice in zlib.h
+ */
+
+SOURCE: src/inflate.h
+/* inflate.h -- internal inflate state definition
+ * Copyright (C) 1995-2016 Mark Adler
+ * For conditions of distribution and use, see copyright notice in zlib.h
+ */
+
+SOURCE: src/inftrees.c
+/* inftrees.c -- generate Huffman trees for efficient decoding
+ * Copyright (C) 1995-2017 Mark Adler
+ * For conditions of distribution and use, see copyright notice in zlib.h
+ */
+
+SOURCE: src/inftrees.h
+/* inftrees.h -- header to use inftrees.c
+ * Copyright (C) 1995-2005, 2010 Mark Adler
+ * For conditions of distribution and use, see copyright notice in zlib.h
+ */
+
+SOURCE: src/PNGdec.cpp
+//
+// PNG Decoder
+//
+// written by Larry Bank
+// bitbank@pobox.com
+// Arduino port started 5/3/2021
+// Original PNG code written 20+ years ago :)
+// The goal of this code is to decode PNG images on embedded systems
+//
+// Copyright 2021 BitBank Software, Inc. All Rights Reserved.
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//    http://www.apache.org/licenses/LICENSE-2.0
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+//===========================================================================
+//
+
+
+SOURCE: src/PNGDisplay.h
+//
+// PNG Display helper class
+//
+// written by Larry Bank
+// bitbank@pobox.com
+//
+// Copyright 2025 BitBank Software, Inc. All Rights Reserved.
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//    http://www.apache.org/licenses/LICENSE-2.0
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+//===========================================================================
+//
+
+
+SOURCE: src/zconf.h
+/* zconf.h -- configuration of the zlib compression library
+ * Copyright (C) 1995-2016 Jean-loup Gailly, Mark Adler
+ * For conditions of distribution and use, see copyright notice in zlib.h
+ */
+
+SOURCE: src/zlib.h
+/* zlib.h -- interface of the 'zlib' general purpose compression library
+  version 1.2.11, January 15th, 2017
+
+  Copyright (C) 1995-2017 Jean-loup Gailly and Mark Adler
+
+  This software is provided 'as-is', without any express or implied
+  warranty.  In no event will the authors be held liable for any damages
+  arising from the use of this software.
+
+  Permission is granted to anyone to use this software for any purpose,
+  including commercial applications, and to alter it and redistribute it
+  freely, subject to the following restrictions:
+
+  1. The origin of this software must not be misrepresented; you must not
+     claim that you wrote the original software. If you use this software
+     in a product, an acknowledgment in the product documentation would be
+     appreciated but is not required.
+  2. Altered source versions must be plainly marked as such, and must not be
+     misrepresented as being the original software.
+  3. This notice may not be removed or altered from any source distribution.
+
+  Jean-loup Gailly        Mark Adler
+  jloup@gzip.org          madler@alumni.caltech.edu
+
+
+  The data format used by the zlib library is described by RFCs (Request for
+  Comments) 1950 to 1952 in the files http://tools.ietf.org/html/rfc1950
+  (zlib format), rfc1951 (deflate format) and rfc1952 (gzip format).
+*/
+
+SOURCE: src/zutil.c
+/* zutil.c -- target dependent utility functions for the compression library
+ * Copyright (C) 1995-2017 Jean-loup Gailly
+ * For conditions of distribution and use, see copyright notice in zlib.h
+ */
+
+SOURCE: src/zutil.h
+/* zutil.h -- internal interface and configuration of the compression library
+ * Copyright (C) 1995-2016 Jean-loup Gailly, Mark Adler
+ * For conditions of distribution and use, see copyright notice in zlib.h
+ */
+
+SOURCE: examples/png_comparison/lodepng.cpp
+/*
+LodePNG version 20230410
+
+Copyright (c) 2005-2023 Lode Vandevenne
+
+This software is provided 'as-is', without any express or implied
+warranty. In no event will the authors be held liable for any damages
+arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose,
+including commercial applications, and to alter it and redistribute it
+freely, subject to the following restrictions:
+
+    1. The origin of this software must not be misrepresented; you must not
+    claim that you wrote the original software. If you use this software
+    in a product, an acknowledgment in the product documentation would be
+    appreciated but is not required.
+
+    2. Altered source versions must be plainly marked as such, and must not be
+    misrepresented as being the original software.
+
+    3. This notice may not be removed or altered from any source
+    distribution.
+*/

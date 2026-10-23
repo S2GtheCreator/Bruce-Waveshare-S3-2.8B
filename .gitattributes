@@ -1,0 +1,3 @@
+# Preserve the exact verified source bytes across platforms, including baseline
+# files whose byte hashes are checked by the hardware/HID preservation tests.
+* -text

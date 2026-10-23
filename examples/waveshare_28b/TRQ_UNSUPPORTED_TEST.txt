@@ -1,0 +1,4 @@
+REM Expect U+1F642; neither this line prefix nor next line should be typed
+DELAY 2000
+STRINGLN prefix🙂suffix
+STRINGLN THIS_LINE_MUST_NOT_RUN

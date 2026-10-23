@@ -1,0 +1,4 @@
+PASS: actual USBHIDKeyboard.cpp + shared codec, 447 recorded report cases match frozen Windows layout API data
+PASS: ASCII 95, Turkish 12 and 10 extra Unicode, Caps on/off, Shift/AltGr, dead-key completion and English US return
+PASS: GUI/CTRL/ALT + i, GUI+r, ALT+F4, SHIFT+ENTER, raw ENTER and empty host output report
+PASS: unsupported Unicode / US Turkish / malformed UTF-8 / NUL rejected before any prefix report

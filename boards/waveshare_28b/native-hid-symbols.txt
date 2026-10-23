@@ -1,0 +1,55 @@
+420a5624 T ducky_endUsb(HIDInterface*&)
+3fca8c74 B _ZL20waveshareUsbKeyboard$lto_priv$0
+4206daac T USBHIDKeyboard::releaseAll()
+4206da3c T USBHIDKeyboard::releaseRaw(unsigned char)
+42068d0c t USBHIDKeyboard::sendReport(KeyReport*)
+4206d978 T USBHIDKeyboard::isConnected()
+420698e8 T USBHIDKeyboard::_buildShiftCache()
+420684c0 T USBHIDKeyboard::_onGetDescriptor(unsigned char*)
+42032698 T USBHIDKeyboard::end()
+4206dae8 T USBHIDKeyboard::begin(unsigned char const*)
+4206db38 T USBHIDKeyboard::press(unsigned char)
+4206d608 T USBHIDKeyboard::write(unsigned char)
+4229601c T USBHIDKeyboard::write(unsigned char const*, unsigned int)
+4206dbf0 T USBHIDKeyboard::release(unsigned char)
+4206d9a8 T USBHIDKeyboard::pressRaw(unsigned char)
+42296048 T USBHIDKeyboard::setDelay(unsigned long)
+42068cec T USBHIDKeyboard::_onOutput(unsigned char, unsigned char const*, unsigned short)
+42139f40 t USBCDC::availableForWrite()
+42139edc t USBCDC::peek()
+421398e0 t USBCDC::read()
+42139f04 T USBCDC::flush()
+421394c4 t USBCDC::write(unsigned char)
+4213bfb4 t USBCDC::write(unsigned char const*, unsigned int)
+4213991c T USBCDC::available()
+42139ec8 t USBCDC::~USBCDC()
+42139e94 T USBCDC::~USBCDC()
+42139e94 T USBCDC::~USBCDC()
+4206dad8 T non-virtual thunk to USBHIDKeyboard::releaseAll()
+4206da98 T non-virtual thunk to USBHIDKeyboard::releaseRaw(unsigned char)
+4206d998 T non-virtual thunk to USBHIDKeyboard::isConnected()
+42296014 T non-virtual thunk to USBHIDKeyboard::end()
+4206db28 T non-virtual thunk to USBHIDKeyboard::begin(unsigned char const*)
+4206dbdc T non-virtual thunk to USBHIDKeyboard::press(unsigned char)
+4206d640 T non-virtual thunk to USBHIDKeyboard::write(unsigned char)
+4206d5f4 T non-virtual thunk to USBHIDKeyboard::write(unsigned char const*, unsigned int)
+4206dc98 T non-virtual thunk to USBHIDKeyboard::release(unsigned char)
+4206da28 T non-virtual thunk to USBHIDKeyboard::pressRaw(unsigned char)
+42296050 T non-virtual thunk to USBHIDKeyboard::setDelay(unsigned long)
+4206991c T non-virtual thunk to USBHIDKeyboard::setLayout(unsigned char const*)
+420687d8 T non-virtual thunk to USBHIDKeyboard::~USBHIDKeyboard()
+3fcac7f5 b USBHIDKeyboard::USBHIDKeyboard()::initialized
+3fcac6f0 b USBCDC::_onLineState(bool, bool)::lineState
+4213e080 T tud_cdc_line_coding_cb
+4213dfa0 T tud_cdc_line_state_cb
+421e97f4 T tud_cdc_n_connected
+421e9834 T tud_cdc_n_read
+421e9860 T tud_cdc_n_write
+421e98a4 T tud_cdc_n_write_available
+421e9884 T tud_cdc_n_write_flush
+42298274 W tud_cdc_notify_complete_cb
+4213bee4 T tud_cdc_rx_cb
+4229826c W tud_cdc_rx_wanted_cb
+4213a860 T tud_cdc_send_break_cb
+4213a868 T tud_cdc_tx_complete_cb
+421e89d4 T tud_mounted

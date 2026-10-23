@@ -1,0 +1,9 @@
+{
+  "base": "Bruce 1.16.1 ba519c936c87b89c9c667c15b932d7faca5360d5",
+  "official_rgb_pin_comparison": "PASS: all 16 data and 4 control pins",
+  "st7701_init_comparison": "PASS: 258 command/data/delay operations match demo",
+  "rotation_mapping": "PASS: 1228800 pixels, four rotations, inverse round-trip and bounds",
+  "partition_bounds": "PASS: 16MB; factory app 0x10000, size 0x470000",
+  "waveshare_demo_sha256": "5e706cca3d3eb651025547956e9101dd30b195c480793d7f5817413e13a9659c",
+  "hardware_tests": "NOT PERFORMED"
+}

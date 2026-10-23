@@ -1,0 +1,20 @@
+SOURCE: src/Argument.cpp
+/*
+   Copyright (c) 2019 Stefan Kremser
+   This software is licensed under the MIT License. See the license file for details.
+   Source: github.com/spacehuhn/SimpleCLI
+ */
+
+SOURCE: src/SimpleCLI.h
+/*
+   Copyright (c) 2021 Spacehuhn Technologies
+   This software is licensed under the MIT License. See the license file for details.
+   Source: github.com/spacehuhn/SimpleCLI
+ */
+
+SOURCE: src/c/cmd.c
+/*
+   Copyright (c) 2019 Stefan Kremser
+   This software is licensed under the MIT License. See the license file for details.
+   Soruce: github.com/spacehuhn/SimpleCLI
+ */

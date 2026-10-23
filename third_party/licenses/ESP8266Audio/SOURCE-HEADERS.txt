@@ -1,0 +1,3864 @@
+SOURCE: src/AudioFileSource.h
+/*
+    AudioFileSource
+    Base class of an input "file" to be used by AudioGenerator
+
+    Copyright (C) 2017  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioFileSourceBuffer.cpp
+/*
+    AudioFileSourceBuffer
+    Double-buffered file source using system RAM
+
+    Copyright (C) 2017  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioFileSourceBuffer.h
+/*
+    AudioFileSourceBuffer
+    Double-buffered input file using system RAM
+
+    Copyright (C) 2017  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioFileSourceFATFS.h
+/*
+    AudioFileSourceFS
+    Input Arduion "file" to be used by AudioGenerator
+
+    Copyright (C) 2017  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioFileSourceFS.cpp
+/*
+    AudioFileSourceFS
+    Input "file" to be used by AudioGenerator
+
+    Copyright (C) 2017  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioFileSourceFunction.cpp
+/*
+    AudioFileSourceFunction
+    Audio output generator which can generate WAV file data from function
+
+    Copyright (C) 2021  Hideaki Tai
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioFileSourceHTTPStream.cpp
+/*
+    AudioFileSourceHTTPStream
+    Streaming HTTP source
+
+    Copyright (C) 2017  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioFileSourceHTTPStream.h
+/*
+    AudioFileSourceHTTPStream
+    Connect to a HTTP based streaming service
+
+    Copyright (C) 2017  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioFileSourceICYStream.cpp
+/*
+    AudioFileSourceICYStream
+    Streaming Shoutcast ICY source
+
+    Copyright (C) 2017  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioFileSourceID3.cpp
+/*
+    AudioFileSourceID3
+    ID3 filter that extracts any ID3 fields and sends to CB function
+
+    Copyright (C) 2017  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioFileSourcePROGMEM.cpp
+/*
+    AudioFileSourcePROGMEM
+    Store a "file" as a PROGMEM array and use it as audio source data
+
+    Copyright (C) 2017  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioFileSourceSD.cpp
+/*
+    AudioFileSourceSPIFFS
+    Input SD card "file" to be used by AudioGenerator
+
+    Copyright (C) 2017  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioFileSourceSPIRAMBuffer.cpp
+/*
+    AudioFileSourceSPIRAMBuffer
+    Buffered file source in external SPI RAM
+
+    Copyright (C) 2017  Sebastien Decourriere
+    Based on AudioFileSourceBuffer class from Earle F. Philhower, III
+
+    Copyright (C) 2020  Earle F. Philhower, III
+    Rewritten for speed and functionality
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioFileSourceSPIRAMBuffer.h
+/*
+    AudioFileSourceSPIRAMBuffer
+    Buffered file source in external SPI RAM
+
+    Copyright (C) 2017  Sebastien Decourriere
+    Based on AudioFileSourceBuffer class from Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioFileSourceSTDIO.cpp
+/*
+    AudioFileSourceSTDIO
+    Input STDIO "file" to be used by AudioGenerator
+    Only for hot-based testing
+
+    Copyright (C) 2017  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioFileSourceSTDIO.h
+/*
+    AudioFileSourceSTDIO
+    Input SPIFFS "file" to be used by AudioGenerator
+    Only for host-based testing, not Arduino
+
+    Copyright (C) 2017  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioFileStream.h
+/*
+    AudioFileStream
+    Convert an AudioFileSource* to a Stream*
+
+    Copyright (C) 2017  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioGenerator.h
+/*
+    AudioGenerator
+    Base class of an audio output generator
+
+    Copyright (C) 2017  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioGeneratorAAC.cpp
+/*
+    AudioGeneratorAAC
+    Audio output generator using the Helix AAC decoder
+
+    Copyright (C) 2017  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioGeneratorFLAC.cpp
+/*
+    AudioGeneratorFLAC
+    Audio output generator that plays FLAC audio files
+
+    Copyright (C) 2017  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioGeneratorMIDI.cpp
+/*
+    AudioGeneratorMIDI
+    Audio output generator that plays MIDI files using an SF2 SoundFont
+
+    Copyright (C) 2017  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioGeneratorMIDI.h
+/*
+    AudioGeneratorMIDI
+    Audio output generator that plays MIDI files using a SF2 SoundFont
+
+    Copyright (C) 2017  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioGeneratorMOD.cpp
+/*
+    AudioGeneratorMOD
+    Audio output generator that plays Amiga MOD tracker files
+
+    Copyright (C) 2017  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioGeneratorMP3.cpp
+/*
+    AudioGeneratorMP3
+    Wrap libmad MP3 library to play audio
+
+    Copyright (C) 2017  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioGeneratorMP3a.cpp
+/*
+    AudioGeneratorMP3
+    Audio output generator using the Helix MP3 decoder
+
+    Copyright (C) 2017  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioGeneratorOpus.cpp
+/*
+    AudioGeneratorOpus
+    Audio output generator that plays Opus audio files
+
+    Copyright (C) 2025  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioGeneratorRTTTL.cpp
+/*
+    AudioGeneratorRTTTL
+    Audio output generator that plays RTTTL (Nokia ringtone)
+
+    Based on the Rtttl Arduino library by James BM, https://github.com/spicajames/Rtttl
+    Based on the gist from Daniel Hall https://gist.github.com/smarthall/1618800
+
+    Copyright (C) 2018  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioGeneratorRTTTL.h
+/*
+    AudioGeneratorRTTTL
+    Audio output generator that plays RTTTL (Nokia ringtones)
+
+    Based on the Rtttl Arduino library by James BM, https://github.com/spicajames/Rtttl
+    Based on the gist from Daniel Hall https://gist.github.com/smarthall/1618800
+
+    Copyright (C) 2018  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioGeneratorTalkie.cpp
+/*
+    AudioGeneratorTalkie
+    Audio output generator that speaks using the LPC code in old TI speech chips
+    Output is locked at 8khz as that's that the hardcoded LPC coefficients are built around
+
+    Based on the Talkie Arduino library by Peter Knight, https://github.com/going-digital/Talkie
+
+    Copyright (C) 2020 Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioGeneratorWAV.cpp
+/*
+    AudioGeneratorWAV
+    Audio output generator that reads 8 and 16-bit WAV files
+
+    Copyright (C) 2017  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioOutput.h
+/*
+    AudioOutput
+    Base class of an audio output player
+
+    Copyright (C) 2017  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioOutputBuffer.cpp
+/*
+    AudioOutputBuffer
+    Adds additional bufferspace to the output chain
+
+    Copyright (C) 2017  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioOutputFilterBiquad.cpp
+/*
+    AudioOutputFilterBiquad
+    Implements a Biquad filter
+
+    Copyright (C) 2012  Nigel Redmon
+    Copyright (C) 2021  William Bérubé
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioOutputFilterDecimate.cpp
+/*
+    AudioOutputFilter
+    Implements a user-defined FIR on a passthrough
+
+    Copyright (C) 2017  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioOutputFilterDecimate.h
+/*
+    AudioOutputFilterDecimate
+    Implements a user-defined FIR on a passthrough w/rational decimation
+
+    Copyright (C) 2017  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioOutputI2S.cpp
+/*
+    AudioOutputI2S
+    Base class for I2S interface port
+
+    Copyright (C) 2017  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioOutputI2S.h
+/*
+    AudioOutputI2S
+    Base class for an I2S output port
+
+    Copyright (C) 2017  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioOutputI2SNoDAC.cpp
+/*
+    AudioOutputI2SNoDAC
+    Audio player using SW delta-sigma to generate "analog" on I2S data
+
+    Copyright (C) 2017  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioOutputMixer.cpp
+/*
+    AudioOutputMixer
+    Simple mixer which can combine multiple inputs to a single output stream
+
+    Copyright (C) 2018  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioOutputMixer.h
+/*
+    AudioOutputMixer
+    Simple mixer which can combine multiple inputs to a single output stream
+
+    Copyright (C) 2017  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioOutputPDM.cpp
+/*
+    AudioOutputPDM
+
+    Copyright (C) 2025  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioOutputPDM.h
+/*
+    AudioOutputPDM
+    Base class for a ESP32 PDM output port
+
+    Copyright (C) 20125  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioOutputPWM.cpp
+/*
+    AudioOutputPWM
+    Base class for the RP2040 PWM audio
+
+    Copyright (C) 2023  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioOutputPWM.h
+/*
+    AudioOutputPWM
+    Base class for the RP2040 PWM audio output
+
+    Copyright (C) 2023  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioOutputSerialWAV.cpp
+/*
+    AudioOutputSerialWAV
+    Writes a mostly correct WAV file to the serial port
+
+    Copyright (C) 2017  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioOutputSPDIF.cpp
+/*
+    AudioOutputSPDIF
+
+    S/PDIF output via I2S
+
+    Needs transceiver from CMOS level to either optical or coaxial interface
+    See: https://www.epanorama.net/documents/audio/spdif.html
+
+    Original idea and sources:
+    Forum thread discussing implementation
+      https://forum.pjrc.com/threads/28639-S-pdif
+    Teensy Audio Library
+      https://github.com/PaulStoffregen/Audio/blob/master/output_spdif2.cpp
+
+    Adapted for ESP8266Audio
+
+    NOTE: This module operates I2S at 4x sampling rate, as it needs to
+        send out each bit as two output symbols, packed into
+        32-bit words. Even for mono sound, S/PDIF is specified minimum
+        for 2 channels, each as 32-bits sub-frame. This drains I2S
+        buffers 4x more quickly so you may need 4x bigger output
+        buffers than usual, configurable with 'dma_buf_count'
+        constructor parameter.
+
+    Copyright (C) 2020 Ivan Kostoski
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioOutputSPDIF.h
+/*
+    AudioOutputSPDIF
+
+    S/PDIF output via I2S
+
+    Needs transceiver from CMOS level to either optical or coaxial interface
+    See: https://www.epanorama.net/documents/audio/spdif.html
+
+    Original idea and sources:
+    Forum thread discussing implementation
+      https://forum.pjrc.com/threads/28639-S-pdif
+    Teensy Audio Library
+      https://github.com/PaulStoffregen/Audio/blob/master/output_spdif2.cpp
+
+    Adapted for ESP8266Audio
+
+    Copyright (C) 2020 Ivan Kostoski
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioOutputSPIFFSWAV.cpp
+/*
+    AudioOutputSPIFFSWAV
+    Writes a WAV file to the SPIFFS filesystem
+
+    Copyright (C) 2017  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioOutputSTDIO.cpp
+/*
+    AudioOutputSTDIO
+    Writes a WAV file to the STDIO filesystem
+    Only for host-based testing
+
+    Copyright (C) 2017  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioOutputULP.cpp
+/*
+    AudioOutputULP
+    Outputs to ESP32 DAC through the ULP, freeing I2S for other uses
+
+    Copyright (C) 2020  Martin Laclaustra, based on bitluni's code
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/AudioStatus.h
+/*
+    AudioStatus
+    Base class for Audio* status/metadata reporting
+
+    Copyright (C) 2017  Earle F. Philhower, III
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/spiram-fast.h
+/*
+    spiram-fast - Fast, hardcoded interface for SPI-based RAMs, allowing DIO
+               mode to be used and speeding up individual SPI operations
+               significantly.
+
+    Copyright (c) 2020 Earle F. Philhower, III   All rights reserved.
+
+    This library is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Lesser General Public
+    License as published by the Free Software Foundation; either
+    version 2.1 of the License, or (at your option) any later version.
+
+    This library is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Lesser General Public License for more details.
+
+    You should have received a copy of the GNU Lesser General Public
+    License along with this library; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+*/
+
+SOURCE: examples/StreamOnHost/AudioOutputLinuxDSP.h
+/*
+  AudioOutput
+  Base class of an audio output player
+
+  Copyright (C) 2017  Earle F. Philhower, III
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: examples/StreamOnHost/AudioOutputNullSlow.h
+/*
+  AudioOutput
+  Base class of an audio output player
+  
+  Copyright (C) 2017  Earle F. Philhower, III
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: examples/WebRadio/web.cpp
+/*
+  PsychoPlug
+  ESP8266 based remote outlet with standalone timer and MQTT integration
+  
+  Copyright (C) 2017  Earle F. Philhower, III
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+SOURCE: src/driver/SinglePinI2SDriver.cpp
+/*
+    SinglePinI2SDriver
+    ESP8266Audio I2S Minimal driver
+
+    Most of this code is taken and reworked from ESP8266 Arduino core,
+    which itself is reworked from Espessif's I2S examples.
+    Original code is licensed under LGPL 2.1 or above
+
+    Reasons for rewrite:
+    - Non-configurable size of DMA buffers
+    - We only need GPIO3 connected to I2SO_DATA
+    - No API to queue data from ISR. Callbacks are unusable
+    as i2s_write_* functions are not in IRAM and may re-enable
+    SLC interrupt before returning
+    - ISR overhead is not needed
+
+    Copyright (C) 2020 Ivan Kostoski
+
+    This library is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Lesser General Public
+    License as published by the Free Software Foundation; either
+    version 2.1 of the License, or (at your option) any later version.
+
+    This library is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Lesser General Public License for more details.
+
+    You should have received a copy of the GNU Lesser General Public
+    License along with this library; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+*/
+
+SOURCE: src/driver/SinglePinI2SDriver.h
+/*
+    SinglePinI2SDriver
+    ESP8266Audio I2S Minimal driver
+
+    Copyright (C) 2020 Ivan Kostoski
+
+    This library is free software; you can redistribute it and/or
+    modify it under the terms of the GNU Lesser General Public
+    License as published by the Free Software Foundation; either
+    version 2.1 of the License, or (at your option) any later version.
+
+    This library is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+    Lesser General Public License for more details.
+
+    You should have received a copy of the GNU Lesser General Public
+    License along with this library; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+*/
+
+SOURCE: src/libflac/bitmath.c
+/*  libFLAC - Free Lossless Audio Codec library
+    Copyright (C) 2001-2009  Josh Coalson
+    Copyright (C) 2011-2016  Xiph.Org Foundation
+
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions
+    are met:
+
+    - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+
+    - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+
+    - Neither the name of the Xiph.org Foundation nor the names of its
+    contributors may be used to endorse or promote products derived from
+    this software without specific prior written permission.
+
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+    ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+    LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+    A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE FOUNDATION OR
+    CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+    EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+    PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+    PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+    LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+    NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+SOURCE: src/libflac/bitreader.c
+/*  libFLAC - Free Lossless Audio Codec library
+    Copyright (C) 2000-2009  Josh Coalson
+    Copyright (C) 2011-2016  Xiph.Org Foundation
+
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions
+    are met:
+
+    - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+
+    - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+
+    - Neither the name of the Xiph.org Foundation nor the names of its
+    contributors may be used to endorse or promote products derived from
+    this software without specific prior written permission.
+
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+    ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+    LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+    A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE FOUNDATION OR
+    CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+    EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+    PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+    PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+    LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+    NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+SOURCE: src/libflac/float.c
+/*  libFLAC - Free Lossless Audio Codec library
+    Copyright (C) 2004-2009  Josh Coalson
+    Copyright (C) 2011-2016  Xiph.Org Foundation
+
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions
+    are met:
+
+    - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+
+    - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+
+    - Neither the name of the Xiph.org Foundation nor the names of its
+    contributors may be used to endorse or promote products derived from
+    this software without specific prior written permission.
+
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+    ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+    LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+    A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE FOUNDATION OR
+    CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+    EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+    PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+    PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+    LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+    NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+SOURCE: src/libflac/window.c
+/*  libFLAC - Free Lossless Audio Codec library
+    Copyright (C) 2006-2009  Josh Coalson
+    Copyright (C) 2011-2016  Xiph.Org Foundation
+
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions
+    are met:
+
+    - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+
+    - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+
+    - Neither the name of the Xiph.org Foundation nor the names of its
+    contributors may be used to endorse or promote products derived from
+    this software without specific prior written permission.
+
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+    ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+    LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+    A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE FOUNDATION OR
+    CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+    EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+    PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+    PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+    LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+    NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+SOURCE: src/libhelix-aac/aaccommon.h
+/* ***** BEGIN LICENSE BLOCK *****
+    Source last modified: $Id: aaccommon.h,v 1.1 2005/02/26 01:47:34 jrecker Exp $
+
+    Portions Copyright (c) 1995-2005 RealNetworks, Inc. All Rights Reserved.
+
+    The contents of this file, and the files included with this file,
+    are subject to the current version of the RealNetworks Public
+    Source License (the "RPSL") available at
+    http://www.helixcommunity.org/content/rpsl unless you have licensed
+    the file under the current version of the RealNetworks Community
+    Source License (the "RCSL") available at
+    http://www.helixcommunity.org/content/rcsl, in which case the RCSL
+    will apply. You may also obtain the license terms directly from
+    RealNetworks.  You may not use this file except in compliance with
+    the RPSL or, if you have a valid RCSL with RealNetworks applicable
+    to this file, the RCSL.  Please see the applicable RPSL or RCSL for
+    the rights, obligations and limitations governing use of the
+    contents of the file.
+
+    This file is part of the Helix DNA Technology. RealNetworks is the
+    developer of the Original Code and owns the copyrights in the
+    portions it created.
+
+    This file, and the files included with this file, is distributed
+    and made available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY
+    KIND, EITHER EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS
+    ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET
+    ENJOYMENT OR NON-INFRINGEMENT.
+
+    Technology Compatibility Kit Test Suite(s) Location:
+      http://www.helixcommunity.org/content/tck
+
+    Contributor(s):
+
+ * ***** END LICENSE BLOCK ***** */
+
+SOURCE: src/libhelix-aac/aacdec.c
+/* ***** BEGIN LICENSE BLOCK *****
+    Source last modified: $Id: aacdec.c,v 1.1 2005/02/26 01:47:31 jrecker Exp $
+
+    Portions Copyright (c) 1995-2005 RealNetworks, Inc. All Rights Reserved.
+
+    The contents of this file, and the files included with this file,
+    are subject to the current version of the RealNetworks Public
+    Source License (the "RPSL") available at
+    http://www.helixcommunity.org/content/rpsl unless you have licensed
+    the file under the current version of the RealNetworks Community
+    Source License (the "RCSL") available at
+    http://www.helixcommunity.org/content/rcsl, in which case the RCSL
+    will apply. You may also obtain the license terms directly from
+    RealNetworks.  You may not use this file except in compliance with
+    the RPSL or, if you have a valid RCSL with RealNetworks applicable
+    to this file, the RCSL.  Please see the applicable RPSL or RCSL for
+    the rights, obligations and limitations governing use of the
+    contents of the file.
+
+    This file is part of the Helix DNA Technology. RealNetworks is the
+    developer of the Original Code and owns the copyrights in the
+    portions it created.
+
+    This file, and the files included with this file, is distributed
+    and made available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY
+    KIND, EITHER EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS
+    ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET
+    ENJOYMENT OR NON-INFRINGEMENT.
+
+    Technology Compatibility Kit Test Suite(s) Location:
+      http://www.helixcommunity.org/content/tck
+
+    Contributor(s):
+
+ * ***** END LICENSE BLOCK ***** */
+
+SOURCE: src/libhelix-aac/aacdec.h
+/* ***** BEGIN LICENSE BLOCK *****
+    Source last modified: $Id: aacdec.h,v 1.8 2005/11/10 00:15:08 margotm Exp $
+
+    Portions Copyright (c) 1995-2005 RealNetworks, Inc. All Rights Reserved.
+
+    The contents of this file, and the files included with this file,
+    are subject to the current version of the RealNetworks Public
+    Source License (the "RPSL") available at
+    http://www.helixcommunity.org/content/rpsl unless you have licensed
+    the file under the current version of the RealNetworks Community
+    Source License (the "RCSL") available at
+    http://www.helixcommunity.org/content/rcsl, in which case the RCSL
+    will apply. You may also obtain the license terms directly from
+    RealNetworks.  You may not use this file except in compliance with
+    the RPSL or, if you have a valid RCSL with RealNetworks applicable
+    to this file, the RCSL.  Please see the applicable RPSL or RCSL for
+    the rights, obligations and limitations governing use of the
+    contents of the file.
+
+    This file is part of the Helix DNA Technology. RealNetworks is the
+    developer of the Original Code and owns the copyrights in the
+    portions it created.
+
+    This file, and the files included with this file, is distributed
+    and made available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY
+    KIND, EITHER EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS
+    ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET
+    ENJOYMENT OR NON-INFRINGEMENT.
+
+    Technology Compatibility Kit Test Suite(s) Location:
+      http://www.helixcommunity.org/content/tck
+
+    Contributor(s):
+
+ * ***** END LICENSE BLOCK ***** */
+
+SOURCE: src/libhelix-aac/aactabs.c
+/* ***** BEGIN LICENSE BLOCK *****
+    Source last modified: $Id: aactabs.c,v 1.1 2005/02/26 01:47:31 jrecker Exp $
+
+    Portions Copyright (c) 1995-2005 RealNetworks, Inc. All Rights Reserved.
+
+    The contents of this file, and the files included with this file,
+    are subject to the current version of the RealNetworks Public
+    Source License (the "RPSL") available at
+    http://www.helixcommunity.org/content/rpsl unless you have licensed
+    the file under the current version of the RealNetworks Community
+    Source License (the "RCSL") available at
+    http://www.helixcommunity.org/content/rcsl, in which case the RCSL
+    will apply. You may also obtain the license terms directly from
+    RealNetworks.  You may not use this file except in compliance with
+    the RPSL or, if you have a valid RCSL with RealNetworks applicable
+    to this file, the RCSL.  Please see the applicable RPSL or RCSL for
+    the rights, obligations and limitations governing use of the
+    contents of the file.
+
+    This file is part of the Helix DNA Technology. RealNetworks is the
+    developer of the Original Code and owns the copyrights in the
+    portions it created.
+
+    This file, and the files included with this file, is distributed
+    and made available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY
+    KIND, EITHER EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS
+    ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET
+    ENJOYMENT OR NON-INFRINGEMENT.
+
+    Technology Compatibility Kit Test Suite(s) Location:
+      http://www.helixcommunity.org/content/tck
+
+    Contributor(s):
+
+ * ***** END LICENSE BLOCK ***** */
+
+SOURCE: src/libhelix-aac/assembly.h
+/* ***** BEGIN LICENSE BLOCK *****
+    Source last modified: $Id: assembly.h,v 1.7 2005/11/10 00:04:40 margotm Exp $
+
+    Portions Copyright (c) 1995-2005 RealNetworks, Inc. All Rights Reserved.
+
+    The contents of this file, and the files included with this file,
+    are subject to the current version of the RealNetworks Public
+    Source License (the "RPSL") available at
+    http://www.helixcommunity.org/content/rpsl unless you have licensed
+    the file under the current version of the RealNetworks Community
+    Source License (the "RCSL") available at
+    http://www.helixcommunity.org/content/rcsl, in which case the RCSL
+    will apply. You may also obtain the license terms directly from
+    RealNetworks.  You may not use this file except in compliance with
+    the RPSL or, if you have a valid RCSL with RealNetworks applicable
+    to this file, the RCSL.  Please see the applicable RPSL or RCSL for
+    the rights, obligations and limitations governing use of the
+    contents of the file.
+
+    This file is part of the Helix DNA Technology. RealNetworks is the
+    developer of the Original Code and owns the copyrights in the
+    portions it created.
+
+    This file, and the files included with this file, is distributed
+    and made available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY
+    KIND, EITHER EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS
+    ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET
+    ENJOYMENT OR NON-INFRINGEMENT.
+
+    Technology Compatibility Kit Test Suite(s) Location:
+      http://www.helixcommunity.org/content/tck
+
+    Contributor(s):
+
+ * ***** END LICENSE BLOCK ***** */
+
+SOURCE: src/libhelix-aac/bitstream.c
+/* ***** BEGIN LICENSE BLOCK *****
+    Source last modified: $Id: bitstream.c,v 1.2 2005/09/27 20:31:11 jrecker Exp $
+
+    Portions Copyright (c) 1995-2005 RealNetworks, Inc. All Rights Reserved.
+
+    The contents of this file, and the files included with this file,
+    are subject to the current version of the RealNetworks Public
+    Source License (the "RPSL") available at
+    http://www.helixcommunity.org/content/rpsl unless you have licensed
+    the file under the current version of the RealNetworks Community
+    Source License (the "RCSL") available at
+    http://www.helixcommunity.org/content/rcsl, in which case the RCSL
+    will apply. You may also obtain the license terms directly from
+    RealNetworks.  You may not use this file except in compliance with
+    the RPSL or, if you have a valid RCSL with RealNetworks applicable
+    to this file, the RCSL.  Please see the applicable RPSL or RCSL for
+    the rights, obligations and limitations governing use of the
+    contents of the file.
+
+    This file is part of the Helix DNA Technology. RealNetworks is the
+    developer of the Original Code and owns the copyrights in the
+    portions it created.
+
+    This file, and the files included with this file, is distributed
+    and made available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY
+    KIND, EITHER EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS
+    ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET
+    ENJOYMENT OR NON-INFRINGEMENT.
+
+    Technology Compatibility Kit Test Suite(s) Location:
+      http://www.helixcommunity.org/content/tck
+
+    Contributor(s):
+
+ * ***** END LICENSE BLOCK ***** */
+
+SOURCE: src/libhelix-aac/bitstream.h
+/* ***** BEGIN LICENSE BLOCK *****
+    Source last modified: $Id: bitstream.h,v 1.1 2005/02/26 01:47:34 jrecker Exp $
+
+    Portions Copyright (c) 1995-2005 RealNetworks, Inc. All Rights Reserved.
+
+    The contents of this file, and the files included with this file,
+    are subject to the current version of the RealNetworks Public
+    Source License (the "RPSL") available at
+    http://www.helixcommunity.org/content/rpsl unless you have licensed
+    the file under the current version of the RealNetworks Community
+    Source License (the "RCSL") available at
+    http://www.helixcommunity.org/content/rcsl, in which case the RCSL
+    will apply. You may also obtain the license terms directly from
+    RealNetworks.  You may not use this file except in compliance with
+    the RPSL or, if you have a valid RCSL with RealNetworks applicable
+    to this file, the RCSL.  Please see the applicable RPSL or RCSL for
+    the rights, obligations and limitations governing use of the
+    contents of the file.
+
+    This file is part of the Helix DNA Technology. RealNetworks is the
+    developer of the Original Code and owns the copyrights in the
+    portions it created.
+
+    This file, and the files included with this file, is distributed
+    and made available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY
+    KIND, EITHER EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS
+    ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET
+    ENJOYMENT OR NON-INFRINGEMENT.
+
+    Technology Compatibility Kit Test Suite(s) Location:
+      http://www.helixcommunity.org/content/tck
+
+    Contributor(s):
+
+ * ***** END LICENSE BLOCK ***** */
+
+SOURCE: src/libhelix-aac/buffers.c
+/* ***** BEGIN LICENSE BLOCK *****
+    Source last modified: $Id: buffers.c,v 1.1 2005/02/26 01:47:34 jrecker Exp $
+
+    Portions Copyright (c) 1995-2005 RealNetworks, Inc. All Rights Reserved.
+
+    The contents of this file, and the files included with this file,
+    are subject to the current version of the RealNetworks Public
+    Source License (the "RPSL") available at
+    http://www.helixcommunity.org/content/rpsl unless you have licensed
+    the file under the current version of the RealNetworks Community
+    Source License (the "RCSL") available at
+    http://www.helixcommunity.org/content/rcsl, in which case the RCSL
+    will apply. You may also obtain the license terms directly from
+    RealNetworks.  You may not use this file except in compliance with
+    the RPSL or, if you have a valid RCSL with RealNetworks applicable
+    to this file, the RCSL.  Please see the applicable RPSL or RCSL for
+    the rights, obligations and limitations governing use of the
+    contents of the file.
+
+    This file is part of the Helix DNA Technology. RealNetworks is the
+    developer of the Original Code and owns the copyrights in the
+    portions it created.
+
+    This file, and the files included with this file, is distributed
+    and made available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY
+    KIND, EITHER EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS
+    ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET
+    ENJOYMENT OR NON-INFRINGEMENT.
+
+    Technology Compatibility Kit Test Suite(s) Location:
+      http://www.helixcommunity.org/content/tck
+
+    Contributor(s):
+
+ * ***** END LICENSE BLOCK ***** */
+
+SOURCE: src/libhelix-aac/coder.h
+/* ***** BEGIN LICENSE BLOCK *****
+    Source last modified: $Id: coder.h,v 1.2 2005/06/27 21:06:00 gwright Exp $
+
+    Portions Copyright (c) 1995-2005 RealNetworks, Inc. All Rights Reserved.
+
+    The contents of this file, and the files included with this file,
+    are subject to the current version of the RealNetworks Public
+    Source License (the "RPSL") available at
+    http://www.helixcommunity.org/content/rpsl unless you have licensed
+    the file under the current version of the RealNetworks Community
+    Source License (the "RCSL") available at
+    http://www.helixcommunity.org/content/rcsl, in which case the RCSL
+    will apply. You may also obtain the license terms directly from
+    RealNetworks.  You may not use this file except in compliance with
+    the RPSL or, if you have a valid RCSL with RealNetworks applicable
+    to this file, the RCSL.  Please see the applicable RPSL or RCSL for
+    the rights, obligations and limitations governing use of the
+    contents of the file.
+
+    This file is part of the Helix DNA Technology. RealNetworks is the
+    developer of the Original Code and owns the copyrights in the
+    portions it created.
+
+    This file, and the files included with this file, is distributed
+    and made available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY
+    KIND, EITHER EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS
+    ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET
+    ENJOYMENT OR NON-INFRINGEMENT.
+
+    Technology Compatibility Kit Test Suite(s) Location:
+      http://www.helixcommunity.org/content/tck
+
+    Contributor(s):
+
+ * ***** END LICENSE BLOCK ***** */
+
+SOURCE: src/libhelix-aac/dct4.c
+/* ***** BEGIN LICENSE BLOCK *****
+    Source last modified: $Id: dct4.c,v 1.1 2005/02/26 01:47:34 jrecker Exp $
+
+    Portions Copyright (c) 1995-2005 RealNetworks, Inc. All Rights Reserved.
+
+    The contents of this file, and the files included with this file,
+    are subject to the current version of the RealNetworks Public
+    Source License (the "RPSL") available at
+    http://www.helixcommunity.org/content/rpsl unless you have licensed
+    the file under the current version of the RealNetworks Community
+    Source License (the "RCSL") available at
+    http://www.helixcommunity.org/content/rcsl, in which case the RCSL
+    will apply. You may also obtain the license terms directly from
+    RealNetworks.  You may not use this file except in compliance with
+    the RPSL or, if you have a valid RCSL with RealNetworks applicable
+    to this file, the RCSL.  Please see the applicable RPSL or RCSL for
+    the rights, obligations and limitations governing use of the
+    contents of the file.
+
+    This file is part of the Helix DNA Technology. RealNetworks is the
+    developer of the Original Code and owns the copyrights in the
+    portions it created.
+
+    This file, and the files included with this file, is distributed
+    and made available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY
+    KIND, EITHER EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS
+    ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET
+    ENJOYMENT OR NON-INFRINGEMENT.
+
+    Technology Compatibility Kit Test Suite(s) Location:
+      http://www.helixcommunity.org/content/tck
+
+    Contributor(s):
+
+ * ***** END LICENSE BLOCK ***** */
+
+SOURCE: src/libhelix-aac/decelmnt.c
+/* ***** BEGIN LICENSE BLOCK *****
+    Source last modified: $Id: decelmnt.c,v 1.1 2005/02/26 01:47:34 jrecker Exp $
+
+    Portions Copyright (c) 1995-2005 RealNetworks, Inc. All Rights Reserved.
+
+    The contents of this file, and the files included with this file,
+    are subject to the current version of the RealNetworks Public
+    Source License (the "RPSL") available at
+    http://www.helixcommunity.org/content/rpsl unless you have licensed
+    the file under the current version of the RealNetworks Community
+    Source License (the "RCSL") available at
+    http://www.helixcommunity.org/content/rcsl, in which case the RCSL
+    will apply. You may also obtain the license terms directly from
+    RealNetworks.  You may not use this file except in compliance with
+    the RPSL or, if you have a valid RCSL with RealNetworks applicable
+    to this file, the RCSL.  Please see the applicable RPSL or RCSL for
+    the rights, obligations and limitations governing use of the
+    contents of the file.
+
+    This file is part of the Helix DNA Technology. RealNetworks is the
+    developer of the Original Code and owns the copyrights in the
+    portions it created.
+
+    This file, and the files included with this file, is distributed
+    and made available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY
+    KIND, EITHER EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS
+    ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET
+    ENJOYMENT OR NON-INFRINGEMENT.
+
+    Technology Compatibility Kit Test Suite(s) Location:
+      http://www.helixcommunity.org/content/tck
+
+    Contributor(s):
+
+ * ***** END LICENSE BLOCK ***** */
+
+SOURCE: src/libhelix-aac/dequant.c
+/* ***** BEGIN LICENSE BLOCK *****
+    Source last modified: $Id: dequant.c,v 1.2 2005/05/20 18:05:41 jrecker Exp $
+
+    Portions Copyright (c) 1995-2005 RealNetworks, Inc. All Rights Reserved.
+
+    The contents of this file, and the files included with this file,
+    are subject to the current version of the RealNetworks Public
+    Source License (the "RPSL") available at
+    http://www.helixcommunity.org/content/rpsl unless you have licensed
+    the file under the current version of the RealNetworks Community
+    Source License (the "RCSL") available at
+    http://www.helixcommunity.org/content/rcsl, in which case the RCSL
+    will apply. You may also obtain the license terms directly from
+    RealNetworks.  You may not use this file except in compliance with
+    the RPSL or, if you have a valid RCSL with RealNetworks applicable
+    to this file, the RCSL.  Please see the applicable RPSL or RCSL for
+    the rights, obligations and limitations governing use of the
+    contents of the file.
+
+    This file is part of the Helix DNA Technology. RealNetworks is the
+    developer of the Original Code and owns the copyrights in the
+    portions it created.
+
+    This file, and the files included with this file, is distributed
+    and made available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY
+    KIND, EITHER EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS
+    ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET
+    ENJOYMENT OR NON-INFRINGEMENT.
+
+    Technology Compatibility Kit Test Suite(s) Location:
+      http://www.helixcommunity.org/content/tck
+
+    Contributor(s):
+
+ * ***** END LICENSE BLOCK ***** */
+
+SOURCE: src/libhelix-aac/filefmt.c
+/* ***** BEGIN LICENSE BLOCK *****
+    Source last modified: $Id: filefmt.c,v 1.1 2005/02/26 01:47:34 jrecker Exp $
+
+    Portions Copyright (c) 1995-2005 RealNetworks, Inc. All Rights Reserved.
+
+    The contents of this file, and the files included with this file,
+    are subject to the current version of the RealNetworks Public
+    Source License (the "RPSL") available at
+    http://www.helixcommunity.org/content/rpsl unless you have licensed
+    the file under the current version of the RealNetworks Community
+    Source License (the "RCSL") available at
+    http://www.helixcommunity.org/content/rcsl, in which case the RCSL
+    will apply. You may also obtain the license terms directly from
+    RealNetworks.  You may not use this file except in compliance with
+    the RPSL or, if you have a valid RCSL with RealNetworks applicable
+    to this file, the RCSL.  Please see the applicable RPSL or RCSL for
+    the rights, obligations and limitations governing use of the
+    contents of the file.
+
+    This file is part of the Helix DNA Technology. RealNetworks is the
+    developer of the Original Code and owns the copyrights in the
+    portions it created.
+
+    This file, and the files included with this file, is distributed
+    and made available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY
+    KIND, EITHER EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS
+    ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET
+    ENJOYMENT OR NON-INFRINGEMENT.
+
+    Technology Compatibility Kit Test Suite(s) Location:
+      http://www.helixcommunity.org/content/tck
+
+    Contributor(s):
+
+ * ***** END LICENSE BLOCK ***** */
+
+SOURCE: src/libhelix-aac/huffmanaac.c
+/* ***** BEGIN LICENSE BLOCK *****
+    Source last modified: $Id: huffman.c,v 1.2 2005/05/24 16:01:55 albertofloyd Exp $
+
+    Portions Copyright (c) 1995-2005 RealNetworks, Inc. All Rights Reserved.
+
+    The contents of this file, and the files included with this file,
+    are subject to the current version of the RealNetworks Public
+    Source License (the "RPSL") available at
+    http://www.helixcommunity.org/content/rpsl unless you have licensed
+    the file under the current version of the RealNetworks Community
+    Source License (the "RCSL") available at
+    http://www.helixcommunity.org/content/rcsl, in which case the RCSL
+    will apply. You may also obtain the license terms directly from
+    RealNetworks.  You may not use this file except in compliance with
+    the RPSL or, if you have a valid RCSL with RealNetworks applicable
+    to this file, the RCSL.  Please see the applicable RPSL or RCSL for
+    the rights, obligations and limitations governing use of the
+    contents of the file.
+
+    This file is part of the Helix DNA Technology. RealNetworks is the
+    developer of the Original Code and owns the copyrights in the
+    portions it created.
+
+    This file, and the files included with this file, is distributed
+    and made available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY
+    KIND, EITHER EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS
+    ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET
+    ENJOYMENT OR NON-INFRINGEMENT.
+
+    Technology Compatibility Kit Test Suite(s) Location:
+      http://www.helixcommunity.org/content/tck
+
+    Contributor(s):
+
+ * ***** END LICENSE BLOCK ***** */
+
+SOURCE: src/libhelix-aac/hufftabs.c
+/* ***** BEGIN LICENSE BLOCK *****
+    Source last modified: $Id: hufftabs.c,v 1.1 2005/02/26 01:47:34 jrecker Exp $
+
+    Portions Copyright (c) 1995-2005 RealNetworks, Inc. All Rights Reserved.
+
+    The contents of this file, and the files included with this file,
+    are subject to the current version of the RealNetworks Public
+    Source License (the "RPSL") available at
+    http://www.helixcommunity.org/content/rpsl unless you have licensed
+    the file under the current version of the RealNetworks Community
+    Source License (the "RCSL") available at
+    http://www.helixcommunity.org/content/rcsl, in which case the RCSL
+    will apply. You may also obtain the license terms directly from
+    RealNetworks.  You may not use this file except in compliance with
+    the RPSL or, if you have a valid RCSL with RealNetworks applicable
+    to this file, the RCSL.  Please see the applicable RPSL or RCSL for
+    the rights, obligations and limitations governing use of the
+    contents of the file.
+
+    This file is part of the Helix DNA Technology. RealNetworks is the
+    developer of the Original Code and owns the copyrights in the
+    portions it created.
+
+    This file, and the files included with this file, is distributed
+    and made available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY
+    KIND, EITHER EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS
+    ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET
+    ENJOYMENT OR NON-INFRINGEMENT.
+
+    Technology Compatibility Kit Test Suite(s) Location:
+      http://www.helixcommunity.org/content/tck
+
+    Contributor(s):
+
+ * ***** END LICENSE BLOCK ***** */
+
+SOURCE: src/libhelix-aac/imdct.c
+/* ***** BEGIN LICENSE BLOCK *****
+    Source last modified: $Id: imdct.c,v 1.1 2005/02/26 01:47:35 jrecker Exp $
+
+    Portions Copyright (c) 1995-2005 RealNetworks, Inc. All Rights Reserved.
+
+    The contents of this file, and the files included with this file,
+    are subject to the current version of the RealNetworks Public
+    Source License (the "RPSL") available at
+    http://www.helixcommunity.org/content/rpsl unless you have licensed
+    the file under the current version of the RealNetworks Community
+    Source License (the "RCSL") available at
+    http://www.helixcommunity.org/content/rcsl, in which case the RCSL
+    will apply. You may also obtain the license terms directly from
+    RealNetworks.  You may not use this file except in compliance with
+    the RPSL or, if you have a valid RCSL with RealNetworks applicable
+    to this file, the RCSL.  Please see the applicable RPSL or RCSL for
+    the rights, obligations and limitations governing use of the
+    contents of the file.
+
+    This file is part of the Helix DNA Technology. RealNetworks is the
+    developer of the Original Code and owns the copyrights in the
+    portions it created.
+
+    This file, and the files included with this file, is distributed
+    and made available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY
+    KIND, EITHER EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS
+    ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET
+    ENJOYMENT OR NON-INFRINGEMENT.
+
+    Technology Compatibility Kit Test Suite(s) Location:
+      http://www.helixcommunity.org/content/tck
+
+    Contributor(s):
+
+ * ***** END LICENSE BLOCK ***** */
+
+SOURCE: src/libhelix-aac/noiseless.c
+/* ***** BEGIN LICENSE BLOCK *****
+    Source last modified: $Id: noiseless.c,v 1.1 2005/02/26 01:47:35 jrecker Exp $
+
+    Portions Copyright (c) 1995-2005 RealNetworks, Inc. All Rights Reserved.
+
+    The contents of this file, and the files included with this file,
+    are subject to the current version of the RealNetworks Public
+    Source License (the "RPSL") available at
+    http://www.helixcommunity.org/content/rpsl unless you have licensed
+    the file under the current version of the RealNetworks Community
+    Source License (the "RCSL") available at
+    http://www.helixcommunity.org/content/rcsl, in which case the RCSL
+    will apply. You may also obtain the license terms directly from
+    RealNetworks.  You may not use this file except in compliance with
+    the RPSL or, if you have a valid RCSL with RealNetworks applicable
+    to this file, the RCSL.  Please see the applicable RPSL or RCSL for
+    the rights, obligations and limitations governing use of the
+    contents of the file.
+
+    This file is part of the Helix DNA Technology. RealNetworks is the
+    developer of the Original Code and owns the copyrights in the
+    portions it created.
+
+    This file, and the files included with this file, is distributed
+    and made available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY
+    KIND, EITHER EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS
+    ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET
+    ENJOYMENT OR NON-INFRINGEMENT.
+
+    Technology Compatibility Kit Test Suite(s) Location:
+      http://www.helixcommunity.org/content/tck
+
+    Contributor(s):
+
+ * ***** END LICENSE BLOCK ***** */
+
+SOURCE: src/libhelix-aac/pns.c
+/* ***** BEGIN LICENSE BLOCK *****
+    Source last modified: $Id: pns.c,v 1.2 2005/03/10 17:01:56 jrecker Exp $
+
+    Portions Copyright (c) 1995-2005 RealNetworks, Inc. All Rights Reserved.
+
+    The contents of this file, and the files included with this file,
+    are subject to the current version of the RealNetworks Public
+    Source License (the "RPSL") available at
+    http://www.helixcommunity.org/content/rpsl unless you have licensed
+    the file under the current version of the RealNetworks Community
+    Source License (the "RCSL") available at
+    http://www.helixcommunity.org/content/rcsl, in which case the RCSL
+    will apply. You may also obtain the license terms directly from
+    RealNetworks.  You may not use this file except in compliance with
+    the RPSL or, if you have a valid RCSL with RealNetworks applicable
+    to this file, the RCSL.  Please see the applicable RPSL or RCSL for
+    the rights, obligations and limitations governing use of the
+    contents of the file.
+
+    This file is part of the Helix DNA Technology. RealNetworks is the
+    developer of the Original Code and owns the copyrights in the
+    portions it created.
+
+    This file, and the files included with this file, is distributed
+    and made available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY
+    KIND, EITHER EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS
+    ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET
+    ENJOYMENT OR NON-INFRINGEMENT.
+
+    Technology Compatibility Kit Test Suite(s) Location:
+      http://www.helixcommunity.org/content/tck
+
+    Contributor(s):
+
+ * ***** END LICENSE BLOCK ***** */
+
+SOURCE: src/libhelix-aac/sbr.c
+/* ***** BEGIN LICENSE BLOCK *****
+    Source last modified: $Id: sbr.c,v 1.3 2005/05/24 16:01:55 albertofloyd Exp $
+
+    Portions Copyright (c) 1995-2005 RealNetworks, Inc. All Rights Reserved.
+
+    The contents of this file, and the files included with this file,
+    are subject to the current version of the RealNetworks Public
+    Source License (the "RPSL") available at
+    http://www.helixcommunity.org/content/rpsl unless you have licensed
+    the file under the current version of the RealNetworks Community
+    Source License (the "RCSL") available at
+    http://www.helixcommunity.org/content/rcsl, in which case the RCSL
+    will apply. You may also obtain the license terms directly from
+    RealNetworks.  You may not use this file except in compliance with
+    the RPSL or, if you have a valid RCSL with RealNetworks applicable
+    to this file, the RCSL.  Please see the applicable RPSL or RCSL for
+    the rights, obligations and limitations governing use of the
+    contents of the file.
+
+    This file is part of the Helix DNA Technology. RealNetworks is the
+    developer of the Original Code and owns the copyrights in the
+    portions it created.
+
+    This file, and the files included with this file, is distributed
+    and made available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY
+    KIND, EITHER EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS
+    ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET
+    ENJOYMENT OR NON-INFRINGEMENT.
+
+    Technology Compatibility Kit Test Suite(s) Location:
+      http://www.helixcommunity.org/content/tck
+
+    Contributor(s):
+
+ * ***** END LICENSE BLOCK ***** */
+
+SOURCE: src/libhelix-aac/sbr.h
+/* ***** BEGIN LICENSE BLOCK *****
+    Source last modified: $Id: sbr.h,v 1.2 2005/05/20 18:05:41 jrecker Exp $
+
+    Portions Copyright (c) 1995-2005 RealNetworks, Inc. All Rights Reserved.
+
+    The contents of this file, and the files included with this file,
+    are subject to the current version of the RealNetworks Public
+    Source License (the "RPSL") available at
+    http://www.helixcommunity.org/content/rpsl unless you have licensed
+    the file under the current version of the RealNetworks Community
+    Source License (the "RCSL") available at
+    http://www.helixcommunity.org/content/rcsl, in which case the RCSL
+    will apply. You may also obtain the license terms directly from
+    RealNetworks.  You may not use this file except in compliance with
+    the RPSL or, if you have a valid RCSL with RealNetworks applicable
+    to this file, the RCSL.  Please see the applicable RPSL or RCSL for
+    the rights, obligations and limitations governing use of the
+    contents of the file.
+
+    This file is part of the Helix DNA Technology. RealNetworks is the
+    developer of the Original Code and owns the copyrights in the
+    portions it created.
+
+    This file, and the files included with this file, is distributed
+    and made available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY
+    KIND, EITHER EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS
+    ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET
+    ENJOYMENT OR NON-INFRINGEMENT.
+
+    Technology Compatibility Kit Test Suite(s) Location:
+      http://www.helixcommunity.org/content/tck
+
+    Contributor(s):
+
+ * ***** END LICENSE BLOCK ***** */
+
+SOURCE: src/libhelix-aac/sbrfft.c
+/* ***** BEGIN LICENSE BLOCK *****
+    Source last modified: $Id: sbrfft.c,v 1.1 2005/02/26 01:47:35 jrecker Exp $
+
+    Portions Copyright (c) 1995-2005 RealNetworks, Inc. All Rights Reserved.
+
+    The contents of this file, and the files included with this file,
+    are subject to the current version of the RealNetworks Public
+    Source License (the "RPSL") available at
+    http://www.helixcommunity.org/content/rpsl unless you have licensed
+    the file under the current version of the RealNetworks Community
+    Source License (the "RCSL") available at
+    http://www.helixcommunity.org/content/rcsl, in which case the RCSL
+    will apply. You may also obtain the license terms directly from
+    RealNetworks.  You may not use this file except in compliance with
+    the RPSL or, if you have a valid RCSL with RealNetworks applicable
+    to this file, the RCSL.  Please see the applicable RPSL or RCSL for
+    the rights, obligations and limitations governing use of the
+    contents of the file.
+
+    This file is part of the Helix DNA Technology. RealNetworks is the
+    developer of the Original Code and owns the copyrights in the
+    portions it created.
+
+    This file, and the files included with this file, is distributed
+    and made available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY
+    KIND, EITHER EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS
+    ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET
+    ENJOYMENT OR NON-INFRINGEMENT.
+
+    Technology Compatibility Kit Test Suite(s) Location:
+      http://www.helixcommunity.org/content/tck
+
+    Contributor(s):
+
+ * ***** END LICENSE BLOCK ***** */
+
+SOURCE: src/libhelix-aac/sbrfreq.c
+/* ***** BEGIN LICENSE BLOCK *****
+    Source last modified: $Id: sbrfreq.c,v 1.2 2005/05/20 18:05:41 jrecker Exp $
+
+    Portions Copyright (c) 1995-2005 RealNetworks, Inc. All Rights Reserved.
+
+    The contents of this file, and the files included with this file,
+    are subject to the current version of the RealNetworks Public
+    Source License (the "RPSL") available at
+    http://www.helixcommunity.org/content/rpsl unless you have licensed
+    the file under the current version of the RealNetworks Community
+    Source License (the "RCSL") available at
+    http://www.helixcommunity.org/content/rcsl, in which case the RCSL
+    will apply. You may also obtain the license terms directly from
+    RealNetworks.  You may not use this file except in compliance with
+    the RPSL or, if you have a valid RCSL with RealNetworks applicable
+    to this file, the RCSL.  Please see the applicable RPSL or RCSL for
+    the rights, obligations and limitations governing use of the
+    contents of the file.
+
+    This file is part of the Helix DNA Technology. RealNetworks is the
+    developer of the Original Code and owns the copyrights in the
+    portions it created.
+
+    This file, and the files included with this file, is distributed
+    and made available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY
+    KIND, EITHER EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS
+    ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET
+    ENJOYMENT OR NON-INFRINGEMENT.
+
+    Technology Compatibility Kit Test Suite(s) Location:
+      http://www.helixcommunity.org/content/tck
+
+    Contributor(s):
+
+ * ***** END LICENSE BLOCK ***** */
+
+SOURCE: src/libhelix-aac/sbrhfadj.c
+/* ***** BEGIN LICENSE BLOCK *****
+    Source last modified: $Id: sbrhfadj.c,v 1.3 2005/05/24 16:01:55 albertofloyd Exp $
+
+    Portions Copyright (c) 1995-2005 RealNetworks, Inc. All Rights Reserved.
+
+    The contents of this file, and the files included with this file,
+    are subject to the current version of the RealNetworks Public
+    Source License (the "RPSL") available at
+    http://www.helixcommunity.org/content/rpsl unless you have licensed
+    the file under the current version of the RealNetworks Community
+    Source License (the "RCSL") available at
+    http://www.helixcommunity.org/content/rcsl, in which case the RCSL
+    will apply. You may also obtain the license terms directly from
+    RealNetworks.  You may not use this file except in compliance with
+    the RPSL or, if you have a valid RCSL with RealNetworks applicable
+    to this file, the RCSL.  Please see the applicable RPSL or RCSL for
+    the rights, obligations and limitations governing use of the
+    contents of the file.
+
+    This file is part of the Helix DNA Technology. RealNetworks is the
+    developer of the Original Code and owns the copyrights in the
+    portions it created.
+
+    This file, and the files included with this file, is distributed
+    and made available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY
+    KIND, EITHER EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS
+    ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET
+    ENJOYMENT OR NON-INFRINGEMENT.
+
+    Technology Compatibility Kit Test Suite(s) Location:
+      http://www.helixcommunity.org/content/tck
+
+    Contributor(s):
+
+ * ***** END LICENSE BLOCK ***** */
+
+SOURCE: src/libhelix-aac/sbrhfgen.c
+/* ***** BEGIN LICENSE BLOCK *****
+    Source last modified: $Id: sbrhfgen.c,v 1.2 2005/05/19 20:45:20 jrecker Exp $
+
+    Portions Copyright (c) 1995-2005 RealNetworks, Inc. All Rights Reserved.
+
+    The contents of this file, and the files included with this file,
+    are subject to the current version of the RealNetworks Public
+    Source License (the "RPSL") available at
+    http://www.helixcommunity.org/content/rpsl unless you have licensed
+    the file under the current version of the RealNetworks Community
+    Source License (the "RCSL") available at
+    http://www.helixcommunity.org/content/rcsl, in which case the RCSL
+    will apply. You may also obtain the license terms directly from
+    RealNetworks.  You may not use this file except in compliance with
+    the RPSL or, if you have a valid RCSL with RealNetworks applicable
+    to this file, the RCSL.  Please see the applicable RPSL or RCSL for
+    the rights, obligations and limitations governing use of the
+    contents of the file.
+
+    This file is part of the Helix DNA Technology. RealNetworks is the
+    developer of the Original Code and owns the copyrights in the
+    portions it created.
+
+    This file, and the files included with this file, is distributed
+    and made available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY
+    KIND, EITHER EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS
+    ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET
+    ENJOYMENT OR NON-INFRINGEMENT.
+
+    Technology Compatibility Kit Test Suite(s) Location:
+      http://www.helixcommunity.org/content/tck
+
+    Contributor(s):
+
+ * ***** END LICENSE BLOCK ***** */
+
+SOURCE: src/libhelix-aac/sbrimdct.c
+/* ***** BEGIN LICENSE BLOCK *****
+    Source last modified: $Id: sbrimdct.c,v 1.1 2005/02/26 01:47:35 jrecker Exp $
+
+    Portions Copyright (c) 1995-2005 RealNetworks, Inc. All Rights Reserved.
+
+    The contents of this file, and the files included with this file,
+    are subject to the current version of the RealNetworks Public
+    Source License (the "RPSL") available at
+    http://www.helixcommunity.org/content/rpsl unless you have licensed
+    the file under the current version of the RealNetworks Community
+    Source License (the "RCSL") available at
+    http://www.helixcommunity.org/content/rcsl, in which case the RCSL
+    will apply. You may also obtain the license terms directly from
+    RealNetworks.  You may not use this file except in compliance with
+    the RPSL or, if you have a valid RCSL with RealNetworks applicable
+    to this file, the RCSL.  Please see the applicable RPSL or RCSL for
+    the rights, obligations and limitations governing use of the
+    contents of the file.
+
+    This file is part of the Helix DNA Technology. RealNetworks is the
+    developer of the Original Code and owns the copyrights in the
+    portions it created.
+
+    This file, and the files included with this file, is distributed
+    and made available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY
+    KIND, EITHER EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS
+    ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET
+    ENJOYMENT OR NON-INFRINGEMENT.
+
+    Technology Compatibility Kit Test Suite(s) Location:
+      http://www.helixcommunity.org/content/tck
+
+    Contributor(s):
+
+ * ***** END LICENSE BLOCK ***** */
+
+SOURCE: src/libhelix-aac/sbrmath.c
+/* ***** BEGIN LICENSE BLOCK *****
+    Source last modified: $Id: sbrmath.c,v 1.1 2005/02/26 01:47:35 jrecker Exp $
+
+    Portions Copyright (c) 1995-2005 RealNetworks, Inc. All Rights Reserved.
+
+    The contents of this file, and the files included with this file,
+    are subject to the current version of the RealNetworks Public
+    Source License (the "RPSL") available at
+    http://www.helixcommunity.org/content/rpsl unless you have licensed
+    the file under the current version of the RealNetworks Community
+    Source License (the "RCSL") available at
+    http://www.helixcommunity.org/content/rcsl, in which case the RCSL
+    will apply. You may also obtain the license terms directly from
+    RealNetworks.  You may not use this file except in compliance with
+    the RPSL or, if you have a valid RCSL with RealNetworks applicable
+    to this file, the RCSL.  Please see the applicable RPSL or RCSL for
+    the rights, obligations and limitations governing use of the
+    contents of the file.
+
+    This file is part of the Helix DNA Technology. RealNetworks is the
+    developer of the Original Code and owns the copyrights in the
+    portions it created.
+
+    This file, and the files included with this file, is distributed
+    and made available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY
+    KIND, EITHER EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS
+    ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET
+    ENJOYMENT OR NON-INFRINGEMENT.
+
+    Technology Compatibility Kit Test Suite(s) Location:
+      http://www.helixcommunity.org/content/tck
+
+    Contributor(s):
+
+ * ***** END LICENSE BLOCK ***** */
+
+SOURCE: src/libhelix-aac/sbrqmf.c
+/* ***** BEGIN LICENSE BLOCK *****
+    Source last modified: $Id: sbrqmf.c,v 1.2 2005/05/19 20:45:20 jrecker Exp $
+
+    Portions Copyright (c) 1995-2005 RealNetworks, Inc. All Rights Reserved.
+
+    The contents of this file, and the files included with this file,
+    are subject to the current version of the RealNetworks Public
+    Source License (the "RPSL") available at
+    http://www.helixcommunity.org/content/rpsl unless you have licensed
+    the file under the current version of the RealNetworks Community
+    Source License (the "RCSL") available at
+    http://www.helixcommunity.org/content/rcsl, in which case the RCSL
+    will apply. You may also obtain the license terms directly from
+    RealNetworks.  You may not use this file except in compliance with
+    the RPSL or, if you have a valid RCSL with RealNetworks applicable
+    to this file, the RCSL.  Please see the applicable RPSL or RCSL for
+    the rights, obligations and limitations governing use of the
+    contents of the file.
+
+    This file is part of the Helix DNA Technology. RealNetworks is the
+    developer of the Original Code and owns the copyrights in the
+    portions it created.
+
+    This file, and the files included with this file, is distributed
+    and made available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY
+    KIND, EITHER EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS
+    ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET
+    ENJOYMENT OR NON-INFRINGEMENT.
+
+    Technology Compatibility Kit Test Suite(s) Location:
+      http://www.helixcommunity.org/content/tck
+
+    Contributor(s):
+
+ * ***** END LICENSE BLOCK ***** */
+
+SOURCE: src/libhelix-aac/sbrside.c
+/* ***** BEGIN LICENSE BLOCK *****
+    Source last modified: $Id: sbrside.c,v 1.2 2005/05/24 16:01:55 albertofloyd Exp $
+
+    Portions Copyright (c) 1995-2005 RealNetworks, Inc. All Rights Reserved.
+
+    The contents of this file, and the files included with this file,
+    are subject to the current version of the RealNetworks Public
+    Source License (the "RPSL") available at
+    http://www.helixcommunity.org/content/rpsl unless you have licensed
+    the file under the current version of the RealNetworks Community
+    Source License (the "RCSL") available at
+    http://www.helixcommunity.org/content/rcsl, in which case the RCSL
+    will apply. You may also obtain the license terms directly from
+    RealNetworks.  You may not use this file except in compliance with
+    the RPSL or, if you have a valid RCSL with RealNetworks applicable
+    to this file, the RCSL.  Please see the applicable RPSL or RCSL for
+    the rights, obligations and limitations governing use of the
+    contents of the file.
+
+    This file is part of the Helix DNA Technology. RealNetworks is the
+    developer of the Original Code and owns the copyrights in the
+    portions it created.
+
+    This file, and the files included with this file, is distributed
+    and made available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY
+    KIND, EITHER EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS
+    ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET
+    ENJOYMENT OR NON-INFRINGEMENT.
+
+    Technology Compatibility Kit Test Suite(s) Location:
+      http://www.helixcommunity.org/content/tck
+
+    Contributor(s):
+
+ * ***** END LICENSE BLOCK ***** */
+
+SOURCE: src/libhelix-aac/statname.h
+/* ***** BEGIN LICENSE BLOCK *****
+    Source last modified: $Id: statname.h,v 1.1 2005/02/26 01:47:34 jrecker Exp $
+
+    Portions Copyright (c) 1995-2005 RealNetworks, Inc. All Rights Reserved.
+
+    The contents of this file, and the files included with this file,
+    are subject to the current version of the RealNetworks Public
+    Source License (the "RPSL") available at
+    http://www.helixcommunity.org/content/rpsl unless you have licensed
+    the file under the current version of the RealNetworks Community
+    Source License (the "RCSL") available at
+    http://www.helixcommunity.org/content/rcsl, in which case the RCSL
+    will apply. You may also obtain the license terms directly from
+    RealNetworks.  You may not use this file except in compliance with
+    the RPSL or, if you have a valid RCSL with RealNetworks applicable
+    to this file, the RCSL.  Please see the applicable RPSL or RCSL for
+    the rights, obligations and limitations governing use of the
+    contents of the file.
+
+    This file is part of the Helix DNA Technology. RealNetworks is the
+    developer of the Original Code and owns the copyrights in the
+    portions it created.
+
+    This file, and the files included with this file, is distributed
+    and made available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY
+    KIND, EITHER EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS
+    ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET
+    ENJOYMENT OR NON-INFRINGEMENT.
+
+    Technology Compatibility Kit Test Suite(s) Location:
+      http://www.helixcommunity.org/content/tck
+
+    Contributor(s):
+
+ * ***** END LICENSE BLOCK ***** */
+
+SOURCE: src/libhelix-aac/stproc.c
+/* ***** BEGIN LICENSE BLOCK *****
+    Source last modified: $Id: stproc.c,v 1.3 2005/05/24 16:01:55 albertofloyd Exp $
+
+    Portions Copyright (c) 1995-2005 RealNetworks, Inc. All Rights Reserved.
+
+    The contents of this file, and the files included with this file,
+    are subject to the current version of the RealNetworks Public
+    Source License (the "RPSL") available at
+    http://www.helixcommunity.org/content/rpsl unless you have licensed
+    the file under the current version of the RealNetworks Community
+    Source License (the "RCSL") available at
+    http://www.helixcommunity.org/content/rcsl, in which case the RCSL
+    will apply. You may also obtain the license terms directly from
+    RealNetworks.  You may not use this file except in compliance with
+    the RPSL or, if you have a valid RCSL with RealNetworks applicable
+    to this file, the RCSL.  Please see the applicable RPSL or RCSL for
+    the rights, obligations and limitations governing use of the
+    contents of the file.
+
+    This file is part of the Helix DNA Technology. RealNetworks is the
+    developer of the Original Code and owns the copyrights in the
+    portions it created.
+
+    This file, and the files included with this file, is distributed
+    and made available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY
+    KIND, EITHER EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS
+    ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET
+    ENJOYMENT OR NON-INFRINGEMENT.
+
+    Technology Compatibility Kit Test Suite(s) Location:
+      http://www.helixcommunity.org/content/tck
+
+    Contributor(s):
+
+ * ***** END LICENSE BLOCK ***** */
+
+SOURCE: src/libhelix-aac/tns.c
+/* ***** BEGIN LICENSE BLOCK *****
+    Source last modified: $Id: tns.c,v 1.2 2005/05/24 16:01:55 albertofloyd Exp $
+
+    Portions Copyright (c) 1995-2005 RealNetworks, Inc. All Rights Reserved.
+
+    The contents of this file, and the files included with this file,
+    are subject to the current version of the RealNetworks Public
+    Source License (the "RPSL") available at
+    http://www.helixcommunity.org/content/rpsl unless you have licensed
+    the file under the current version of the RealNetworks Community
+    Source License (the "RCSL") available at
+    http://www.helixcommunity.org/content/rcsl, in which case the RCSL
+    will apply. You may also obtain the license terms directly from
+    RealNetworks.  You may not use this file except in compliance with
+    the RPSL or, if you have a valid RCSL with RealNetworks applicable
+    to this file, the RCSL.  Please see the applicable RPSL or RCSL for
+    the rights, obligations and limitations governing use of the
+    contents of the file.
+
+    This file is part of the Helix DNA Technology. RealNetworks is the
+    developer of the Original Code and owns the copyrights in the
+    portions it created.
+
+    This file, and the files included with this file, is distributed
+    and made available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY
+    KIND, EITHER EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS
+    ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET
+    ENJOYMENT OR NON-INFRINGEMENT.
+
+    Technology Compatibility Kit Test Suite(s) Location:
+      http://www.helixcommunity.org/content/tck
+
+    Contributor(s):
+
+ * ***** END LICENSE BLOCK ***** */
+
+SOURCE: src/libhelix-aac/trigtabs.c
+/* ***** BEGIN LICENSE BLOCK *****
+    Source last modified: $Id: trigtabs.c,v 1.1 2005/02/26 01:47:35 jrecker Exp $
+
+    Portions Copyright (c) 1995-2005 RealNetworks, Inc. All Rights Reserved.
+
+    The contents of this file, and the files included with this file,
+    are subject to the current version of the RealNetworks Public
+    Source License (the "RPSL") available at
+    http://www.helixcommunity.org/content/rpsl unless you have licensed
+    the file under the current version of the RealNetworks Community
+    Source License (the "RCSL") available at
+    http://www.helixcommunity.org/content/rcsl, in which case the RCSL
+    will apply. You may also obtain the license terms directly from
+    RealNetworks.  You may not use this file except in compliance with
+    the RPSL or, if you have a valid RCSL with RealNetworks applicable
+    to this file, the RCSL.  Please see the applicable RPSL or RCSL for
+    the rights, obligations and limitations governing use of the
+    contents of the file.
+
+    This file is part of the Helix DNA Technology. RealNetworks is the
+    developer of the Original Code and owns the copyrights in the
+    portions it created.
+
+    This file, and the files included with this file, is distributed
+    and made available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY
+    KIND, EITHER EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS
+    ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET
+    ENJOYMENT OR NON-INFRINGEMENT.
+
+    Technology Compatibility Kit Test Suite(s) Location:
+      http://www.helixcommunity.org/content/tck
+
+    Contributor(s):
+
+ * ***** END LICENSE BLOCK ***** */
+
+SOURCE: src/libhelix-mp3/assembly.h
+/* ***** BEGIN LICENSE BLOCK *****
+    Version: RCSL 1.0/RPSL 1.0
+
+    Portions Copyright (c) 1995-2002 RealNetworks, Inc. All Rights Reserved.
+
+    The contents of this file, and the files included with this file, are
+    subject to the current version of the RealNetworks Public Source License
+    Version 1.0 (the "RPSL") available at
+    http://www.helixcommunity.org/content/rpsl unless you have licensed
+    the file under the RealNetworks Community Source License Version 1.0
+    (the "RCSL") available at http://www.helixcommunity.org/content/rcsl,
+    in which case the RCSL will apply. You may also obtain the license terms
+    directly from RealNetworks.  You may not use this file except in
+    compliance with the RPSL or, if you have a valid RCSL with RealNetworks
+    applicable to this file, the RCSL.  Please see the applicable RPSL or
+    RCSL for the rights, obligations and limitations governing use of the
+    contents of the file.
+
+    This file is part of the Helix DNA Technology. RealNetworks is the
+    developer of the Original Code and owns the copyrights in the portions
+    it created.
+
+    This file, and the files included with this file, is distributed and made
+    available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY KIND, EITHER
+    EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS ALL SUCH WARRANTIES,
+    INCLUDING WITHOUT LIMITATION, ANY WARRANTIES OF MERCHANTABILITY, FITNESS
+    FOR A PARTICULAR PURPOSE, QUIET ENJOYMENT OR NON-INFRINGEMENT.
+
+    Technology Compatibility Kit Test Suite(s) Location:
+      http://www.helixcommunity.org/content/tck
+
+    Contributor(s):
+
+ * ***** END LICENSE BLOCK ***** */
+
+SOURCE: src/libmad/bit.c
+/*
+    libmad - MPEG audio decoder library
+    Copyright (C) 2000-2004 Underbit Technologies, Inc.
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+    $Id: bit.c,v 1.12 2004/01/23 09:41:32 rob Exp $
+*/
+
+SOURCE: src/libmad/bit.h
+/*
+    libmad - MPEG audio decoder library
+    Copyright (C) 2000-2004 Underbit Technologies, Inc.
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+    $Id: bit.h,v 1.12 2004/01/23 09:41:32 rob Exp $
+*/
+
+SOURCE: src/libmad/D.dat.h
+/*
+    libmad - MPEG audio decoder library
+    Copyright (C) 2000-2004 Underbit Technologies, Inc.
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+    $Id: D.dat,v 1.9 2004/01/23 09:41:32 rob Exp $
+*/
+
+SOURCE: src/libmad/decoder.c
+/*
+    libmad - MPEG audio decoder library
+    Copyright (C) 2000-2004 Underbit Technologies, Inc.
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+    $Id: decoder.c,v 1.22 2004/01/23 09:41:32 rob Exp $
+*/
+
+SOURCE: src/libmad/decoder.h
+/*
+    libmad - MPEG audio decoder library
+    Copyright (C) 2000-2004 Underbit Technologies, Inc.
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+    $Id: decoder.h,v 1.17 2004/01/23 09:41:32 rob Exp $
+*/
+
+SOURCE: src/libmad/fixed.c
+/*
+    libmad - MPEG audio decoder library
+    Copyright (C) 2000-2004 Underbit Technologies, Inc.
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+    $Id: fixed.c,v 1.13 2004/01/23 09:41:32 rob Exp $
+*/
+
+SOURCE: src/libmad/fixed.h
+/*
+    libmad - MPEG audio decoder library
+    Copyright (C) 2000-2004 Underbit Technologies, Inc.
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+    $Id: fixed.h,v 1.38 2004/02/17 02:02:03 rob Exp $
+*/
+
+SOURCE: src/libmad/frame.c
+/*
+    libmad - MPEG audio decoder library
+    Copyright (C) 2000-2004 Underbit Technologies, Inc.
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+    $Id: frame.c,v 1.29 2004/02/04 22:59:19 rob Exp $
+*/
+
+SOURCE: src/libmad/frame.h
+/*
+    libmad - MPEG audio decoder library
+    Copyright (C) 2000-2004 Underbit Technologies, Inc.
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+    $Id: frame.h,v 1.20 2004/01/23 09:41:32 rob Exp $
+*/
+
+SOURCE: src/libmad/global.h
+/*
+    libmad - MPEG audio decoder library
+    Copyright (C) 2000-2004 Underbit Technologies, Inc.
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+    $Id: global.h,v 1.11 2004/01/23 09:41:32 rob Exp $
+*/
+
+SOURCE: src/libmad/huffman.c
+/*
+    libmad - MPEG audio decoder library
+    Copyright (C) 2000-2004 Underbit Technologies, Inc.
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+    $Id: huffman.c,v 1.10 2004/01/23 09:41:32 rob Exp $
+*/
+
+SOURCE: src/libmad/huffman.h
+/*
+    libmad - MPEG audio decoder library
+    Copyright (C) 2000-2004 Underbit Technologies, Inc.
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+    $Id: huffman.h,v 1.11 2004/01/23 09:41:32 rob Exp $
+*/
+
+SOURCE: src/libmad/imdct_s.dat.h
+/*
+    libmad - MPEG audio decoder library
+    Copyright (C) 2000-2004 Underbit Technologies, Inc.
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+    $Id: imdct_s.dat,v 1.8 2004/01/23 09:41:32 rob Exp $
+*/
+
+SOURCE: src/libmad/layer3.c
+/*
+    libmad - MPEG audio decoder library
+    Copyright (C) 2000-2004 Underbit Technologies, Inc.
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+    $Id: layer3.c,v 1.43 2004/01/23 09:41:32 rob Exp $
+*/
+
+SOURCE: src/libmad/layer3.h
+/*
+    libmad - MPEG audio decoder library
+    Copyright (C) 2000-2004 Underbit Technologies, Inc.
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+    $Id: layer3.h,v 1.10 2004/01/23 09:41:32 rob Exp $
+*/
+
+SOURCE: src/libmad/mad.h
+/*
+    libmad - MPEG audio decoder library
+    Copyright (C) 2000-2004 Underbit Technologies, Inc.
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+    If you would like to negotiate alternate licensing terms, you may do
+    so by contacting: Underbit Technologies, Inc. <info@underbit.com>
+*/
+
+SOURCE: src/libmad/qc_table.dat.h
+/*
+    libmad - MPEG audio decoder library
+    Copyright (C) 2000-2004 Underbit Technologies, Inc.
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+    $Id: qc_table.dat,v 1.7 2004/01/23 09:41:32 rob Exp $
+*/
+
+SOURCE: src/libmad/rq_table.dat.h
+/*
+    libmad - MPEG audio decoder library
+    Copyright (C) 2000-2004 Underbit Technologies, Inc.
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+    $Id: rq_table.dat,v 1.7 2004/01/23 09:41:32 rob Exp $
+*/
+
+SOURCE: src/libmad/sf_table.dat.h
+/*
+    libmad - MPEG audio decoder library
+    Copyright (C) 2000-2004 Underbit Technologies, Inc.
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+    $Id: sf_table.dat,v 1.7 2004/01/23 09:41:33 rob Exp $
+*/
+
+SOURCE: src/libmad/stream.c
+/*
+    libmad - MPEG audio decoder library
+    Copyright (C) 2000-2004 Underbit Technologies, Inc.
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+    $Id: stream.c,v 1.12 2004/02/05 09:02:39 rob Exp $
+*/
+
+SOURCE: src/libmad/stream.h
+/*
+    libmad - MPEG audio decoder library
+    Copyright (C) 2000-2004 Underbit Technologies, Inc.
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+    $Id: stream.h,v 1.20 2004/02/05 09:02:39 rob Exp $
+*/
+
+SOURCE: src/libmad/synth.c
+/*
+    libmad - MPEG audio decoder library
+    Copyright (C) 2000-2004 Underbit Technologies, Inc.
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+    $Id: synth.c,v 1.25 2004/01/23 09:41:33 rob Exp $
+*/
+
+SOURCE: src/libmad/synth.h
+/*
+    libmad - MPEG audio decoder library
+    Copyright (C) 2000-2004 Underbit Technologies, Inc.
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+    $Id: synth.h,v 1.15 2004/01/23 09:41:33 rob Exp $
+*/
+
+SOURCE: src/libmad/timer.c
+/*
+    libmad - MPEG audio decoder library
+    Copyright (C) 2000-2004 Underbit Technologies, Inc.
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+    $Id: timer.c,v 1.18 2004/01/23 09:41:33 rob Exp $
+*/
+
+SOURCE: src/libmad/timer.h
+/*
+    libmad - MPEG audio decoder library
+    Copyright (C) 2000-2004 Underbit Technologies, Inc.
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+    $Id: timer.h,v 1.16 2004/01/23 09:41:33 rob Exp $
+*/
+
+SOURCE: src/libmad/version.c
+/*
+    libmad - MPEG audio decoder library
+    Copyright (C) 2000-2004 Underbit Technologies, Inc.
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+    $Id: version.c,v 1.15 2004/01/23 09:41:33 rob Exp $
+*/
+
+SOURCE: src/libmad/version.h
+/*
+    libmad - MPEG audio decoder library
+    Copyright (C) 2000-2004 Underbit Technologies, Inc.
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+    $Id: version.h,v 1.26 2004/01/23 09:41:33 rob Exp $
+*/
+
+SOURCE: src/libtinysoundfont/cast.h
+/*=====================================================================*
+ *                   Copyright (C) 2012 Paul Mineiro                   *
+ * All rights reserved.                                                *
+ *                                                                     *
+ * Redistribution and use in source and binary forms, with             *
+ * or without modification, are permitted provided that the            *
+ * following conditions are met:                                       *
+ *                                                                     *
+ *     * Redistributions of source code must retain the                *
+ *     above copyright notice, this list of conditions and             *
+ *     the following disclaimer.                                       *
+ *                                                                     *
+ *     * Redistributions in binary form must reproduce the             *
+ *     above copyright notice, this list of conditions and             *
+ *     the following disclaimer in the documentation and/or            *
+ *     other materials provided with the distribution.                 *
+ *                                                                     *
+ *     * Neither the name of Paul Mineiro nor the names                *
+ *     of other contributors may be used to endorse or promote         *
+ *     products derived from this software without specific            *
+ *     prior written permission.                                       *
+ *                                                                     *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND              *
+ * CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,         *
+ * INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES               *
+ * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE             *
+ * ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER               *
+ * OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,                 *
+ * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES            *
+ * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE           *
+ * GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR                *
+ * BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF          *
+ * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT           *
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY              *
+ * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE             *
+ * POSSIBILITY OF SUCH DAMAGE.                                         *
+ *                                                                     *
+ * Contact: Paul Mineiro <paul@mineiro.com>                            *
+ *=====================================================================*/
+
+SOURCE: src/libtinysoundfont/fastexp.h
+/*=====================================================================*
+ *                   Copyright (C) 2011 Paul Mineiro                   *
+ * All rights reserved.                                                *
+ *                                                                     *
+ * Redistribution and use in source and binary forms, with             *
+ * or without modification, are permitted provided that the            *
+ * following conditions are met:                                       *
+ *                                                                     *
+ *     * Redistributions of source code must retain the                *
+ *     above copyright notice, this list of conditions and             *
+ *     the following disclaimer.                                       *
+ *                                                                     *
+ *     * Redistributions in binary form must reproduce the             *
+ *     above copyright notice, this list of conditions and             *
+ *     the following disclaimer in the documentation and/or            *
+ *     other materials provided with the distribution.                 *
+ *                                                                     *
+ *     * Neither the name of Paul Mineiro nor the names                *
+ *     of other contributors may be used to endorse or promote         *
+ *     products derived from this software without specific            *
+ *     prior written permission.                                       *
+ *                                                                     *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND              *
+ * CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,         *
+ * INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES               *
+ * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE             *
+ * ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER               *
+ * OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,                 *
+ * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES            *
+ * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE           *
+ * GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR                *
+ * BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF          *
+ * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT           *
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY              *
+ * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE             *
+ * POSSIBILITY OF SUCH DAMAGE.                                         *
+ *                                                                     *
+ * Contact: Paul Mineiro <paul@mineiro.com>                            *
+ *=====================================================================*/
+
+SOURCE: src/libtinysoundfont/fastpow.h
+
+/*=====================================================================*
+ *                   Copyright (C) 2011 Paul Mineiro                   *
+ * All rights reserved.                                                *
+ *                                                                     *
+ * Redistribution and use in source and binary forms, with             *
+ * or without modification, are permitted provided that the            *
+ * following conditions are met:                                       *
+ *                                                                     *
+ *     * Redistributions of source code must retain the                *
+ *     above copyright notice, this list of conditions and             *
+ *     the following disclaimer.                                       *
+ *                                                                     *
+ *     * Redistributions in binary form must reproduce the             *
+ *     above copyright notice, this list of conditions and             *
+ *     the following disclaimer in the documentation and/or            *
+ *     other materials provided with the distribution.                 *
+ *                                                                     *
+ *     * Neither the name of Paul Mineiro nor the names                *
+ *     of other contributors may be used to endorse or promote         *
+ *     products derived from this software without specific            *
+ *     prior written permission.                                       *
+ *                                                                     *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND              *
+ * CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,         *
+ * INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES               *
+ * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE             *
+ * ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER               *
+ * OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,                 *
+ * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES            *
+ * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE           *
+ * GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR                *
+ * BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF          *
+ * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT           *
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY              *
+ * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE             *
+ * POSSIBILITY OF SUCH DAMAGE.                                         *
+ *                                                                     *
+ * Contact: Paul Mineiro <paul@mineiro.com>                            *
+ *=====================================================================*/
+
+SOURCE: src/libtinysoundfont/tsf.h
+/* TinySoundFont - v0.9 - SoundFont2 synthesizer - https://github.com/schellingb/TinySoundFont
+                                     no warranty implied; use at your own risk
+   Do this:
+      #define TSF_IMPLEMENTATION
+   before you include this file in *one* C or C++ file to create the implementation.
+   // i.e. it should look like this:
+   #include ...
+   #include ...
+   #define TSF_IMPLEMENTATION
+   #include "tsf.h"
+
+   [OPTIONAL] #define TSF_NO_STDIO to remove stdio dependency
+   [OPTIONAL] #define TSF_MALLOC, TSF_REALLOC, and TSF_FREE to avoid stdlib.h
+   [OPTIONAL] #define TSF_MEMCPY, TSF_MEMSET to avoid string.h
+   [OPTIONAL] #define TSF_POW, TSF_POWF, TSF_EXPF, TSF_LOG, TSF_TAN, TSF_LOG10, TSF_SQRT to avoid math.h
+
+   NOT YET IMPLEMENTED
+     - Support for ChorusEffectsSend and ReverbEffectsSend generators
+     - Better low-pass filter without lowering performance too much
+     - Support for modulators
+
+   LICENSE (MIT)
+
+   Copyright (C) 2017-2025 Bernhard Schelling
+   Based on SFZero, Copyright (C) 2012 Steve Folta (https://github.com/stevefolta/SFZero)
+
+   Permission is hereby granted, free of charge, to any person obtaining a copy of this
+   software and associated documentation files (the "Software"), to deal in the Software
+   without restriction, including without limitation the rights to use, copy, modify, merge,
+   publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons
+   to whom the Software is furnished to do so, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+   INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+   PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+   LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+   TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+   USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+*/
+
+SOURCE: src/libflac/private/macros.h
+/*  libFLAC - Free Lossless Audio Codec library
+    Copyright (C) 2012-2016  Xiph.org Foundation
+
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions
+    are met:
+
+    - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+
+    - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+
+    - Neither the name of the Xiph.org Foundation nor the names of its
+    contributors may be used to endorse or promote products derived from
+    this software without specific prior written permission.
+
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+    ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+    LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+    A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE FOUNDATION OR
+    CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+    EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+    PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+    PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+    LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+    NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+SOURCE: src/libflac/private/metadata.h
+/*  libFLAC - Free Lossless Audio Codec library
+    Copyright (C) 2002-2009  Josh Coalson
+    Copyright (C) 2011-2016  Xiph.Org Foundation
+
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions
+    are met:
+
+    - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+
+    - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+
+    - Neither the name of the Xiph.org Foundation nor the names of its
+    contributors may be used to endorse or promote products derived from
+    this software without specific prior written permission.
+
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+    ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+    LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+    A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE FOUNDATION OR
+    CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+    EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+    PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+    PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+    LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+    NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+SOURCE: src/libflac/share/alloc.h
+/*  alloc - Convenience routines for safely allocating memory
+    Copyright (C) 2007-2009  Josh Coalson
+    Copyright (C) 2011-2016  Xiph.Org Foundation
+
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions
+    are met:
+
+    - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+
+    - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+
+    - Neither the name of the Xiph.org Foundation nor the names of its
+    contributors may be used to endorse or promote products derived from
+    this software without specific prior written permission.
+
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+    ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+    LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+    A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE FOUNDATION OR
+    CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+    EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+    PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+    PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+    LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+    NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+SOURCE: src/libflac/share/macros.h
+/*  libFLAC - Free Lossless Audio Codec library
+    Copyright (C) 2013-2016  Xiph.org Foundation
+
+    Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions
+    are met:
+
+    - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+
+    - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+
+    - Neither the name of the Xiph.org Foundation nor the names of its
+    contributors may be used to endorse or promote products derived from
+    this software without specific prior written permission.
+
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+    ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+    LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+    A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE FOUNDATION OR
+    CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+    EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+    PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+    PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+    LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+    NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+SOURCE: src/libopus/celt/arch.h
+/* Copyright (c) 2003-2008 Jean-Marc Valin
+   Copyright (c) 2007-2008 CSIRO
+   Copyright (c) 2007-2009 Xiph.Org Foundation
+   Written by Jean-Marc Valin */
+
+SOURCE: src/libopus/celt/bands.c
+/* Copyright (c) 2007-2008 CSIRO
+   Copyright (c) 2007-2009 Xiph.Org Foundation
+   Copyright (c) 2008-2009 Gregory Maxwell
+   Written by Jean-Marc Valin and Gregory Maxwell */
+
+SOURCE: src/libopus/celt/celt.c
+/* Copyright (c) 2007-2008 CSIRO
+   Copyright (c) 2007-2010 Xiph.Org Foundation
+   Copyright (c) 2008 Gregory Maxwell
+   Written by Jean-Marc Valin and Gregory Maxwell */
+
+SOURCE: src/libopus/celt/celt.h
+/* Copyright (c) 2007-2008 CSIRO
+   Copyright (c) 2007-2009 Xiph.Org Foundation
+   Copyright (c) 2008 Gregory Maxwell
+   Written by Jean-Marc Valin and Gregory Maxwell */
+
+SOURCE: src/libopus/celt/celt_lpc.c
+/* Copyright (c) 2009-2010 Xiph.Org Foundation
+   Written by Jean-Marc Valin */
+
+SOURCE: src/libopus/celt/cpu_support.h
+/* Copyright (c) 2010 Xiph.Org Foundation
+ * Copyright (c) 2013 Parrot */
+
+SOURCE: src/libopus/celt/cwrs.c
+/* Copyright (c) 2007-2008 CSIRO
+   Copyright (c) 2007-2009 Xiph.Org Foundation
+   Copyright (c) 2007-2009 Timothy B. Terriberry
+   Written by Timothy B. Terriberry and Jean-Marc Valin */
+
+SOURCE: src/libopus/celt/ecintrin.h
+/* Copyright (c) 2003-2008 Timothy B. Terriberry
+   Copyright (c) 2008 Xiph.Org Foundation */
+
+SOURCE: src/libopus/celt/entcode.c
+/* Copyright (c) 2001-2011 Timothy B. Terriberry
+*/
+
+SOURCE: src/libopus/celt/entcode.h
+/* Copyright (c) 2001-2011 Timothy B. Terriberry
+   Copyright (c) 2008-2009 Xiph.Org Foundation */
+
+SOURCE: src/libopus/celt/fixed_debug.h
+/* Copyright (C) 2003-2008 Jean-Marc Valin
+   Copyright (C) 2007-2012 Xiph.Org Foundation */
+
+SOURCE: src/libopus/celt/fixed_generic.h
+/* Copyright (C) 2007-2009 Xiph.Org Foundation
+   Copyright (C) 2003-2008 Jean-Marc Valin
+   Copyright (C) 2007-2008 CSIRO */
+
+SOURCE: src/libopus/celt/float_cast.h
+/* Copyright (C) 2001 Erik de Castro Lopo <erikd AT mega-nerd DOT com> */
+
+SOURCE: src/libopus/celt/kiss_fft.c
+/*Copyright (c) 2003-2004, Mark Borgerding
+  Lots of modifications by Jean-Marc Valin
+  Copyright (c) 2005-2007, Xiph.Org Foundation
+  Copyright (c) 2008,      Xiph.Org Foundation, CSIRO
+
+  All rights reserved.
+
+  Redistribution and use in source and binary forms, with or without
+   modification, are permitted provided that the following conditions are met:
+
+    * Redistributions of source code must retain the above copyright notice,
+       this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above copyright notice,
+       this list of conditions and the following disclaimer in the
+       documentation and/or other materials provided with the distribution.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+  AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+  IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+  ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+  LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+  CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+  SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+  INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+  CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+  ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+  POSSIBILITY OF SUCH DAMAGE.*/
+
+SOURCE: src/libopus/celt/laplace.c
+/* Copyright (c) 2007 CSIRO
+   Copyright (c) 2007-2009 Xiph.Org Foundation
+   Written by Jean-Marc Valin */
+
+SOURCE: src/libopus/celt/mathops.c
+/* Copyright (c) 2002-2008 Jean-Marc Valin
+   Copyright (c) 2007-2008 CSIRO
+   Copyright (c) 2007-2009 Xiph.Org Foundation
+   Written by Jean-Marc Valin */
+
+SOURCE: src/libopus/celt/mdct.c
+/* Copyright (c) 2007-2008 CSIRO
+   Copyright (c) 2007-2008 Xiph.Org Foundation
+   Written by Jean-Marc Valin */
+
+SOURCE: src/libopus/celt/mfrngcod.h
+/* Copyright (c) 2001-2008 Timothy B. Terriberry
+   Copyright (c) 2008-2009 Xiph.Org Foundation */
+
+SOURCE: src/libopus/celt/os_support.h
+/* Copyright (C) 2007 Jean-Marc Valin
+
+   File: os_support.h
+   This is the (tiny) OS abstraction layer. Aside from math.h, this is the
+   only place where system headers are allowed.
+
+   Redistribution and use in source and binary forms, with or without
+   modification, are permitted provided that the following conditions are
+   met:
+
+   1. Redistributions of source code must retain the above copyright notice,
+   this list of conditions and the following disclaimer.
+
+   2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+
+   THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+   IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+   OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+   DISCLAIMED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT,
+   INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+   (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+   SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+   HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+   STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+   ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+   POSSIBILITY OF SUCH DAMAGE.
+*/
+
+SOURCE: src/libopus/celt/pitch.c
+/* Copyright (c) 2007-2008 CSIRO
+   Copyright (c) 2007-2009 Xiph.Org Foundation
+   Written by Jean-Marc Valin */
+
+SOURCE: src/libopus/celt/stack_alloc.h
+/* Copyright (C) 2002-2003 Jean-Marc Valin
+   Copyright (C) 2007-2009 Xiph.Org Foundation */
+
+SOURCE: src/libopus/celt/_kiss_fft_guts.h
+/*Copyright (c) 2003-2004, Mark Borgerding
+
+  All rights reserved.
+
+  Redistribution and use in source and binary forms, with or without
+   modification, are permitted provided that the following conditions are met:
+
+    * Redistributions of source code must retain the above copyright notice,
+       this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above copyright notice,
+       this list of conditions and the following disclaimer in the
+       documentation and/or other materials provided with the distribution.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+  AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+  IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+  ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+  LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+  CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+  SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+  INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+  CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+  ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+  POSSIBILITY OF SUCH DAMAGE.*/
+
+SOURCE: src/libopus/include/opus.h
+/* Copyright (c) 2010-2011 Xiph.Org Foundation, Skype Limited
+   Written by Jean-Marc Valin and Koen Vos */
+
+SOURCE: src/libopus/include/opus_custom.h
+/* Copyright (c) 2007-2008 CSIRO
+   Copyright (c) 2007-2009 Xiph.Org Foundation
+   Copyright (c) 2008-2012 Gregory Maxwell
+   Written by Jean-Marc Valin and Gregory Maxwell */
+
+SOURCE: src/libopus/include/opus_multistream.h
+/* Copyright (c) 2011 Xiph.Org Foundation
+   Written by Jean-Marc Valin */
+
+SOURCE: src/libopus/include/opus_projection.h
+/* Copyright (c) 2017 Google Inc.
+   Written by Andrew Allen */
+
+SOURCE: src/libopus/include/opus_types.h
+/* (C) COPYRIGHT 1994-2002 Xiph.Org Foundation */
+
+SOURCE: src/libopus/silk/A2NLSF.c
+/***********************************************************************
+Copyright (c) 2006-2011, Skype Limited. All rights reserved.
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+- Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+- Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+- Neither the name of Internet Society, IETF or IETF Trust, nor the
+names of specific contributors, may be used to endorse or promote
+products derived from this software without specific prior written
+permission.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+***********************************************************************/
+
+SOURCE: src/libopus/silk/LPC_fit.c
+/***********************************************************************
+Copyright (c) 2013, Koen Vos. All rights reserved.
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+- Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+- Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+- Neither the name of Internet Society, IETF or IETF Trust, nor the
+names of specific contributors, may be used to endorse or promote
+products derived from this software without specific prior written
+permission.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+***********************************************************************/
+
+SOURCE: src/libopus/silk/MacroDebug.h
+/***********************************************************************
+Copyright (c) 2006-2011, Skype Limited. All rights reserved.
+Copyright (C) 2012 Xiph.Org Foundation
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+- Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+- Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+- Neither the name of Internet Society, IETF or IETF Trust, nor the
+names of specific contributors, may be used to endorse or promote
+products derived from this software without specific prior written
+permission.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+***********************************************************************/
+
+SOURCE: src/libopus/silk/NSQ.h
+/***********************************************************************
+Copyright (c) 2014 Vidyo.
+Copyright (c) 2006-2011, Skype Limited. All rights reserved.
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+- Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+- Redistributions in binary form must reproduce the above copyright
+notice, this list of conditions and the following disclaimer in the
+documentation and/or other materials provided with the distribution.
+- Neither the name of Internet Society, IETF or IETF Trust, nor the
+names of specific contributors, may be used to endorse or promote
+products derived from this software without specific prior written
+permission.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+***********************************************************************/
+
+SOURCE: src/libopus/src/opus.c
+/* Copyright (c) 2011 Xiph.Org Foundation, Skype Limited
+   Written by Jean-Marc Valin and Koen Vos */
+
+SOURCE: src/libopus/src/opus_decoder.c
+/* Copyright (c) 2010 Xiph.Org Foundation, Skype Limited
+   Written by Jean-Marc Valin and Koen Vos */
+
+SOURCE: src/libopus/src/opus_private.h
+/* Copyright (c) 2012 Xiph.Org Foundation
+   Written by Jean-Marc Valin */

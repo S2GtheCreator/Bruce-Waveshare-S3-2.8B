@@ -1,0 +1,4 @@
+PASS: baseline display/touch/battery/WiFi/BLE and all runtime source outside declared USB changes preserved
+PASS: native OTG+CDC flags, early persistent keyboard and USB cleanup call sites
+PASS: real variant preprocesses successfully; missing native HID, wrong USB mode, disabled CDC/HID and Lite fail explicitly
+PASS: actual USB startup/cleanup host harness: 100 reentries, timeout, cancel, USB failure, reconnect; mock host state, hardware untested

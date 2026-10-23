@@ -1,0 +1,6 @@
+REM Visible shortcut test: open then cancel Run dialog
+GUI r
+DELAY 1000
+ESCAPE
+DELAY 500
+STRINGLN TEST

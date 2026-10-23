@@ -1,0 +1,3 @@
+PASS: original source outside declared text/layout changes, display/GT911/battery/WiFi/CDC/partition and existing example scripts preserved
+PASS: default/layout migration/persistence and Turkish Q + English US menu wiring static checks; real reboot pending
+PASS: STRING/STRINGLN errors stop execution; non-text command parser preserved

@@ -1,0 +1,21 @@
+> Historical report for the original pre-publication build. It does not certify the sanitized release binary. See ../../BUILD-REPORT.md.
+
+# BadUSB Pro
+
+Yol: `Others → BadUSB & HID → BadUSB → BadUSB Pro`. Eski `Run Script`, `Settings` ve `USB Keyboard` korunur. Yeni HID sürücüsü veya uzaktan payload servisi eklenmedi. Çalışan Türkçe Q/English US kaydı ve HID kitaplığının tamamı başlangıçla bayt düzeyinde aynıdır.
+
+Script seçme/okuma, yeniden adlandırma, kopyalama, oluşturma, onaylı silme; favori, son kullanılan ve kategori etiketleri eklendi. Pro metadata dosyası `/.ws28b-pro-index.json`, en çok 24 kayıt/8 KiB. Scriptler orijinal yerinde kalır. Son kullanılanlar kayıt sırasına göre sıralanır; yeniden adlandırmada metadata taşınır.
+
+Temel çok satırlı editör satır seçerek düzenler/ekler/siler; önizleme, kaydet/farklı kaydet, bir seviyeli geri al/yeniden uygula ve zararsız şablon sunar. Pro metin okuma/önizleme/çalıştırma ve editör sınırları: 16 KiB dosya, 128 mantıksal satır, satır başına 512 UTF-8 baytı (CRLF hariç). Satır sayısı, heap üzerinde String vektörü oluşturulmadan kontrol edilir. Daha büyük scriptler eski Run Script yolunda kalır. Editör için 96.000 bayt, önizleme için 70.000 bayt boş dahili heap kontrolü vardır; geçici doğrulama vektörleri gösterim/çalıştırma öncesi bırakılır. Ekran klavyesi ASCII/sembol ekleme, 12 Türkçe harf, UTF-8 geri silme ve alan temizleme sunar. Tam masaüstü editörü değildir.
+
+Kaydetme `.pro-tmp` dosyasına yazıp bayt karşılaştırması yapar; eski dosyayı `.pro-bak` olarak koruyup yeni dosyayı taşır. Kısa yazma/bozuk doğrulama/rename hatası eski dosyayı korur veya geri yükler. Ani güç kesilmesinde `.pro-bak/.pro-tmp` kalabilir; otomatik üstüne yazılmaz. Kesinti sonrası mevcut Files menüsünden .pro-bak/.pro-tmp kalıntılarını inceleyip uygun dosyayı orijinal adına geri taşıyın; yeniden başlatma sonrasında otomatik kurtarma garantisi yoktur. Gerçek FS üzerinde güç kesintisi atomikliği test edilmedi.
+
+Önizleme: dosya, düzen, USB mounted/suspended durumu, satır sayısı, desteklenmeyen komut/metin ve tahmini gecikme. Tahmin DELAY, REPEAT, STRING/STRINGLN, tek seferlik/varsayılan yazma gecikmeleri ve dead-key tamamlamasını hesaplar; USB/OS/çizim zamanını içermez. WAIT_FOR_BUTTON_PRESS süresi belirsiz olarak belirtilir. Kuru kontrol HID tuşu göndermez. Hatalı sayısal değerler, önceki komutsuz REPEAT ve Unicode shortcut argümanları reddedilir.
+
+Başlatma cihaz onayı ister. Onaylanan metnin doğrulanmış `.pro-run` kopyası mevcut `key_input` çalıştırıcısına verilir; kaynak script dönüştürülmez/değiştirilmez. Okuma sırasında her satır onaylanan RAM metniyle ve beklenen dosya konumuyla karşılaştırılır; kısa/bozuk okuma kısmi komut yürütmeden hata verir. Yönetim okuması hata, iptal ve süre kontrolüne sahiptir; SDK içindeki tek bir I/O çağrısının bloklanma süresi fiziksel test gerektirir. Eski çalışma kopyası varsa kullanıcı incelemeden üzerine yazılmaz. Düzen veya gecikme ayarı önizlemeden sonra değişirse yeniden önizleme gerekir.
+
+Pro çalışmada görünür STOP SCRIPT, Back/BOOT, mevcut pause/stop kontrolü ve bağlantı kaybı ile iptal; satır/ilerleme/USB durumu. DELAY sırasında yaklaşık 10 ms kontrol adımı, metinde her UTF-8 karakteri arasında kontrol vardır. Pro, tuş gecikmesini <=250 ms ile sınırlar ve uzun ALT sayısal komutlarını önizlemede reddeder; bu komutlar/diğer düzenler eski Run Script'te kalır. USB aktarım zamanlaması nedeniyle kesin iptal gecikmesi donanımda ölçülmelidir. Çıkış/iptalde releaseAll ve oturum temizliği yapılır; kalıcı Native HID nesnesi veya USB CDC yok edilmez. Pro aktifken CLI/JS BadUSB girişleri reddedilir.
+
+`Install benign tests` seçilen FS'ye beş zararsız test ekler, mevcut dosyalara dokunmaz: görünür Notepad TEST; Türkçe Q; example.com URL; GUI/ESC kombinasyonu; 30 s gecikmede Stop. Şifre/çerez toplama, gizli komut, yükseltme veya savunma devre dışı bırakma payload'ı eklenmez.
+
+Host sonuçları: 447 HID raporu; 22 gerçek önizleme kuru testi; 8 gerçek safeSave hata senaryosu; 11 gerçek sınırlı okuma; 20 tahsis sınırı/satır bütünlüğü senaryosu geçti. Windows Türkçe Q/US, Pro akışı, USB çıkarma, modifier bırakma ve kalıcı metadata gerçek kartta ayrıca test edilmeli.

@@ -1,0 +1,2 @@
+SOURCE: src/MFRC522Constants.h
+/* SPDX-License-Identifier: LGPL-2.1 */

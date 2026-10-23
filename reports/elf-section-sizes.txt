@@ -1,0 +1,42 @@
+C:\Users\Arif\Documents\Codex\2026-10-08\g-rev-orijinal-bruce-firmware-i\outputs\Bruce-WS28B-PRO\source\.pio\build\waveshare_28b\firmware.elf  :
+section                    size         addr
+.rtc.text                     0   1611653120
+.rtc.force_fast               0   1611653120
+.rtc.data                     1   1342177792
+.rtc_noinit                   3   1342177793
+.rtc.force_slow              32   1342177796
+.rtc_reserved                40   1611661272
+.iram0.vectors             1028   1077362688
+.iram0.text              107423   1077363716
+.dram0.dummy              92160   1070104576
+.dram0.data               26908   1070196736
+.noinit                       0   1070223644
+.dram0.bss                93368   1070223648
+.flash.text             2848460   1107296288
+.flash_rodata_dummy     2883584   1006632992
+.flash.appdesc              288   1009516576
+.flash.rodata            863696   1009516864
+.flash.rodata_noload      23492   1010380560
+.ext_ram.dummy          3801056   1006632992
+.iram0.text_end              93   1077471139
+.iram0.data                   0   1077471232
+.iram0.bss                    0   1077471232
+.dram0.heap_start             0   1070317016
+.debug_aranges           115896            0
+.debug_info            54785121            0
+.debug_abbrev           2411523            0
+.debug_line            10798741            0
+.debug_frame             473336            0
+.debug_str              7563870            0
+.debug_loc              1712587            0
+.debug_ranges            221984            0
+.debug_line_str           52995            0
+.debug_loclists         2901630            0
+.debug_rnglists          321617            0
+.comment                    181            0
+.xtensa.info                 56            0
+.xt.prop                  85332            0
+.xt.lit                    1224            0
+Total                  92187725
+
+

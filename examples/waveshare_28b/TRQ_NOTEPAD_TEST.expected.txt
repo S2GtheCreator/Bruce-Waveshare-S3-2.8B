@@ -1,0 +1,8 @@
+:/?=&-_
+@#$[]{}()
+0123456789 ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz
+i I ı İ çğıöşüÇĞİÖŞÜ
+^`~abcdef
+https://example.com/a-b?q=1&x=two
+Write-Output 'A:/?=&-_@#$[]{}() çğıöşüÇĞİÖŞÜ'
+ASCII=[ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~]

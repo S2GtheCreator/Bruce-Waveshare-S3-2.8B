@@ -1,0 +1,4 @@
+REM Select English US in Bruce and ENG US in Windows; focus Notepad
+DELAY 2000
+STRINGLN :/?=&-_@#$[]{}()
+STRINGLN 0123456789 ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz

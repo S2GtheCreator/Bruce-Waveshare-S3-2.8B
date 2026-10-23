@@ -1,0 +1,35 @@
+pro_ui_contract
+PASS: actual ScrollableTextArea bounds, one-step scroll, empty access, font restore, UTF-8 wrapping
+PASS: 12 Turkish display mappings, UTF-8 cell metrics and clipping boundaries
+PASS: original RGB/DMA, pin map, GT911, SD, USB CDC, partition and every HID library file byte preservation (distribution notices excluded)
+
+
+pro_storage_contract
+PASS: actual safeSave algorithm: 8 create/replace/short-write/corruption/rename/rollback/stale-recovery cases
+
+
+pro_preview_contract
+PASS: 22 actual preview dry-run cases: nominal timing, repeats, dead keys, TR/US, invalid arguments and unsupported text
+
+
+pro_battery_contract
+PASS: actual battery model monotonic 2500..4500 mV, saturation, 3-sample low warning, hysteresis and invalid-sample reset
+
+
+pro_network_text_contract
+PASS: 11 actual SSID/CSV helper cases: controls, malformed UTF-8, Turkish, quoting and formula prefixes
+
+
+pro_script_limits_contract
+PASS: 20 actual pre-split script limits: 16 KiB, 128 lines, 512 UTF-8 bytes/line, CRLF and newline-flood bounds
+
+
+pro_read_contract
+PASS: 11 actual bounded read cases: success, CRLF, limits, I/O error, allocation failure, cancel, timeout, missing/directory
+
+
+turkish_q_contract
+PASS: actual USBHIDKeyboard.cpp + shared codec, 447 recorded report cases match frozen Windows layout API data
+PASS: ASCII 95, Turkish 12 and 10 extra Unicode, Caps on/off, Shift/AltGr, dead-key completion and English US return
+PASS: GUI/CTRL/ALT + i, GUI+r, ALT+F4, SHIFT+ENTER, raw ENTER and empty host output report
+PASS: unsupported Unicode / US Turkish / malformed UTF-8 / NUL rejected before any prefix report

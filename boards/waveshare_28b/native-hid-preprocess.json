@@ -1,0 +1,11 @@
+{
+  "translation_unit": "src\\modules\\badusb_ble\\ducky_typer.cpp",
+  "native_hid_macro": 1,
+  "arduino_usb_mode": 0,
+  "cdc_on_boot": 1,
+  "real_xtensa_preprocess_success": true,
+  "ch9329_wait_absent": true,
+  "external_uart_instance_absent": true,
+  "persistent_native_keyboard_present": true,
+  "windows_hardware_tested": false
+}

@@ -1,0 +1,12 @@
+SOURCE: ArduinoJson.h
+// ArduinoJson - https://arduinojson.org
+// Copyright © 2014-2026, Benoit BLANCHON
+// MIT License
+
+
+SOURCE: src/ArduinoJson/compatibility.hpp
+// ArduinoJson - https://arduinojson.org
+// Copyright © 2014-2026, Benoit BLANCHON
+// MIT License
+//
+// clang-format off
